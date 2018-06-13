@@ -45,11 +45,11 @@ class App extends Component {
         <div>
           <Switch>
             <Route exact path="/" component={Hot}/>
-            <Route path="/top" component={Top}/>
-            <Route path="/new" component={New}/>
+            <Route exact path="/top" component={Top}/>
+            <Route exact path="/new" component={New}/>
             <Route exact path="/s" component={Subforums}/>
             <Route exact path="/s/:name" component={Subforum}/>
-            <Route path="/s/:name/:id" component={Thread}/>
+            <Route exact path="/s/:name/:id" component={Thread}/>
             <Route path="" component={Error}/>
           </Switch>
         </div>
