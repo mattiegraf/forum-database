@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom';
-import Subforum from './Subforum.jsx';
+import { Link } from 'react-router-dom';
 import Data from './Data.js';
 const Subforums = ({ match }) => {
 

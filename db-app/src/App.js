@@ -5,6 +5,7 @@ import { Link, Route, Switch } from 'react-router-dom';
 import Subforum from './Subforum.jsx';
 import Subforums from './Subforums.jsx';
 import Data from './Data.js';
+import Thread from './Thread.jsx';
 
 
 /* Home component */
@@ -45,7 +46,8 @@ class App extends Component {
             <Route path="/top" component={Top}/>
             <Route path="/new" component={New}/>
             <Route exact path="/s" component={Subforums}/>
-            <Route path="/s/:name" component={Subforum}/>
+            <Route exact path="/s/:name" component={Subforum}/>
+            <Route path="/s/:name/:id" component={Thread}/>
           </Switch>
         </div>
       </div>
@@ -86,7 +88,7 @@ function ThreadList(props) {
   const threads = props.threads;
   const listItems = threads.map((thread) =>
     <tr>
-      <td>{thread}</td>
+      <td>{thread.title}</td>
     </tr>
 
   );
