@@ -6,6 +6,8 @@ import Subforum from './Subforum.jsx';
 import Subforums from './Subforums.jsx';
 import Data from './Data.js';
 import Thread from './Thread.jsx';
+import Error from './Error';
+
 
 
 /* Home component */
@@ -48,6 +50,7 @@ class App extends Component {
             <Route exact path="/s" component={Subforums}/>
             <Route exact path="/s/:name" component={Subforum}/>
             <Route path="/s/:name/:id" component={Thread}/>
+            <Route path="" component={Error}/>
           </Switch>
         </div>
       </div>

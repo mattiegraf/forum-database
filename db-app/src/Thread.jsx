@@ -7,7 +7,7 @@ const Thread = ({match}) => {
     var thread;
     var threadData;
     if(subforum){
-        thread = subforum.threads.find(t => t.id === match.params.id);
+        thread = subforum.threads.find(t => t.id === Number(match.params.id));
         if(thread){
             threadData = <div><h1>{thread.title}</h1>
                          <h4>by {thread.author}</h4>
