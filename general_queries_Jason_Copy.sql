@@ -76,7 +76,7 @@ FROM subforum
 WHERE name LIKE '%PLACEHOLDER_SEARCH%'
 LIMIT 10;
 
-/* Check to see if a user moderates a subforum*/
+/* Checks to see if a user moderates a subforum.*/
 
 --
 
