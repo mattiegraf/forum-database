@@ -1,3 +1,12 @@
+
+drop table reply;
+drop table thread;
+drop table message;
+drop table subscribed_to;
+drop table moderates;
+drop table account;
+drop table subforum;
+
 CREATE TABLE account(
 email CHAR(100) PRIMARY KEY,
 username CHAR(20),
@@ -17,13 +26,13 @@ title CHAR(50),
 textbody CHAR(5000),
 email CHAR(100),
 
-PRIMARY KEY(name,id),
+PRIMARY KEY(id),
 FOREIGN KEY (name) REFERENCES subforum (name),
 FOREIGN KEY (email) REFERENCES account(email));
 
 
 
-CREATE TABLE comment(
+CREATE TABLE reply(
 id_num INTEGER,
 thread_id_num INTEGER,
 name CHAR(50),
@@ -42,7 +51,7 @@ id_num INTEGER PRIMARY KEY,
 body CHAR(5000),
 date_sent INTEGER,
 sent_email CHAR(100),
-received_email CHAR(100)
+received_email CHAR(100),
 
 FOREIGN KEY (sent_email) REFERENCES account(email),
 FOREIGN KEY (received_email) REFERENCES account(email));
