@@ -24,6 +24,7 @@ name VARCHAR(50),
 id INTEGER,
 title VARCHAR(50) NOT NULL,
 textbody VARCHAR(2000),
+date_posted DATE,
 email VARCHAR(100),
 
 PRIMARY KEY(id),
@@ -118,19 +119,19 @@ values('Gaming');
 
 
 insert into thread
-values('Food', 17, 'Crunchy or Smooth Peanut Butter?', 'What is your favourite? #nojudgezone', 'vybaby@gmail.com');
+values('Food', 17, 'Crunchy or Smooth Peanut Butter?', 'What is your favourite? #nojudgezone', '2018-06-01', 'vybaby@gmail.com');
 
 insert into thread
-values('Movies/Television', 1, 'Air Bud', 'Best movie of all time do not even @ me.', 'catdog@gmail.com');
+values('Movies/Television', 1, 'Air Bud', 'Best movie of all time do not even @ me.', '2018-06-02', 'catdog@gmail.com');
 
 insert into thread
-values('Music', 4, 'Selling Extra Killers Concert Ticket', 'My friend ditched me at the last minute. Anybody looking to go? DM me for ticket prices.', 'mad@yahoo.ca');
+values('Music', 4, 'Selling Extra Killers Concert Ticket', 'My friend ditched me at the last minute. Anybody looking to go? DM me for ticket prices.', '2018-06-03', 'mad@yahoo.ca');
 
 insert into thread
-values('Gaming', 5, 'Nintendo at E3', 'Let Us Go Pikachu had too much water. 7/10.', 'catdog@gmail.com');
+values('Gaming', 5, 'Nintendo at E3', 'Let Us Go Pikachu had too much water. 7/10.', '2018-06-04', 'catdog@gmail.com');
 
 insert into thread
-values('Sports', 2, 'World Cup Fever', 'Who else is counting down the days? My bodle cannot handle the hype.', 'json@hotmail.com');
+values('Sports', 2, 'World Cup Fever', 'Who else is counting down the days? My bodle cannot handle the hype.', '2018-06-05', 'json@hotmail.com');
 
 
 insert into reply
