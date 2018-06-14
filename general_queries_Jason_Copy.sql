@@ -76,11 +76,15 @@ FROM subforum
 WHERE name LIKE '%PLACEHOLDER_SEARCH%'
 LIMIT 10;
 
-/* MOD/ADMIN QUERY - Delete a thread that they are not the author of in a subforum they moderate. */
+/* Check to see if a user moderates a subforum*/
 
 --
 
-/* MOD/ADMIN QUERY - Delete a comment that they are not the author of in a subforum they moderate. */
+/* MOD/ADMIN QUERY - Delete a thread that they are not the author of. */
+
+--
+
+/* MOD/ADMIN QUERY - Delete a comment that they are not the author of. */
 
 --
 
