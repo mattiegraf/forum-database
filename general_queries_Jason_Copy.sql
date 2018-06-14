@@ -96,7 +96,8 @@ WHERE name = 'PLACEHOLDER_SUBFORUM';
 
 /* ADMIN QUERY - Delete an account that isn't another admin. */
 
---
+DELETE FROM account
+WHERE email = 'PLACEHOLDER_EMAIL' and isadmin = 0;
 
 /* ADMIN QUERY - Appoint moderation of a user for a subforum. */
 
