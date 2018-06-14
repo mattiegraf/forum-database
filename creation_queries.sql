@@ -1,3 +1,12 @@
+
+drop table reply;
+drop table thread;
+drop table message;
+drop table subscribed_to;
+drop table moderates;
+drop table account;
+drop table subforum;
+
 CREATE TABLE account(
 email CHAR(100) PRIMARY KEY,
 username CHAR(20),
@@ -17,13 +26,13 @@ title VARCHAR(50),
 textbody VARCHAR(5000),
 email VARCHAR(100),
 
-PRIMARY KEY(name,id),
+PRIMARY KEY(id),
 FOREIGN KEY (name) REFERENCES subforum (name),
 FOREIGN KEY (email) REFERENCES account(email));
 
 
 
-CREATE TABLE comment(
+CREATE TABLE reply(
 id_num INTEGER,
 thread_id_num INTEGER,
 name CHAR(50),
