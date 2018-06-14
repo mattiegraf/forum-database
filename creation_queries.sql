@@ -1,21 +1,21 @@
 CREATE TABLE account(
 email CHAR(100) PRIMARY KEY,
 username CHAR(20),
-password CHAR(20));
+password VARCHAR(20));
 
 
 
 CREATE TABLE subforum(
-name CHAR(50) PRIMARY KEY);
+name VARCHAR(50) PRIMARY KEY);
 
 
 
 CREATE TABLE thread(
-name CHAR(50),
+name VARCHAR(50),
 id INTEGER,
-title CHAR(50),
-textbody CHAR(5000),
-email CHAR(100),
+title VARCHAR(50),
+textbody VARCHAR(5000),
+email VARCHAR(100),
 
 PRIMARY KEY(name,id),
 FOREIGN KEY (name) REFERENCES subforum (name),
@@ -42,7 +42,7 @@ id_num INTEGER PRIMARY KEY,
 body CHAR(5000),
 date_sent INTEGER,
 sent_email CHAR(100),
-received_email CHAR(100)
+received_email CHAR(100),
 
 FOREIGN KEY (sent_email) REFERENCES account(email),
 FOREIGN KEY (received_email) REFERENCES account(email));
