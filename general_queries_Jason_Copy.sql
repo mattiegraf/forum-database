@@ -149,3 +149,62 @@ WHERE S.email = S3.email AND S2.name = S3.name)
 /* ADMIN QUERY - Allows admin to see comments on all threads in a easy-to-read manner. */
 SELECT t.title, t.textbody, r.body, r.date_posted, r.email
 FROM thread t JOIN reply r ON t.id = r.thread_id_num;
+
+/* ADMIN QUERY - Allows admin to see the youngest user(s) on the server. */
+SELECT *
+FROM account
+WHERE age = (
+SELECT MIN(age)
+FROM account);
+
+/* ADMIN QUERY - Allows admin to see the oldest user(s) on the server. */
+SELECT *
+FROM account
+WHERE age = (
+SELECT MAX(age)
+FROM account);
+
+/* ADMIN QUERY - Allows admin to see the age with the highest average banana score. */
+
+SELECT *
+FROM(
+SELECT AVG(banana_score)AS AvgBananaScore, age
+FROM account
+GROUP BY age) AS t
+WHERE AvgBananaScore = (
+SELECT MAX(AvgBananaScore)
+FROM(
+SELECT AVG(banana_score)AS AvgBananaScore, age
+FROM account
+GROUP BY age) AS t);
+
+/* ADMIN QUERY - Allows admin to see the age with the lowest average banana score. */
+
+SELECT *
+FROM(
+SELECT AVG(banana_score)AS AvgBananaScore, age
+FROM account
+GROUP BY age) AS t
+WHERE AvgBananaScore = (
+SELECT MIN(AvgBananaScore)
+FROM(
+SELECT AVG(banana_score)AS AvgBananaScore, age
+FROM account
+GROUP BY age) AS t);
+
+/* ADMIN QUERY - Allows admin to add a user to the super exclusive Boboverse forum. */
+
+INSERT INTO account
+values('PLACEHOLDER_EMAIL', 'PLACEHOLDER_USERNAME', 'PLACEHOLDER_PASSWORD', PLACEHOLDER_AGE, PLACEHOLDER_BANANA_SCORE, PLACEHOLDER_ISADMIN);
+
+/* ADMIN QUERY - Allows admin to adjust a user's banana score. */
+
+UPDATE account
+SET banana_score = PLACEHOLDER_INTEGER
+WHERE email = 'PLACEHOLDER_EMAIL';
+
+/* ADMIN QUERY - Super general selection and projection query. */
+
+SELECT PLACEHOLDER
+FROM PLACEHOLDER
+WHERE PLACEHOLDER;
