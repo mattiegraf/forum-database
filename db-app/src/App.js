@@ -8,7 +8,7 @@ import Subforums from './Subforums.jsx';
 import Data from './Data.js';
 import Thread from './Thread.jsx';
 import Error from './Error.jsx';
-import {LoginForm, MessageForm} from './Forms.jsx';
+import {TwoFieldForm} from './Forms.jsx';
  
 
 const Hot = () => (
@@ -41,7 +41,7 @@ const MessagePage = ({match}) => (
 const NewMessagePage = () => (
   <div>
     <h1>Compose New Message</h1>
-    <MessageForm/>
+    <TwoFieldForm fieldName1 = "Username" fieldName2 = "Message Body" submitName = "Send"/>
   </div>
 );
 
@@ -93,19 +93,21 @@ function LoginPage(props){
   else{
     return(
       <div>
-        <LoginForm handler = {beginSession}/>
+        <TwoFieldForm handler = {beginSession} fieldName1 = "Username" fieldName2 = "Password"/>
       </div>
     );
   }
 }
 
+//login handler
 function beginSession(username){
-  if(username !== "undefined"){
+  if(username !== "undefined" && username !== ""){
     cookies.set('username', username, { path: '/' });
     this.setState({loggedIn : true});
   }
 }
 
+//logout handler
 function endSession(){
   cookies.set('username', undefined, { path: '/' });
   this.setState({loggedIn : false});
