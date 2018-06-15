@@ -45,6 +45,17 @@ const NewMessagePage = () => (
   </div>
 );
 
+const Subscribed = () => (
+  <div>
+    <h1>Your Subforums</h1>
+  </div>
+);
+
+const Search = () => (
+  <div>
+    <h1>Search</h1>
+  </div>
+);
 
 const cookies = new Cookies();
 
@@ -61,7 +72,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Team Bobo Forum</h1>
+          <h1 className="App-title">The Boboverse</h1>
           <NavigationButtons/>
         </header>
         <RouteDirectory/>
@@ -111,6 +122,8 @@ function RouteDirectory(){
               <Route exact path="/login" component={LoginPage}/>
               <Route exact path='/messages' component = {MessagePage}/>
               <Route exact path='/messages/new' component = {NewMessagePage}/>
+              <Route exact path="/subscribed" component={Subscribed}/>
+              <Route exact path="/search" component={Search}/>
               <Route exact path="/s" component={Subforums}/>
               <Route exact path="/s/:name" component={Subforum}/>
               <Route exact path="/s/:name/:id" component={Thread}/>
@@ -139,6 +152,8 @@ function NavigationButtons(props){
   <div className = "Navigation-buttons">
       <button><Link to="/">Homepage</Link></button>
       <button><Link to="/s">Subforum List</Link></button>
+      <button><Link to="/subscribed">Subscribed List</Link></button>
+      <button><Link to="/search">Search</Link></button>
       <button><Link to="/messages">Messages</Link></button>
       <DisplayUsername/>
       <button onClick={endSession}>Logout</button>
