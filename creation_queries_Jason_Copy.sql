@@ -168,7 +168,7 @@ insert into reply
 values(1, 1, 'Movies/Television', 'Hiss.', '2018-06-11', 'snowstorm@outlook.com');
 
 insert into reply
-values(2, 5, 'Gaming', 'UGH. They did not add Swampert. Hate it.', '2018-07-12', 'mad@yahoo.ca');
+values(2, 5, 'Gaming', 'UGH. They did not add Swampert. Hate it.', '2018-06-12', 'mad@yahoo.ca');
 
 insert into reply
 values(2, 1, 'Movies/Television', 'Meow.', '2018-06-13', 'deskrage@gmail.com');
