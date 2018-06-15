@@ -52,8 +52,8 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Team Bobo Forum</h1>
+          <NavigationButtons/>
         </header>
-        <FilterButtons/>
         <RouteDirectory/>
       </div>
     );
@@ -117,12 +117,24 @@ else{
   }
 }
 
+
+function NavigationButtons(props){
+  //need home, subforum list, login/logout
+  return (
+  <div className = "Navigation-buttons">
+      <button><Link to="/">Homepage</Link></button>
+      <button><Link to="/s">Subforum List</Link></button>
+      <button onClick={endSession}>Logout</button>
+    </div>
+  );
+}
  
 
 function Homepage(props){
   const homepage = (
   <div className = "Homepage">
     <h1> Homepage </h1>
+    <FilterButtons/>
     <SubforumList subforums = {Data.subforumData}/>
   </div>
   );
