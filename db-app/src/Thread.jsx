@@ -1,6 +1,8 @@
 import React from 'react';
 import Data from './Data.js';
 import Error from './Error.jsx';
+import { Link } from 'react-router-dom';
+
 
 const Thread = ({match}) => {
     var subforum= Data.subforumData.find(s => s.name === match.params.name);
@@ -9,7 +11,8 @@ const Thread = ({match}) => {
     if(subforum){
         thread = subforum.threads.find(t => t.id === Number(match.params.id));
         if(thread){
-            threadData = <div><h1>{thread.title}</h1>
+            threadData = <div><h2><Link to={`/s/${match.params.name}`}>{subforum.name} Board</Link></h2>
+                         <h1>{thread.title}</h1>
                          <h4>by {thread.author}</h4>
                          <p>{thread.body}</p></div>
         }
