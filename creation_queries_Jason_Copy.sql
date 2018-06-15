@@ -13,6 +13,7 @@ email VARCHAR(100) PRIMARY KEY,
 username VARCHAR(20),
 password VARCHAR(20),
 age INTEGER,
+banana_score INTEGER,
 isadmin BIT(1)
 CHECK (age >= 13));
 
@@ -72,34 +73,34 @@ FOREIGN KEY (email) REFERENCES account(email) ON DELETE CASCADE ON UPDATE CASCAD
 
 
 insert into account
-values('vybaby@gmail.com', 'vybaby', 'pblover97', 21, 0);
+values('vybaby@gmail.com', 'vybaby', 'pblover97', 21, 20, 0);
 
 insert into account
-values('mad@yahoo.ca', 'madiman', 'bmbot2k18', 23, 0);
+values('mad@yahoo.ca', 'madiman', 'bmbot2k18', 23, 25, 0);
 
 insert into account
-values('catdog@gmail.com', 'dog', 'cat', 20, 0);
+values('catdog@gmail.com', 'dog', 'cat', 20, 75, 0);
 
 insert into account
-values('json@hotmail.com', 'json', 'java', 20, 0);
+values('json@hotmail.com', 'json', 'java', 20, 30, 0);
 
 insert into account
-values('nabstua@gmail.com', 'nabstua', 'school', 23, 0);
+values('nabstua@gmail.com', 'nabstua', 'school', 23, 45, 0);
 
 insert into account
-values('superfoody@live.com', 'quinoa', 'couscous', 25, 1);
+values('superfoody@live.com', 'quinoa', 'couscous', 25, 50, 1);
 
 insert into account
-values('greenearth@yahoo.ca', 'recycleboi', 'psycho', 21, 1);
+values('greenearth@yahoo.ca', 'recycleboi', 'psycho', 21, 60, 1);
 
 insert into account
-values('snowstorm@outlook.com', 'penguin', 'blizzard', 25, 1);
+values('snowstorm@outlook.com', 'penguin', 'blizzard', 25, 75, 1);
 
 insert into account
-values('itsdatboi@gmail.com', 'datboi', 'ohsnapwhaddup', 15, 1);
+values('itsdatboi@gmail.com', 'datboi', 'ohsnapwhaddup', 15, 20, 1);
 
 insert into account
-values('deskrage@gmail.com', 'angrypaperclip', 'officesupplies', 21, 1);
+values('deskrage@gmail.com', 'angrypaperclip', 'officesupplies', 21, 0, 1);
 
 
 insert into subforum
@@ -168,7 +169,7 @@ insert into reply
 values(1, 1, 'Movies/Television', 'Hiss.', '2018-06-11', 'snowstorm@outlook.com');
 
 insert into reply
-values(2, 5, 'Gaming', 'UGH. They did not add Swampert. Hate it.', '2018-07-12', 'mad@yahoo.ca');
+values(2, 5, 'Gaming', 'UGH. They did not add Swampert. Hate it.', '2018-06-12', 'mad@yahoo.ca');
 
 insert into reply
 values(2, 1, 'Movies/Television', 'Meow.', '2018-06-13', 'deskrage@gmail.com');
