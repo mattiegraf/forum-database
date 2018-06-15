@@ -7,7 +7,8 @@ import Subforum from './Subforum.jsx';
 import Subforums from './Subforums.jsx';
 import Data from './Data.js';
 import Thread from './Thread.jsx';
-import Error from './Error';
+import Error from './Error.jsx';
+import {LoginForm} from './Forms.jsx';
  
 
 const Hot = () => (
@@ -71,14 +72,18 @@ function LoginPage(props){
   }
   else{
     return(
-      <button onClick = {beginSession}>Press to Login</button>
+      <div>
+        <LoginForm handler = {beginSession}/>
+      </div>
     );
   }
 }
 
-function beginSession(){
-  cookies.set('username', 'madimin', { path: '/' });
-  this.setState({loggedIn : true});
+function beginSession(username){
+  if(username !== "undefined"){
+    cookies.set('username', username, { path: '/' });
+    this.setState({loggedIn : true});
+  }
 }
 
 function endSession(){
@@ -124,6 +129,7 @@ function NavigationButtons(props){
   <div className = "Navigation-buttons">
       <button><Link to="/">Homepage</Link></button>
       <button><Link to="/s">Subforum List</Link></button>
+      <button><Link to="/messages">Messages</Link></button>
       <button onClick={endSession}>Logout</button>
     </div>
   );
