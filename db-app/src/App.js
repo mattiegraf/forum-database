@@ -8,7 +8,7 @@ import Subforums from './Subforums.jsx';
 import Data from './Data.js';
 import Thread from './Thread.jsx';
 import Error from './Error.jsx';
-import {LoginForm} from './Forms.jsx';
+import {LoginForm, MessageForm} from './Forms.jsx';
  
 
 const Hot = () => (
@@ -31,11 +31,20 @@ const New = () => (
   </div>
 );
 
-const MessagePage = () => (
+const MessagePage = ({match}) => (
   <div>
     <h1>Messages</h1>
+    <Link to={`${match.url}/new`}>Create New Message</Link>
   </div>
 );
+
+const NewMessagePage = () => (
+  <div>
+    <h1>Compose New Message</h1>
+    <MessageForm/>
+  </div>
+);
+
 
 const cookies = new Cookies();
 
@@ -101,6 +110,7 @@ function RouteDirectory(){
               <Route exact path="/new" component={New}/>
               <Route exact path="/login" component={LoginPage}/>
               <Route exact path='/messages' component = {MessagePage}/>
+              <Route exact path='/messages/new' component = {NewMessagePage}/>
               <Route exact path="/s" component={Subforums}/>
               <Route exact path="/s/:name" component={Subforum}/>
               <Route exact path="/s/:name/:id" component={Thread}/>
@@ -130,9 +140,22 @@ function NavigationButtons(props){
       <button><Link to="/">Homepage</Link></button>
       <button><Link to="/s">Subforum List</Link></button>
       <button><Link to="/messages">Messages</Link></button>
+      <DisplayUsername/>
       <button onClick={endSession}>Logout</button>
     </div>
   );
+}
+
+//!!! currently displaying username as a button since making it a header
+//makes other buttons disappear???
+function DisplayUsername(){
+  const f = cookies.get('username');
+  if(f !== "undefined"){
+    return (
+      <button>{f}</button>
+    );
+  }
+  return null;
 }
  
 
