@@ -4,9 +4,11 @@
   "private": true,
   "dependencies": {
     "react": "^16.4.0",
+    "react-cookie": "^2.1.6",
     "react-dom": "^16.4.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "universal-cookie": "^2.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
