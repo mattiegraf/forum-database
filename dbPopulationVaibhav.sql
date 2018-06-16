@@ -15,7 +15,7 @@ password VARCHAR(20),
 age INTEGER,
 banana_score INTEGER,
 isadmin BIT(1)
-CHECK (age >= 13));
+CHECK (banana_score >= 0));
 
 CREATE TABLE subforum(
 name VARCHAR(50) PRIMARY KEY);
