@@ -6,9 +6,9 @@ import Cookies from 'universal-cookie';
 import Subforum from './Subforum.jsx';
 import Subforums from './Subforums.jsx';
 import Data from './Data.js';
-import Thread from './Thread.jsx';
-import Error from './Error.jsx';
-import {TwoFieldForm} from './Forms.jsx';
+import {Thread, NewThread } from './Thread.jsx';
+import {Error, PermissionError} from './Error.jsx';
+import {TwoFieldForm, OneFieldSelectForm} from './Forms.jsx';
  
 
 const Hot = () => (
@@ -54,6 +54,7 @@ const Subscribed = () => (
 const Search = () => (
   <div>
     <h1>Search</h1>
+    <OneFieldSelectForm fieldName1 = "Search Phrase" fieldName2 = "From" submitName = "Search" options = {["Subforum", "Thread"]}/>
   </div>
 );
 
@@ -93,23 +94,30 @@ function LoginPage(props){
   else{
     return(
       <div>
-        <TwoFieldForm handler = {beginSession} fieldName1 = "Username" fieldName2 = "Password"/>
+        <TwoFieldForm handler = {beginSession} fieldName1 = "Email" fieldName2 = "Password"/>
       </div>
     );
   }
 }
 
 //login handler
-function beginSession(username){
-  if(username !== "undefined" && username !== ""){
-    cookies.set('username', username, { path: '/' });
-    this.setState({loggedIn : true});
+function beginSession(email, password){
+  //type checking should mostly be done when creating a user, which is functionality
+  //that currently doesn't exist... 
+  if(email !== "undefined" && email !== ""){
+    var account = Data.userData.find(acc => acc.email === email);
+    if(account && account.password === password){
+      cookies.set('username', account.username, { path: '/' });
+      cookies.set('adminBit', account.isAdmin, { path: '/' });
+      this.setState({loggedIn : true});
+    } 
   }
 }
 
 //logout handler
 function endSession(){
   cookies.set('username', undefined, { path: '/' });
+  cookies.set('adminBit', undefined, { path: '/' });
   this.setState({loggedIn : false});
 }
 
@@ -119,6 +127,7 @@ function RouteDirectory(){
       <div>
             <Switch>
               <Route exact path="/" component={Hot}/>
+              <Route exact path="/admin" component={AdminPage}/>
               <Route exact path="/top" component={Top}/>
               <Route exact path="/new" component={New}/>
               <Route exact path="/login" component={LoginPage}/>
@@ -128,6 +137,7 @@ function RouteDirectory(){
               <Route exact path="/search" component={Search}/>
               <Route exact path="/s" component={Subforums}/>
               <Route exact path="/s/:name" component={Subforum}/>
+              <Route exact path="/s/:name/new" component={NewThread}/>
               <Route exact path="/s/:name/:id" component={Thread}/>
               <Route path="" component={Error}/>
             </Switch>
@@ -158,6 +168,7 @@ function NavigationButtons(props){
       <button><Link to="/search">Search</Link></button>
       <button><Link to="/messages">Messages</Link></button>
       <DisplayUsername/>
+      <DisplayAdmin/>
       <button onClick={endSession}>Logout</button>
     </div>
   );
@@ -174,7 +185,13 @@ function DisplayUsername(){
   }
   return null;
 }
- 
+
+function DisplayAdmin(){
+  const ab = cookies.get('adminBit');
+  var view;
+  Number(ab) ? view = <button><Link to="/admin">Admin</Link></button> : view = null;
+  return view;
+}
 
 function Homepage(props){
   const homepage = (
@@ -186,6 +203,19 @@ function Homepage(props){
   );
 
   return homepage;
+}
+
+function AdminPage(props){
+  var adminView;
+  const adminBit = Number(cookies.get('adminBit'));
+  if(!adminBit){
+    adminView = <PermissionError/>;
+  }
+  else{
+    adminView = <div><h1>Admin Area</h1></div>;
+  }
+
+  return adminView;
 }
 
 
@@ -225,5 +255,14 @@ function FilterButtons(props){
     </div>
   );
 }
+
+//determines if a user should be able to delete an entity (such as a comment, thread, subforum, user, etc)
+//!!! stub
+function DeleteEntity(){
+  //will need to pull up isAdmin bit for user and subforums they moderate
+  //is it possible/good practice to bring up
+  return null;
+}
+
 
 export default App;

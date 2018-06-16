@@ -102,6 +102,12 @@ values('itsdatboi@gmail.com', 'datboi', 'ohsnapwhaddup', 15, 20, 1);
 insert into account
 values('deskrage@gmail.com', 'angrypaperclip', 'officesupplies', 21, 0, 1);
 
+insert into account
+values('nonadmin@gmail.com', 'notanadmin', 'nonadmin', 20, 15, 0);
+
+insert into account
+values('admin@gmail.com', 'defsanadmin', 'admin', 20, 25, 1);
+
 
 insert into subforum
 values('Food');

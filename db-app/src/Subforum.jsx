@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Data from './Data.js';
-import Error from './Error.jsx';
+import {Error} from './Error.jsx';
 
 
 const Subforum = ({match}) => {
@@ -19,6 +19,7 @@ const Subforum = ({match}) => {
               )});
 
         subforumData = <div> <h3> {subforum.name} Board </h3>
+                        <h4><Link to={`${match.url}/new`}>Create New Thread</Link></h4>
                         <ul> {linkList} </ul> </div>;
     }
     else{
