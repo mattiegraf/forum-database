@@ -1,5 +1,43 @@
 import React from 'react';
 
+//generic one field form for React
+class OneFieldForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value: ''};
+    
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.submissionHandler = props.handler;
+    this.fieldName = props.fieldName;
+    props.submitName ? this.submitName = props.submitName : this.submitName = "Submit";
+  }
+
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
+
+  handleSubmit(event) {
+    //input processing must be done in handler
+    this.submissionHandler(this.state.value);
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <label>
+          {this.fieldName}:
+          <input type="text" value={this.state.value} onChange={this.handleChange} />
+        </label>
+        <br></br>
+        <input type="submit" value={this.submitName} />
+      </form>
+    );
+  }
+}
+
+
 //generic two field form for React
 class TwoFieldForm extends React.Component {
   constructor(props) {
@@ -52,4 +90,4 @@ class TwoFieldForm extends React.Component {
 
 
 
-export {TwoFieldForm};
+export {OneFieldForm, TwoFieldForm};

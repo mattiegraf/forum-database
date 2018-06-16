@@ -7,5 +7,12 @@ const Error = () => {
     </div>
 )};
 
+const PermissionError = () => {
+    return (
+    <div>
+        <h1>403: You do not have permission to view this page</h1>
+    </div>
+)};
 
-export default Error;
+
+export {Error, PermissionError};

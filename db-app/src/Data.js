@@ -9,7 +9,24 @@ var Data = {
                     id: 12,
                     author: "doglover66",
                     title: "i hate cats",
-                    body: "i hate them so much... there is literally nothing good about them!!!"
+                    body: "i hate them so much... there is literally nothing good about them!!!",
+                    comments: [
+                        {
+                            id: 1,
+                            author:"",
+                            body: ""
+                        },
+                        {
+                            id: 2,
+                            author:"",
+                            body: ""
+                        },
+                        {
+                            id: 3,
+                            author:"",
+                            body: ""
+                        }
+                    ]
                 },
 
                 {
@@ -87,6 +104,74 @@ var Data = {
             ]
         }
         
+    ],
+
+    userData : [
+        {
+            email:"dogman@yahoo.ca",
+            username: "doglover66",
+            password: "catssux",
+            isAdmin: 0
+
+        },
+
+        {
+            email:"maxmax96@gmail.com",
+            username: "maxmax96",
+            password: "spotiscute",
+            isAdmin: 0
+        },
+
+        {
+            email:"calicolyfe@gmail.com",
+            username: "catman22",
+            password: "mainecoon",
+            isAdmin: 0
+        },
+
+        {
+            email:"alexwhite@gmail.com",
+            username: "xxslayeriscoolxx",
+            password: "22jump",
+            isAdmin: 0
+        },
+
+        {
+            email:"browntown@gmail.com",
+            username: "ubc-throwaway22",
+            password: "gothgf",
+            isAdmin: 0
+        },
+
+        {
+            email:"iloveshoes@gmail.com",
+            username: "Nike",
+            password: "adiddas",
+            isAdmin: 0
+        },
+
+        {
+            email:"animegurl@gmail.com",
+            username: "kimchimallet",
+            password: "2meirl",
+            isAdmin: 0
+        },
+
+        {
+            email:"sourmormon@gmail.com",
+            username: "ubcel",
+            password: "2meirl",
+            isAdmin: 0
+        },
+
+        {
+            email:"madi@gmail.com",
+            username: "madz",
+            password: "123",
+            isAdmin: 1
+        }
+        
+
     ]
     
 };

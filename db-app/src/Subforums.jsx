@@ -19,10 +19,10 @@ const Subforums = ({ match }) => {
    return(
      <div>
           <div>
-            <h3> subforums</h3>
+            <h3> Subforums</h3>
+            <p>Please select a subforum.</p>
             <ul> {linkList} </ul>
           </div>
-          <div>Please select a subforum.</div>
       </div>
    )
  }
