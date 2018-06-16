@@ -212,11 +212,21 @@ function AdminPage(props){
     adminView = <PermissionError/>;
   }
   else{
-    adminView = <div><h1>Admin Area</h1></div>;
+    adminView = 
+    <div>
+      <h1>Admin Area</h1>
+      <div>
+        <h3>Remove Moderator</h3>
+      <OneFieldSelectForm fieldName1 = "Username" fieldName2 = "Subforum" submitName = "Remove" options = {
+        Data.subforumData.map( (subforum) => { return subforum.name})}/>
+      </div>
+
+    </div>;
   }
 
   return adminView;
 }
+
 
 
 function SubforumList(props) {
