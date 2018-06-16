@@ -8,7 +8,7 @@ import Subforums from './Subforums.jsx';
 import Data from './Data.js';
 import {Thread, NewThread } from './Thread.jsx';
 import {Error, PermissionError} from './Error.jsx';
-import {TwoFieldForm} from './Forms.jsx';
+import {TwoFieldForm, OneFieldSelectForm} from './Forms.jsx';
  
 
 const Hot = () => (
@@ -54,6 +54,7 @@ const Subscribed = () => (
 const Search = () => (
   <div>
     <h1>Search</h1>
+    <OneFieldSelectForm fieldName1 = "Search Phrase" fieldName2 = "From" submitName = "Search" options = {["Subforum", "Thread"]}/>
   </div>
 );
 

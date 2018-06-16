@@ -169,6 +169,13 @@ var Data = {
             username: "madz",
             password: "123",
             isAdmin: 1
+        },
+
+        {
+            email:"a@p.uk",
+            username: "zoom",
+            password: "z",
+            isAdmin: 1
         }
         
 
