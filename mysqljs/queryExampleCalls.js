@@ -102,9 +102,9 @@ function exampleQueries() {
   //     console.log(results);
   // });
 
-  // // Get most commented-in threads for subforum example
+  // // example: Get most commented-in threads for subforum
   // // This doesn't return anything right now because there aren't any threads from the past week
-  // connection.query(queries.getMostCommentedThreads('Food'), (error, results, fields) => {
+  // connection.query(queries.getMostCommentedThreads('Movies/Television'), (error, results, fields) => {
   //   if (error) throw error;
   //
   //   console.log("get most commented-in threads example:");
@@ -112,5 +112,13 @@ function exampleQueries() {
   //     console.log(results);
   //   else
   //     console.log('no threads found')
-  // })
+  // });
+
+  // // example: get all replies to given thread
+  // // returns an array of RowDataPacket objects
+  // connection.query(queries.getReplies(30), (error, results, fields) => {
+  //   if (error) throw error;
+  //   console.log('get replies from thread example:')
+  //   console.log(results);
+  // });
 }
