@@ -194,6 +194,30 @@ values('vybaby@gmail.com', 'Movies/Television');
 insert into subscribed_to
 values('json@hotmail.com', 'Gaming');
 
+insert into subscribed_to
+values('deskrage@gmail.com', 'Gaming');
+
+insert into subscribed_to
+values('deskrage@gmail.com', 'Movies/Television');
+
+insert into subscribed_to
+values('deskrage@gmail.com', 'Music');
+
+insert into subscribed_to
+values('deskrage@gmail.com', 'Food');
+
+insert into subscribed_to
+values('vybaby@gmail.com', 'Food');
+
+insert into subscribed_to
+values('vybaby@gmail.com', 'Gaming');
+
+insert into subscribed_to
+values('vybaby@gmail.com', 'Music');
+
+insert into subscribed_to
+values('vybaby@gmail.com', 'Sports');
+
 
 
 insert into moderates
