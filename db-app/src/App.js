@@ -9,6 +9,7 @@ import Data from './Data.js';
 import {Thread, NewThread } from './Thread.jsx';
 import {Error, PermissionError} from './Error.jsx';
 import {TwoFieldForm, OneFieldSelectForm} from './Forms.jsx';
+import {AdminView} from './Admin.jsx';
  
 
 const Hot = () => (
@@ -186,6 +187,16 @@ function DisplayUsername(){
   return null;
 }
 
+function AdminPage(props){
+  const adminBit = Number(cookies.get('adminBit'));
+  if(!adminBit){
+    return <PermissionError/>;
+  }
+  else{
+    return <AdminView/>;
+  }
+}
+
 function DisplayAdmin(){
   const ab = cookies.get('adminBit');
   var view;
@@ -205,27 +216,7 @@ function Homepage(props){
   return homepage;
 }
 
-function AdminPage(props){
-  var adminView;
-  const adminBit = Number(cookies.get('adminBit'));
-  if(!adminBit){
-    adminView = <PermissionError/>;
-  }
-  else{
-    adminView = 
-    <div>
-      <h1>Admin Area</h1>
-      <div>
-        <h3>Remove Moderator</h3>
-      <OneFieldSelectForm fieldName1 = "Username" fieldName2 = "Subforum" submitName = "Remove" options = {
-        Data.subforumData.map( (subforum) => { return subforum.name})}/>
-      </div>
 
-    </div>;
-  }
-
-  return adminView;
-}
 
 
 
