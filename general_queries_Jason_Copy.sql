@@ -89,7 +89,7 @@ LIMIT 10;
 
 SELECT *
 FROM subforum
-WHERE name LIKE '%PLACEHOLDER_SEARCH%'
+WHERE title LIKE '%PLACEHOLDER_SEARCH%'
 LIMIT 10;
 
 /* Checks to see if a user moderates a subforum.*/
