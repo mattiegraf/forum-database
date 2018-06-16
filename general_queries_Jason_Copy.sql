@@ -98,6 +98,12 @@ SELECT *
 FROM moderates
 WHERE email = 'PLACEHOLDER_EMAIL' AND name = 'PLACEHOLDER_SUBFORUM';
 
+/* Allows user to see all the comments for a given thread. */
+
+SELECT *
+FROM reply
+WHERE thread_id_num = PLACEHOLDER_INTEGER;
+
 /* MOD/ADMIN QUERY - Delete a thread that they are not the author of. */
 
 DELETE FROM thread
