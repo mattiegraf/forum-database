@@ -1,5 +1,6 @@
 
-
+// Setup stuff:
+// - Connection info should be based on your MySQL instance
 var mysql      = require('mysql');
 var queries    = require('./queries')
 var connection = mysql.createConnection({
