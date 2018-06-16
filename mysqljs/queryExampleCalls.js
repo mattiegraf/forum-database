@@ -92,15 +92,15 @@ function exampleQueries() {
   //   console.log("unsubscribe from subforum example (check db for results)");
   // });
 
-  // // Get 20 most recent messages example
-  // // Returns an array of RowDataPacket objects
-  // connection.query(queries.getMessages('mad@yahoo.ca'), (error, results, fields) => {
-  //   if (error) throw error;
-  //
-  //   console.log("get messages example:")
-  //   if (results.length > 0)
-  //     console.log(results);
-  // });
+  // Get 20 most recent messages example
+  // Returns an array of RowDataPacket objects
+  connection.query(queries.getMessages('mad@yahoo.ca'), (error, results, fields) => {
+    if (error) throw error;
+
+    console.log("get messages example:")
+    if (results.length > 0)
+      console.log(results);
+  });
 
   // // example: Get most commented-in threads for subforum
   // // This doesn't return anything right now because there aren't any threads from the past week

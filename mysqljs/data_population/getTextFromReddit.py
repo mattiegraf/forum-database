@@ -6,9 +6,9 @@ reddit = praw.Reddit(client_id='cl4s6yCGNb8nlg',
                      client_secret='YFXXSpszqrrZcuXTGaNgysU_aDs',
                      user_agent='just parsing stuff')
 
-emails = ["superfoody@live.com", 'deskrage@gmail.com', 'mad@yahoo.ca', 'vybaby@gmail.com', 
-'json@hotmail.com', 'deskrage@gmail.com', 'snowstorm@outlook.com', 'json@hotmail.com', 
-'mad@yahoo.ca', 'itsdatboi@gmail.com']
+emails = ['vybaby@gmail.com', 'mad@yahoo.ca', 'catdog@gmail.com', 'json@hotmail.com', 
+'nabstua@gmail.com', 'superfoody@live.com', 'greenearth@yahoo.ca', 'snowstorm@outlook.com',
+'itsdatboi@gmail.com', 'deskrage@gmail.com', 'nonadmin@gmail.com', 'admin@gmail.com']
 
 
 threadtext = "" # threads for the thread god
@@ -42,9 +42,10 @@ for key, value in conversion.items():
         date = "2018-" + str(month) + "-" + str(threadDay)
 
         email = choice(emails)
-        threadBody = submission.selftext[:100].replace('\n',' ')
-        threadBody = threadBody.replace("'","").replace('"','')
+        threadBody = submission.selftext[:100].replace("'","").replace('"','').replace("\n",'')
+        threadBody = ''.join([c for c in threadBody if ord(c) >= 32 and ord(c) <= 126])
         title = submission.title[:45].replace("'","").replace('"','')
+        title = ''.join([c for c in title if ord(c) >= 32 and ord(c) <= 126])
 
         threadout = "insert into thread values('"+key+"',"+str(tnum)+",'"+title+"','"+threadBody+"','"+date+"', '"+email+"');"
 
@@ -58,6 +59,9 @@ for key, value in conversion.items():
                 continue
 
             cbody = comment.body[:100].replace("'","").replace('"','').replace("\n",'')
+            cbody = ''.join([c for c in cbody if ord(c) >= 32 and ord(c) <= 126])
+
+
             cday = randint(threadDay,28)
             cdate = "2018-"+str(month)+"-"+str(cday)
 
