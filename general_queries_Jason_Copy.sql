@@ -15,6 +15,19 @@ values(PLACEHOLDER_COMMENT_ID, PLACEHOLDER_THREAD_ID, 'PLACEHOLDER_SUBFORUM_NAME
 DELETE FROM reply
 WHERE email = 'PLACEHOLDER_EMAIL' AND id_num = PLACEHOLDER_ID AND thread_id_num = PLACEHOLDER_THREAD_ID;
 
+/* Allows user to add a comment to a thread without needing to input an ID or subforum name. */
+
+insert into reply
+values(
+(SELECT MAX(id_num) + 1
+FROM reply r1
+WHERE thread_id_num = PLACEHOLDER_THREAD_ID), 
+PLACEHOLDER_THREAD_ID, 
+(SELECT name
+FROM thread t1
+WHERE id = PLACEHOLDER_THREAD_ID)
+, 'PLACEHOLDER_COMMENT', 'PLACEHOLDER_DATE', 'PLACEHOLDER_EMAIL');
+
 /* Allows user to add a thread.*/
 
 INSERT INTO thread
