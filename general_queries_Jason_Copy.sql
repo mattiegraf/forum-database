@@ -158,7 +158,7 @@ FROM subscribed_to S3
 WHERE S.email = S3.email AND S2.name = S3.name)
 );
 
-/*ADMIN QUERY - Allows admin to see if a user has posted in every subforum. A true and loyal user of the Boboverse. */
+/*ADMIN QUERY - Allows admin to see if a user has posted a thread in every subforum. A true and loyal user of the Boboverse. */
 
 SELECT DISTINCT email
 FROM account A
