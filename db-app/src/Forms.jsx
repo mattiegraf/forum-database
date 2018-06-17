@@ -86,6 +86,7 @@ class TwoFieldForm extends React.Component {
   }
 }
 
+//generic one field and one select table for react
 class OneFieldSelectForm extends React.Component {
   constructor(props) {
     super(props);
@@ -139,5 +140,46 @@ class OneFieldSelectForm extends React.Component {
   }
 }
 
+class OneSelectForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value: ''};
 
-export {OneFieldForm, TwoFieldForm, OneFieldSelectForm};
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.submissionHandler = props.handler;
+    this.fieldName = props.fieldName;
+    props.submitName ? this.submitName = props.submitName : this.submitName = "Submit";
+
+    this.optionList = props.options.map( (opt) => {
+      return(
+        <option value={opt}>{opt}</option>)});
+  }
+
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
+
+  handleSubmit(event) {
+    //input processing must be done in handler
+    this.submissionHandler(this.state.value);
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <label>
+          {this.fieldName}:
+          <select onChange={this.handleChange}>
+            {this.optionList}
+          </select>
+        </label>
+        <br></br>
+        <input type="submit" value={this.submitName} />
+      </form>
+    );
+  }
+}
+
+export {OneFieldForm, TwoFieldForm, OneFieldSelectForm, OneSelectForm};
