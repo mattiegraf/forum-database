@@ -104,6 +104,12 @@ SELECT *
 FROM reply
 WHERE thread_id_num = PLACEHOLDER_INTEGER;
 
+/* Allows user to bring up the maximum comment ID on a thread.*/
+
+SELECT MAX(id_num) 
+FROM reply
+WHERE thread_id_num = PLACEHOLDER_INTEGER;
+
 /* MOD/ADMIN QUERY - Delete a thread that they are not the author of. */
 
 DELETE FROM thread
@@ -152,6 +158,19 @@ FROM subscribed_to S3
 WHERE S.email = S3.email AND S2.name = S3.name)
 );
 
+/*ADMIN QUERY - Allows admin to see if a user has posted a thread in every subforum. A true and loyal user of the Boboverse. */
+
+SELECT DISTINCT email
+FROM account A
+WHERE NOT EXISTS (
+SELECT *
+FROM subforum S
+WHERE NOT EXISTS (
+SELECT name
+FROM thread T
+WHERE A.email = T.email AND T.name = S.name)
+);
+
 /* ADMIN QUERY - Allows admin to see comments on all threads in a easy-to-read manner. */
 SELECT t.title, t.textbody, r.body, r.date_posted, r.email
 FROM thread t JOIN reply r ON t.id = r.thread_id_num;
@@ -168,6 +187,22 @@ SELECT *
 FROM account
 WHERE age = (
 SELECT MAX(age)
+FROM account);
+
+/* ADMIN QUERY - Allows admin to see the user(s) with the lowest banana score. */
+
+SELECT *
+FROM account
+WHERE banana_score = (
+SELECT MIN(banana_score)
+FROM account);
+
+/* ADMIN QUERY - Allows admin to see the user(s) with the highest banana score*/
+
+SELECT *
+FROM account
+WHERE banana_score = (
+SELECT MAX(banana_score)
 FROM account);
 
 /* ADMIN QUERY - Allows admin to see the age with the highest average banana score. */
