@@ -20,8 +20,24 @@ function getUserInfo(username) {
 
 
 // Allows user to add a reply to a thread
-function insertReply(commentId, threadId, subforumName, textBody, date, accountEmail) {
-  return 'INSERT INTO reply values('+commentId+','+threadId+',"'+subforumName+'","'+textBody+'","'+date+'","'+accountEmail+'")';
+function insertReply(threadId, textBody, accountEmail) {
+  return `
+  insert into reply
+  values(
+  (SELECT MAX(id_num) + 1
+  FROM reply r1
+  WHERE thread_id_num = `+threadId+`),
+  `+threadId+`,
+  (SELECT name
+  FROM thread t1
+  WHERE id = `+threadId+`)
+, '`+textBody+`', curdate(), '`+accountEmail+`');`
+}
+
+
+// Gets subforum name for a given id
+function getSubforumFromThreadId(threadId) {
+  return 'select name from thread where id = '+threadId+';'
 }
 
 
@@ -32,8 +48,20 @@ function deleteReply(accountEmail, commentId, threadId) {
 
 
 // Allow user to create a thread
-function createThread(subforumName, threadId, title, textBody, date, email) {
-  return 'INSERT INTO thread values("'+subforumName+'",'+threadId+',"'+title+'", "'+textBody+'", "'+date+'", "'+email+'");';
+// function createThread(subforumName, threadId, title, textBody, date, email) {
+//   return 'INSERT INTO thread values("'+subforumName+'",'+threadId+',"'+title+'", "'+textBody+'", "'+date+'", "'+email+'");';
+// }
+
+function createThread(subforumName, title, textBody, email) {
+  return `
+  insert into thread
+  values(
+  '`+subforumName+`',
+  (SELECT MAX(id) + 1 FROM thread t1),
+  '`+title+`',
+  '`+textBody+`',
+  curdate(),
+  '`+email+`');`
 }
 
 
@@ -2180,6 +2208,9 @@ module.exports = {
     initTables : initTablesStr,
     dropTables : dropTablesStr,
     getUserInfo : getUserInfo,
+    getMessages : getMessages,
+    // getMostCommentedThreads : getMostCommentedThreads,
+    getReplies : getReplies,
     insertReply : insertReply,
     deleteReply : deleteReply,
     createThread : createThread,
@@ -2187,15 +2218,13 @@ module.exports = {
     sendMessage : sendMessage,
     subscribeTo : subscribeTo,
     unsubscribeFrom : unsubscribeFrom,
-    getMessages : getMessages,
-    // getMostCommentedThreads : getMostCommentedThreads,
-    getReplies : getReplies,
     // UNTESTED FUNCTIONS BELOW
     getThreadsByPostDate : getThreadsByPostDate,
     getThreadsByName : getThreadsByName,
     getSubforumsByName : getSubforumsByName,
-    checkIfUserIsMod : checkIfUserIsMod,
+    getSubforumFromThreadId : getSubforumFromThreadId,
     getCommentsForThread : getCommentsForThread,
+    checkIfUserIsMod : checkIfUserIsMod,
     adminDeleteThread : adminDeleteThread,
     adminDeleteReply : adminDeleteReply,
     adminDeleteAccount : adminDeleteAccount,
