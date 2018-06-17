@@ -2,7 +2,6 @@
 
 # dependencies
 /db-app/node_modules
-/db-app/package-lock.json
 
 # testing
 /db-app/coverage
