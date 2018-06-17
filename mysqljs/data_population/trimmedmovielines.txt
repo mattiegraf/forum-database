@@ -1,0 +1,1041 @@
+L1045 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ They do not!
+L1044 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ They do to!
+L985 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ I hope so.
+L984 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ She okay?
+L925 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Let's go.
+L924 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ Wow
+L872 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Okay -- you're gonna need to learn how to lie.
+L871 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ No
+L870 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ I'm kidding.  You know how sometimes you just become this "persona"?  And you don't know how to quit?
+L869 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Like my fear of wearing pastels?
+L868 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ The "real you".
+L867 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ What good stuff?
+L866 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ I figured you'd get to the good stuff eventually.
+L865 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ Thank God!  If I had to hear one more story about your coiffure...
+L864 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Me.  This endless ...blonde babble. I'm like, boring myself.
+L863 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ What crap?
+L862 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ do you listen to this crap?
+L861 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ No...
+L860 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Then Guillermo says, "If you go any lighter, you're gonna look like an extra on 90210."
+L699 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ You always been this selfish?
+L698 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ But
+L697 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ Then that's all you had to say.
+L696 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Well, no...
+L695 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ You never wanted to go out with 'me, did you?
+L694 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ I was?
+L693 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ I looked for you back at the party, but you always seemed to be "occupied".
+L663 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Tons
+L662 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ Have fun tonight?
+L578 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ I believe we share an art instructor
+L577 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ You know Chastity?
+L576 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ Looks like things worked out tonight, huh?
+L575 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Hi.
+L407 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Who knows?  All I've ever heard her say is that she'd dip before dating a guy that smokes.
+L406 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ So that's the kind of guy she likes? Pretty ones?
+L405 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Lesbian?  No. I found a picture of Jared Leto in one of her drawers, so I'm pretty sure she's not harboring same-sex tendencies.
+L404 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ She's not a...
+L403 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ I'm workin' on it. But she doesn't seem to be goin' for him.
+L402 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ I really, really, really wanna go, but I can't.  Not unless my sister goes.
+L401 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ Sure have.
+L368 +++$+++ u0 +++$+++ m0 +++$+++ BIANCA +++$+++ Eber's Deep Conditioner every two days. And I never, ever use a blowdryer without the diffuser attachment.
+L367 +++$+++ u2 +++$+++ m0 +++$+++ CAMERON +++$+++ How do you get your hair to look like that?
+L350 +++$+++ u9 +++$+++ m0 +++$+++ PATRICK +++$+++ I'm on it
+L349 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ When I shell out fifty, I expect results.
+L301 +++$+++ u9 +++$+++ m0 +++$+++ PATRICK +++$+++ Fifty, and you've got your man.
+L300 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ Take it or leave it.  This isn't a negotiation.
+L299 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ Fine, thirty.
+L298 +++$+++ u9 +++$+++ m0 +++$+++ PATRICK +++$+++ I can't take a girl like that out on twenty bucks.
+L297 +++$+++ u9 +++$+++ m0 +++$+++ PATRICK +++$+++ How much?
+L296 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ I can't date her sister until that one gets a boyfriend.  And that's the catch. She doesn't want a boyfriend.
+L295 +++$+++ u9 +++$+++ m0 +++$+++ PATRICK +++$+++ You're gonna pay me to take out some girl?
+L294 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ You got it, Verona.  I pick up the tab, you do the honors.
+L292 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ But you'd go out with her if you had the cake?
+L291 +++$+++ u9 +++$+++ m0 +++$+++ PATRICK +++$+++ You need money to take a girl out
+L290 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ You just said
+L289 +++$+++ u9 +++$+++ m0 +++$+++ PATRICK +++$+++ Sure, Sparky.  I'll get right on it.
+L288 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ Yeah, whatever.  I want you to go out with her.
+L287 +++$+++ u9 +++$+++ m0 +++$+++ PATRICK +++$+++ Two legs, nice rack...
+L286 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ What do you think?
+L285 +++$+++ u9 +++$+++ m0 +++$+++ PATRICK +++$+++ Yeah
+L509 +++$+++ u7 +++$+++ m0 +++$+++ MICHAEL +++$+++ Hey -- it's all for the higher good right?
+L508 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ You better not fuck this up.  I'm heavily invested.
+L505 +++$+++ u7 +++$+++ m0 +++$+++ MICHAEL +++$+++ What?  We took bathes together when we were kids.
+L504 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ You and Verona?
+L503 +++$+++ u7 +++$+++ m0 +++$+++ MICHAEL +++$+++ Uh,  yeah.  We're old friend*
+L502 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ I hear you're helpin' Verona.
+L240 +++$+++ u7 +++$+++ m0 +++$+++ MICHAEL +++$+++ So what you need to do is recruit a guy who'll go out with her.  Someone who's up for the job.
+L239 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ Does this conversation have a purpose?
+L238 +++$+++ u7 +++$+++ m0 +++$+++ MICHAEL +++$+++ But she can't go out with you because her sister is this insane head case and no one will go out with her. right?
+L236 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ We're not.
+L235 +++$+++ u7 +++$+++ m0 +++$+++ MICHAEL +++$+++ Well, actually, I thought I'd run an idea by you.  You know, just to see if you're interested.
+L234 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ We don't chat.
+L233 +++$+++ u7 +++$+++ m0 +++$+++ MICHAEL +++$+++ Nope - just came by to chat
+L232 +++$+++ u4 +++$+++ m0 +++$+++ JOEY +++$+++ Are you lost?
+L231 +++$+++ u7 +++$+++ m0 +++$+++ MICHAEL +++$+++ Hey.
+L949 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ Oh, honey -- tell me we haven't' progressed to full-on hallucinations.
+L948 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ William - he asked me to meet him here.
+L947 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ Who?
+L946 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ Have you seen him?
+L755 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ Oh, good.  Something new and different for us.
+L754 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ You ' re looking at this from the wrong perspective.  We're making a statement.
+L753 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ Okay, okay, we won't go.  It's not like I have a dress anyway
+L752 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ Listen to you!  You sound like Betty, all pissed off because Archie is taking Veronica.
+L751 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ Well, I guess we're not, since we don't have dates .
+L750 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ Can you even imagine?  Who the hell would go to this a bastion of commercial excess?
+L721 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ I got drunk.  I puked.  I got rejected. It was big fun.
+L720 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ You didn't
+L719 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ I did Bianca a favor and it backfired.
+L718 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ You didn't have a choice?  Where's Kat and what have you done with her?
+L717 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ I didn't have a choice.
+L716 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ You went to the party?  I thought we were officially opposed to suburban social activity.
+L491 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ Who cares?
+L490 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ What'd he say?
+L448 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ No fear.
+L447 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ You think this'll work?
+L254 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ If I was Bianca, it would be, "Any school you want, precious.  Don't forget your tiara."
+L253 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ Does it matter?
+L252 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ I appreciate your efforts toward a speedy death, but I'm consuming.  Do you mind?
+L251 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ Neither has his heterosexuality.
+L250 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ That's never been proven
+L249 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ William didn't even go to high school
+L248 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ William would never have gone to a state school.
+L247 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ So he has this huge raging fit about Sarah Lawrence and insists that I go to his male-dominated, puking frat boy, number one golf team school. I have no say at all.
+L152 +++$+++ u6 +++$+++ m0 +++$+++ MANDELLA +++$+++ You could always go with me.  I'm sure William has some friends.
+L151 +++$+++ u5 +++$+++ m0 +++$+++ KAT +++$+++ The people at this school are so incredibly foul.
+L2295 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ But we do have a lack of notaries. You should contact my administration.
+L2287 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ ... for a commoner?
+L2286 +++$+++ u24 +++$+++ m1 +++$+++ SANCHEZ +++$+++ You defend yourself admirably...
+L2282 +++$+++ u24 +++$+++ m1 +++$+++ SANCHEZ +++$+++ Forgive me, Don Colon.  But what about gold?
+L2281 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ They don't see sin in their nakedness.  They live according to nature, in a never ending summer. The islands are covered with trees, filled with blossoms and fruits. And...
+L2110 +++$+++ u24 +++$+++ m1 +++$+++ SANCHEZ +++$+++ If you won't accept our proposal, we'll simply find someone who will.
+L2109 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ And were you never ambitious, Excellency?  Or is ambition only a virtue among the nobles, a fault for the rest of us?
+L2108 +++$+++ u24 +++$+++ m1 +++$+++ SANCHEZ +++$+++ Then you are too ambitious.
+L2107 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ I'm not bargaining!
+L2106 +++$+++ u24 +++$+++ m1 +++$+++ SANCHEZ +++$+++ I remind you, Senor Colon, that you are in no position to bargain with me.
+L2105 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ NO...!  I have waited too long, fought too hard.  Now you expect me to take all the risks while you take the profit!  No... I will not be your servant!
+L2104 +++$+++ u24 +++$+++ m1 +++$+++ SANCHEZ +++$+++ No?
+L2103 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ No...
+L2410 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ You never learned how to speak my language.
+L2409 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ Utapan, won't you speak to me?  You used to know how to speak to me.
+L2394 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ You did the same to your God!
+L2393 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ You have to find them, Utapan.  Look what they did!
+L2343 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ Ask him if he will help.
+L2342 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ He understands.
+L2341 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ We will work with his people.  We want peace.  Ask the Chief if he understands?
+L2260 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ He has medicine.  Tell him we admire his people.
+L2259 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ Chief says...
+L2258 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ ... and also to bring medicine.
+L2257 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ Chief says -- he has a God.
+L2256 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ To bring the word of God.
+L2255 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ Why?
+L2254 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ Thousands.
+L2253 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ Chief says -- how many?
+L2251 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ Tell him his country is very beautiful.  Tell him we are leaving men here -- to build a fort.
+L2250 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ Chief knows.
+L2249 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ Tell the Chief we thank him.
+L2248 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ You come!  You speak first!
+L2239 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ Island.  Far.
+L2238 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ What is it?  A tribe?  An island?
+L2237 +++$+++ u25 +++$+++ m1 +++$+++ UTAPAN +++$+++ Say not here!  Cuba!
+L2535 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ I don't know... I have the impression that I didn't change that much.  I still can't accept the world as it is!
+L2534 +++$+++ u19 +++$+++ m1 +++$+++ MARCHENA +++$+++ Oh?  So you are a new man?
+L2533 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ New worlds create new people.
+L2532 +++$+++ u19 +++$+++ m1 +++$+++ MARCHENA +++$+++ I knew you would.
+L2531 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ I have to disagree.
+L2526 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ You'll always be older than me, Father.
+L2525 +++$+++ u19 +++$+++ m1 +++$+++ MARCHENA +++$+++ I suppose we're both old men now.
+L2145 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ Give me absolution.
+L2144 +++$+++ u19 +++$+++ m1 +++$+++ MARCHENA +++$+++ I believed in you...
+L2143 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ You are bound by an oath, Father.
+L2142 +++$+++ u19 +++$+++ m1 +++$+++ MARCHENA +++$+++ My son, my son...  Your certitudes are sometimes frightening...  Christopher, you must speak to them. And if you don't I will.
+L2141 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ If I tell them, they won't follow me.  You know that I am right, Father.  You trust me...
+L2140 +++$+++ u19 +++$+++ m1 +++$+++ MARCHENA +++$+++ May God forgive you...!  You must tell them!  You must tell your men!
+L2139 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ I am not sure... It could be twice the distance.
+L2138 +++$+++ u19 +++$+++ m1 +++$+++ MARCHENA +++$+++ How long?
+L2137 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ I lied.  The journey will be longer than I said.
+L2136 +++$+++ u19 +++$+++ m1 +++$+++ MARCHENA +++$+++ What are you saying?
+L2135 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ Father, I have betrayed my family. I betrayed my men.  And I betrayed you.
+L2134 +++$+++ u19 +++$+++ m1 +++$+++ MARCHENA +++$+++ I am listening, my son.
+L2133 +++$+++ u16 +++$+++ m1 +++$+++ COLUMBUS +++$+++ Forgive me, Father.  For I have sinned.
+L2132 +++$+++ u19 +++$+++ m1 +++$+++ MARCHENA +++$+++ In Nomine Patris et Filius, et Spiritus Sancti.
+L472401 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ By my heel, I care not.
+L472400 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ By my head here come the Capulets.
+L472399 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Thou art as hot a Jack in thy mood as any in Verona.
+L472398 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Am I like Such a fellow?
+L472397 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Keep away the cats! Thou art like one of these fellows that, when he enters the confines of a tavern claps me his sword upon the table and says, &quot;God send me no need of thee.&quot; and by the operation of the second cup draws him on the drawer, when indeed there is no need.
+L472356 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ The what?
+L472355 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ More than prince of cats. He is the courageous captain of compliments. He fights as you sing prick- song, keeps time, distance, and proportion; he rests his minim rest, one, two, and the third in your bosom: the very butcher of a silk button, a duellist, a duellist; a gentleman of the very first house, of the first and second cause: the immortal passado! punto reverso! the hai!
+L472354 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Why, what is Tybalt?
+L472353 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ But alas poor Romeo! he is already dead; stabbed with a white wench's black eye; shot through the ear with a love-song; the very pin of his heart cleft with the blind bow-boy's butt-shaft: and is he a man to encounter Tybalt?
+L472352 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Nay, he will answer the letter's master, how he dares, being dared.
+L472351 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Any man that can write may answer a letter.
+L472350 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Romeo will answer it?
+L472349 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ A challenge, on my life.
+L472348 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Tybalt, the kinsman of old Capulet, Hath sent a letter to his father's house.
+L472347 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Why that pale hard-hearted wench, that Rosaline. Torments him so, that he will sure run mad.
+L472346 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Not to his father's; I spoke with his man.
+L472345 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Where the devil should this Romeo be? Came he not home to-night?
+L472285 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Romeo! humours! madman! passion! lover! I conjure thee by Rosaline's bright eyes, By her high forehead and her scarlet lip, By her fine foot, straight leg and quivering thigh! O, Romeo that she were An open ass, and thou a poperin pear! Romeo, good night: I'll to my truckle-bed; This field-bed is too cold for me to sleep.
+L472284 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Romeo! Romeo!
+L472420 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Art thou hurt?
+L472419 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Forbear this outrage, good Mercutio.
+L472250 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I fear, too early: for my mind misgives Some consequence yet hanging in the stars Shall bitterly begin his fearful date With this night's revels and expire the term Of a despised life closed within my breast By some vile forfeit of untimely death. But He, that hath the steerage of my course, Direct my sail! On, lusty gentlemen.
+L472249 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ This wind, you talk of, blows us from ourselves; Supper is done, and we shall come too late.
+L472239 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ But 'tis no wit to go.
+L472238 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Every man betake him to his legs.
+L472209 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Not mad, but bound more than a mad-man is; Shut up in prison, kept without my food, Whipp'd and tormented. Good day, good fellow.
+L472208 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ By giving liberty unto thine eyes; Examine other beauties. Why, Romeo, art thou mad?
+L472207 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Teach me how I should forget to think.
+L472206 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Be ruled by me, forget to think of her.
+L472205 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ She hath, and in that sparing makes huge waste.
+L472204 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Then she hath sworn that she will still live chaste?
+L472203 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Well, in that hit you miss: she'll not be hit With Cupid's arrow; Nor bide the encounter of assailing eyes, Nor open her lap to saint-seducing gold:
+L472202 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ A right fair mark, fair cuz, is soonest hit.
+L472201 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ A right good marks-man! And she's fair I love.
+L472200 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ I aim'd so near, when I supposed you loved.
+L472199 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ In sadness, cousin, I do love a woman.
+L472198 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Tell me in sadness, who is that you love.
+L472192 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Soft! I will go along; An if you leave me so, you do me wrong.
+L472191 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Farewell, my cuz.
+L472190 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ At thy good heart's oppression.
+L472189 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Good heart, at what?
+L472188 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ No, cuz, I rather weep.
+L472187 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Alas, that love, whose view is muffled still, Should, without eyes, see pathways to his will! Where shall we dine? O me! What fray was here? Yet tell me not, for I have heard it all. Here's much to do with hate, but more with love. Why, then, O brawling love! O loving hate! O any thing, of nothing first create! O heavy lightness! Serious vanity! Misshapen chaos of well-seeming forms! Feather of lead-- [Benvolio Snickers] Dost thou not laugh?
+L472186 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Alas, that love, so gentle in his view, Should be so tyrannous and rough in proof!
+L472185 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Out of her favour, where I am in love.
+L472184 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Of love?
+L472183 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Out--
+L472182 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ In love?
+L472181 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Not having that, which, having, makes them short.
+L472180 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ It was. What sadness lengthens Romeo's hours?
+L472179 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Ay me! Sad hours seem long. Was that my father that went hence so fast?
+L472178 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ But new struck cuz.
+L472177 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Is the day so young?
+L472176 +++$+++ u7298 +++$+++ m493 +++$+++ BENVOLIO +++$+++ Good-morrow, cousin.
+L472175 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Why then, O brawling love, O loving hate, O anything of nothing first create. heavy lightness. Serious vanity. Misshapen chaos of well seeming forms.
+L472265 +++$+++ u7299 +++$+++ m493 +++$+++ CAPULET +++$+++ Go to! What, goodman boy! I say, he shall: go to; Make a mutiny among my guests?!
+L472264 +++$+++ u7309 +++$+++ m493 +++$+++ TYBALT +++$+++ Uncle, 'tis a shame.
+L472263 +++$+++ u7299 +++$+++ m493 +++$+++ CAPULET +++$+++ He shall be endured
+L472262 +++$+++ u7309 +++$+++ m493 +++$+++ TYBALT +++$+++ I'll not endure him.
+L472261 +++$+++ u7299 +++$+++ m493 +++$+++ CAPULET +++$+++ Content thee, gentle cuz, content thee. Let him alone; I would not for the wealth of all the town Here in my house do him disparagement: Therefore be patient, take no note of him
+L472260 +++$+++ u7309 +++$+++ m493 +++$+++ TYBALT +++$+++ 'Tis he.
+L472259 +++$+++ u7299 +++$+++ m493 +++$+++ CAPULET +++$+++ Young Romeo is it?
+L472258 +++$+++ u7309 +++$+++ m493 +++$+++ TYBALT +++$+++ Uncle, this is that villain Romeo, a Montague, our foe.
+L472257 +++$+++ u7299 +++$+++ m493 +++$+++ CAPULET +++$+++ Why, how now, kinsman! wherefore storm you so?
+L472256 +++$+++ u7309 +++$+++ m493 +++$+++ TYBALT +++$+++ What dares the slave Come hither, To fleer and scorn at our solemnity? Now, by the stock and honour of my kin, To strike him dead, I hold it not a sin.
+L472541 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Here is my gold. Worse poison to men's souls, than these poor compounds that thou mayest not sell.
+L472540 +++$+++ u7300 +++$+++ m493 +++$+++ CRUSTY +++$+++ Drink it off and, if you had the strength of twenty men it would dispatch you straight.
+L472539 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I pay thy poverty, and not thy will.
+L472538 +++$+++ u7300 +++$+++ m493 +++$+++ CRUSTY +++$+++ My poverty, but not my will consents.
+L472537 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ The world is not thy friend, nor the worlds law. Then be not poor, but break it, and take this.
+L472536 +++$+++ u7300 +++$+++ m493 +++$+++ CRUSTY +++$+++ Such mortal drugs I have, but Verona's law is death to any that utters them.
+L472519 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ What if this mixture do not work at all? Shall I be married then tomorrow morning?
+L472518 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ I do spy a kind of hope, Which craves as desperate and execution as that is desperate which we would prevent. If, rather than to marry Paris, Thou hast the strength of will to slay thyself, Then it is likely thou wilt undertake a thing like death, to chide away this shame. No warmth, no breath shall testify thou livest . Each part, deprived of supple government, shall stiff and stark and cold appear, like death. Now when the bridegroom in the morning comes to rouse thee from thy bed, there art thou dead. Thou shalt be borne to that same ancient vault where all he kindred to the Capulet lie. In the meantime, against thou shalt awake, shall Romeo by my letters know our drift, and hither shall he come. And that very night shall Romeo bear thee hence to Mantua. Take thou this vial, being then in bed, and this distilling liquor drink thou off. I'll send my letters to thy lord post haste to Mantua.
+L472517 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Be not so long to speak I long to die.
+L472516 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ Hold Daughter!
+L472515 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ If in thy wisdom thou canst give no help Do thou but call my resolution wise, And with this I'll help it presently!
+L472514 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ It strains me past the compass of my wits.
+L472511 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ My leisure serves me, pensive daughter now. We must entreat the time alone.
+L472510 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Are you at leisure Holy Father, now? Or shall I come to you at evening mass?
+L472527 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ And all this day an unaccustomed spirit lifts me above the ground with cheerful thoughts. I dreampt my lady came and found me dead and breathed such life with kisses in my lips that I revived and was an emperor. Ah me, how sweet is love itself possessed when but love's shadow's are so rich in joy. News from Verona. How now, Balthasar?! Dost thou not bring me letters from the Priest? How doth my lady? Is my Father well? How doth my lady Juliet? For nothing can be ill if she be well.
+L472526 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ As the custom is, in all her best array, bear her to church.
+L472457 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Farewell.
+L472456 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ Hie you make haste! But look thou stay not till the watch be set, for then thou canst not pass to Mantua where thau shalt live till we can find a time to blaze you marriage, reconcile your friends, beg pardon of the Prince and call thee back with twenty hundred times more joy, than thou wentst forth in lamentation. Quick hence! Be gone by break of day! Sojourn in Mantua.
+L472455 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ How well my comfort is revived by this.
+L472444 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ O deadly sin, O rude unthankfulness! This is dear mercy and thou sees it not. Hence!
+L472443 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ There is no world without Verona walls, hence banished is banished from the world and worlds exile is death. Then banished is death mis-termed. Calling death banished, thou cu'st my head off with a golden axe and smiles upon the stroke that murders me.
+L472442 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Affliction is enamoured of thy parts, and thou art wedded to calamity. Hence from Verona art thou banished. Be patient, for the world is broad and wide.
+L472441 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Banishment? Be merciful, say death; for exile hath more terror in his look much more than death. Do not say Banishment.
+L472344 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ Wisely and slow; they stumble that run fast.
+L472343 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ O, let us hence; I stand on sudden haste.
+L472342 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ O, she new well. Thy love read by rote and could not spell. Come, young waverer, come, go with me, In one respect I'll thy assistant be; for this alliance may so happy prove, to turn you household rachor to pure love.
+L472341 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I pray thee, chde me not; whom I love now doth grace for grace and love for love allow; the other did not so.
+L472340 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ For doting; not for loving, pupil mine.
+L472339 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Thou chid'st me oft for loving Rosaline.
+L472338 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ Holy Saint Francis, what a change is here! Is Rosaline that thou didst love so dear so soon forsaken? Young men's love then lies not truly in their hearts but in their eyes.
+L472337 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Then plainly know my hearts dear love is set, on the fair daughter of rich Capulet. We met, we wooed, we made exchange of vow. I'll tell thee as we pass; but this I pray, that thou consent to marry us today.
+L472336 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ Be plain, good son, and homely in thy drift; riddling confession finds but riddling shrift.
+L472335 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I have been feasting with mine enemy, where on a sudden one hath wounded me, that's by me wounded; both our remeidies within thy help and holy physic lies.
+L472334 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ That's my good son: but where hast thou been
+L472333 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Rosaline? My ghostly father no; I have forgot that name, and that name's woe.
+L472332 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ God pardon sin, was thou with Rosaline!?
+L472331 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ The last is true; the sweeter rest was mine.
+L472330 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ Young son, it argues a distemper'd head so soon to bid good marrow to thy bed: or if not so so, then here I hit it right, our Romeo hath not seen his bed tonight.
+L472327 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ Benedicite! What early tounge so sweet saludeth me?
+L472326 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Good marrow, father!
+L472454 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Sir, a ring my lady bid me give you.
+L472453 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ I thought thy disposition better tempered! Thy Juliet is alive. There art thou happy. The law that threatened death becomes thy friend and turns it to exile. There art thou happy. A Pack of blessings light upon thy back. Wherefore railest thou on thy birth the heaven and earth? Since birth and heaven and earth all three do meet in thee at once.
+L472448 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ Romeo, come forth.
+L472447 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Where is my Lady's lord?
+L472446 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ Welcome.
+L472445 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ I come for my lady Juliet.
+L472325 +++$+++ u7301 +++$+++ m493 +++$+++ FATHER LAWRENCE +++$+++ O, mighty is the powerful grace that lies in plants, herbs, stones, and their true qualities: for nought so vile that the earth doth live but to the earth some special good doth give, nor aught so good, but strain'd from that fair use revolts from true birth, stumbling on abuse: virtue itself turns vice, being misaplied; and vice sometimes by action dignified. Within the infant rind of this weak flower poison is resident and medicine power: for this, being smelt, with that part cheers each part; being tasted, slays all senses with the heart. Two such empossed kings encamp them still in man as well as herbs, grace and rude will; and where the worser is predominant, full soon the canker death eats up that plant.
+L472324 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Juliet!
+L472525 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Romeo, I drink to thee.
+L472524 +++$+++ u7302 +++$+++ m493 +++$+++ GLORIA +++$+++ Goodnight.
+L472523 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Farewell. God knows when we shall meet again.
+L472522 +++$+++ u7302 +++$+++ m493 +++$+++ GLORIA +++$+++ Geth thee to be and rest, for thou has need.
+L472521 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ No, madam. We have culled such necessaries as our behoveful for our state tomorrow. so please you, let me now be left alone, and let the nurse this night sit up with you. for I am sure you have your hands full in all this so sudden business.
+L472520 +++$+++ u7302 +++$+++ m493 +++$+++ GLORIA +++$+++ What, daughter are you busy? Need you my help?
+L472497 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ O God!--O Nurse, how shall this be prevented? What sayest thou? Hast thou not a word of joy? Some comfort nurse.
+L472496 +++$+++ u7302 +++$+++ m493 +++$+++ GLORIA +++$+++ Talk not to me, for Ill not speak a word. Do as thou wilt for I have done with thee.
+L472495 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ O sweet my mother cast me not away. Delay this marriage for a month, a week. Or if you do not make the bridal bed in that dim  monument where Tybalt lies.
+L472483 +++$+++ u7302 +++$+++ m493 +++$+++ GLORIA +++$+++ Here comes your father, tell him so yourself.
+L472482 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ What? Now. St. Peter's Church, and Peter too, he shall not make me there a joyful bride!
+L472481 +++$+++ u7302 +++$+++ m493 +++$+++ GLORIA +++$+++ Marry my child next Thursday Morn. The gallant, young and noble gentleman, Sir Paris, at Saint Peter's Church, shall make thee there a joyful bride.
+L472480 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Madam, in happy time what day is that?
+L472479 +++$+++ u7302 +++$+++ m493 +++$+++ GLORIA +++$+++ Thou hast a careful father, child: One who, to put thee from thy heaviness, hath sorted out a sudden day of joy that thou expects nor I looked not for.
+L472459 +++$+++ u7302 +++$+++ m493 +++$+++ GLORIA +++$+++ She'll not come down tonight.
+L472458 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ O God. Did Romeo's hand shed Tybalt's blood? O serpent heart hid with a flowering face. Was ever book containing such vile matter's so fairly bound? O, that deceit should dwell in such a gorgeous palace.
+L472503 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Well, thou hast comforted me marvelous much. Go in and tell my lady I am gone, having displeased my father to Father Lawrence to make confession and be absolved.
+L472502 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ What?
+L472501 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Amen
+L472500 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ And from my soul too. Else beshrew them both.
+L472499 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Speakest thou from thy heart?
+L472498 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Faith, here it is. I think it best you marry with this Paris. O, he's a lovely gentleman. I think you are happy in this second match, for it excels your first; or if it did not, your first is dead--or 'twere as good he were as living here and you no use to him.
+L472394 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Then hie you hence to Father Laurence' cell; There stays a husband to make you a wife
+L472393 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ I have.
+L472392 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Have you got leave to go to confession to-day?
+L472391 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Here's such a coil! Come, what says Romeo?
+L472390 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ O lady dear! Are you so hot? Henceforward do your messages yourself.
+L472389 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Where is my mother! How oddly thou repliest! Your love says, like an honest gentleman, Where is your mother?'
+L472388 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Your love says, like an honest gentleman, and a courteous, and a kind, and a handsome, and, I warrant, a virtuous,--Where is your mother?
+L472387 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ I' faith, I am sorry that thou art not well. Sweet, sweet, sweet nurse, tell me, what says my love?
+L472386 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Lord, how my head aches! what a head have I! O, my back! Other' other side,--O, my back.
+L472385 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ But all this did I know before. What says he of our marriage? what of that?
+L472384 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Well, you have made a simple choice; you know not how to choose a man: Romeo! no, not he; though his face be better than any man's, yet his leg excels all men's; and for a hand, and a foot, and a body,
+L472383 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ How art thou out of breath, when thou hast breath To say to me that thou art out of breath? Is the news good, or bad? answer to that;
+L472382 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ What haste? can you not stay awhile? Do you not see that I am out of breath?
+L472381 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ I would thou hadst my bones, and I thy news: I pray thee, speak.
+L472380 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ I am a-weary, give me leave awhile: Fie, how my bones ache! what a jaunt have I!
+L472379 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ O honey nurse, what news? Nurse?
+L472316 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ By and by, I come: -- To cease thy strief, and leave me to my grief: To-morrow will I send.
+L472315 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ [Within] Juliet!
+L472314 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ I uh, by and by I come--But if thou mean'st not well, I do beseech thee--
+L472313 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ [Within] Juliet!
+L472312 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Three words, dear Romeo, and good night indeed. If that thy bent of love be honourable, Thy purpose marriage, send me word to-morrow, By one that I'll procure to come to thee, Where and what time thou wilt perform the rite; And all my fortunes at thy foot I'll lay And follow thee my lord throughout the world.
+L472311 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Juliet!
+L472217 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Madam, I am here. What is your will?
+L472216 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ I bade her come. God forbid! Juliet! Juliet! Juliet!
+L472551 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Thus..... with a kiss...... I die.
+L472550 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Romeo. What's here? Poison. Drunk all, and left no friendly drop to help me after. I will kiss thy lips. Happily some poison yet doth hang on them. Thy lips are warm.
+L472478 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ O God, I have an ill-divining soul. Methinks I see thee, now thou art so low, as one dead in the bottom of a tomb. O fortune, fortune. Be fickle, fortune, for then I hope that thou will not keep him long but send him back.
+L472477 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I doubt it not. Trust me, love, all these woes shall serve for sweet discourses in our times to come. Adieu.
+L472476 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Then window, let day in and let life out. O, think'st thou we shall ever meet again?
+L472473 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ More Light and light, more dark and dark our woes.
+L472472 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ It is, It is! Hie hence, be gone, away.  O, now be gone. More light and light it grows.
+L472471 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Let me be taken, let me be put to death. I have more care to stay then will to go. Come death, Welcome, Juliet wills it so. How is't my soul? Let us talk it is not day.
+L472470 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ That light is not daylight, I know it, I. It is some meteor that the sun exhales to light thee on thy way to Mantua. Therefore stay yet. Thou needest not be gone.
+L472469 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I must be gone and live, or stay and die.
+L472468 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Wilt thou be gone? It is not yet near day.
+L472428 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Mercutio's soul is but a little way above our heads staying for thine to keep him company!
+L472427 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Come gentle night. Come loving black-browned night give me my Romeo. And when I shall die, take him and cut him out into little stars, and he will make the face of heaven so fine that all the world will be in love with night and pay no worship to the garish sun. O, I have bought the mansion of love but not possessed, and though I am sold, not yet enjoyed. O, tedious is this day, as the night before some festival to an impatient child that hath new robes and may not wear them.
+L472322 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ I will not fail: 'tis twenty year till then.
+L472321 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ By the hour of nine.
+L472320 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Romeo! At what o'clock to-morrow Shall I send to thee?
+L472319 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ A thousand times the worse, to want thy light. Love goes toward love, as schoolboys from their books, But love from love, toward school with heavy looks.
+L472318 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ A thousand times good night! Exit, above
+L472317 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ So thrive my soul--
+L472310 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ I gave thee mine before thou didst request it!
+L472309 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ The exchange of thy love's faithful vow for mine.
+L472308 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ What satisfaction canst thou have to-night?
+L472307 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ O, wilt thou leave me so unsatisfied?
+L472306 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Do not swear: although I joy in thee, I have no joy of this contract to-night: It is too rash, too unadvised, too sudden; Too like the lightning, which doth cease to be Ere one can say 'It lightens.' Sweet, good night! This bud of love, by summer's ripening breath, May prove a beauteous flower when next we meet. Good night.
+L472305 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ If my heart's dear love--
+L472304 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Do not swear at all; Or, if thou wilt, swear by thy gracious self, Which is the god of my idolatry, And I'll believe thee.
+L472303 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Well what shall I swear by?
+L472302 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ O, swear not by the moon, the inconstant moon, That monthly changes in her circled orb, Lest that thy love prove likewise variable.
+L472301 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Lady, by yonder blessed moon I swear That tips with silver all these fruit-tree tops--
+L472300 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Thou know'st the mask of night is on my face, Else would a maiden blush bepaint my cheek For that which thou hast heard me speak to-night Fain would I dwell on form, fain, fain deny What I have spoke: but farewell compliment! Dost thou love me? I know thou wilt say 'Ay,' And I will take thy word: yet if thou swear'st, Thou mayst prove false. O gentle Romeo, If thou dost love, pronounce it faithfully:
+L472299 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I have night's cloak to hide me from their eyes, And but thou love me, let them find me here: My life were better ended by their hate, Than death prorogued, wanting of thy love.
+L472298 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ If they do see thee, they will murder thee.
+L472297 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ With love's light wings did I o'er-perch these walls; For stony limits cannot hold love out, And what love can do that dares love attempt; Therefore thy kinsmen are no let to me.
+L472296 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ How camest thou hither, tell me, and wherefore? The garden walls are high and hard to climb, And the place death, considering who thou art, If any of my kinsmen find thee here.
+L472295 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Neither, fair maid, if either thee dislike.
+L472294 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Art thou not Romeo and a Montague?
+L472293 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Ahhh!
+L472292 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I take thee at thy word.
+L472291 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ 'Tis but thy name that is my enemy; Thou art thyself, though not a Montague. What's Montague? it is nor hand, nor foot, Nor arm, nor face, nor any other part Belonging to a man. O, be some other name! What's in a name? that which we call a rose By any other word would smell as sweet; So Romeo would, were he not Romeo call'd, Retain that dear perfection which he owes Without that title. O Romeo, doff thy name, And for that name which is no part of thee Take all myself.
+L472290 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ [Aside] Shall I hear more, or shall I speak at this?
+L472289 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Romeo, O Romeo! wherefore art thou Romeo? Deny thy father and refuse thy name; Or, if thou wilt not, be but sworn my love, And I'll no longer be a Capulet.
+L472288 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ She speaks: O, speak again, bright angel!
+L472287 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Ay me!
+L472286 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ He jests at scars that never felt a wound. But, soft! what light through yonder window breaks? It is the east, and Juliet is the sun. Arise, fair sun, and kill the envious moon, Who is already sick and pale with grief, That thou her maid art far more fair than she: Be not her maid, since she is envious; Her vestal livery is but sick and green And none but fools do wear it; oh cast it off. It is my lady, O, it is my love! O, that she knew she were!
+L472276 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ You kiss by the book.
+L472275 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Sin from my lips? O trespass sweetly urged! Give me my sin again.
+L472274 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Then have my lips the sin that they have took.
+L472273 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Then move not, while my prayer's effect I take. Thus from my lips, by yours, my sin is purged.
+L472272 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Saints do not move, though grant for prayers' sake.
+L472271 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Well, then, dear saint, let lips do what hands do; They pray, grant thou, lest faith turn to despair.
+L472270 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Ay, pilgrim, lips that they must use in prayer.
+L472269 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Have not saints lips, and holy palmers too?
+L472268 +++$+++ u7303 +++$+++ m493 +++$+++ JULIET +++$+++ Good pilgrim, you do wrong your hand too much, Which mannerly devotion shows in this; For saints have hands that pilgrims' hands do touch, And palm to palm is holy palmers' kiss.
+L472267 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ If I profane with my unworthiest hand This holy shrine, the gentle sin is this: My lips, two blushing pilgrims, ready stand To smooth that rough touch with a tender kiss.
+L472266 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Did my heart love till now? forswear it, sight! For I ne'er saw true beauty till this night.
+L472230 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Go, girl, seek happy nights to happy days.
+L472229 +++$+++ u7304 +++$+++ m493 +++$+++ LADY CAPULET +++$+++ Go! We follow thee. Juliet, Blah!
+L472226 +++$+++ u7304 +++$+++ m493 +++$+++ LADY CAPULET +++$+++ Speak briefly, can you like of Paris' love?
+L472225 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Nay, bigger; women grow by men.
+L472224 +++$+++ u7304 +++$+++ m493 +++$+++ LADY CAPULET +++$+++ This night you shall behold him at our feast; Read o'er the volume of young Paris' face, And find delight writ there with beauty's pen; This precious book of love, this unbound lover, To beautify him, only lacks a cover: So shall you share all that he doth possess, By having him, making yourself no less.
+L472223 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Nay, he's a flower; in faith, a very flower.
+L472222 +++$+++ u7304 +++$+++ m493 +++$+++ LADY CAPULET +++$+++ Verona's summer hath not such a flower.
+L472221 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ A man, young lady! Lady, such a man As all the world- -why, he's a man of wax.
+L472220 +++$+++ u7304 +++$+++ m493 +++$+++ LADY CAPULET +++$+++ By my count, I was your mother much upon these years, You are now a maid. Thus then in brief: The valiant Paris seeks you for his love.
+L472219 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Thou wast the prettiest babe that e'er I nursed.
+L472218 +++$+++ u7304 +++$+++ m493 +++$+++ LADY CAPULET +++$+++ Nurse, give leave awhile, We must talk in secret. Nurse, come back again; I have remember'd me, thou's hear our counsel. Nurse, Thou know'st my daughter's of a pretty age.
+L472426 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ NO! Mercutio!
+L472425 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ A Plague o' both your houses.
+L472424 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I thought all for the best.
+L472423 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ 'Twill serve. Ask for me tomorrow and you shall find me a grave man. A plague o' both your houses. They have made worms meat of me. A plague on both your Houses! Why the devil did you come between us? I was hurt under your arm.
+L472422 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Courage man, the hurt can not be much.
+L472421 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Ay, ay, a scratch, a scratch. Ay, a scratch, a scratch. HA HA HA.
+L472376 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Farewell, ancient lady; farewell,
+L472375 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I will follow you.
+L472372 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Here's goodly gear!
+L472371 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Sure Witt! Now art thou sociable, now art thou Romeo; now art thou what thou art, by art as well as by nature.
+L472370 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Why, then is my pump well flowered.
+L472369 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Right.
+L472368 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Pink for flower.
+L472367 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Nay, I am the very pink of courtesy.
+L472366 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ A most courteous exposition.
+L472365 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Thou hast most kindly hit it.
+L472364 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Meaning, to court'sy.
+L472363 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ That's as much as to say, such a case as yours constrains a man to bow in the hams.
+L472362 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Pardon, good Mercutio, my business was great; and in such a case as mine a man may strain courtesy.
+L472361 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ The slip, son, the slip; can you not conceive?
+L472360 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Good morrow to you both. What counterfeit did I give you?
+L472359 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Signior Romeo, bon jour! there's a French salutation to your French slop. You gave us the counterfeit fairly last night.
+L472358 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Ho Ho, Capital Punks!
+L472281 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Ay, so I fear; the more is my unrest.
+L472280 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Away, begone; the sport is at the best.
+L472248 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ True, I talk of dreams, Which are the children of an idle brain, Begot of nothing but vain fantasy, Which is as thin of substance as the air And more inconstant than the wind, who wooes Even now the frozen bosom of the north, And, being anger'd, puffs away from thence, Turning his face to the dew- dropping south.
+L472247 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Peace, good Mercutio, peace! Thou talk'st of nothing.
+L472246 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ O, then, I see Queen Mab hath been with you. She is the fairies' midwife, and she comes In shape no bigger than an agate-stone On the fore-finger of an alderman, Drawn with a team of little atomies Over men's noses as they lie asleep; Her chariot is an empty hazel-nut Her wagoner a small grey-coated gnat, And in this state she gallops night by night Through lovers' brains, and then they dream of love; O'er lawyers' fingers, who straight dream on fees, Sometime she driveth o'er a soldier's neck, And then dreams he of cutting foreign throats, And being thus frighted swears a prayer or two And sleeps again. This is the hag, when maids lie on their backs, That presses them and learns them first to bear, Making them women of good carriage: This is she--This is she!
+L472245 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ In bed asleep, while they do dream things true.
+L472244 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ That dreamers often lie.
+L472243 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Well, what was yours?
+L472242 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ And so did I.
+L472241 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ I dream'd a dream to-night.
+L472240 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Why, may one ask?
+L472237 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ If love be rough with you, be rough with love; Prick love for pricking, and you beat love down.
+L472236 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Is love a tender thing? It is too rough, Too rude, too boisterous, and it pricks like thorn.
+L472235 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Too great oppression for a tender thing.
+L472234 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Under love's heavy burden do I sink.
+L472233 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ You are a lover; borrow Cupid's wings, And soar with them above a common bound.
+L472232 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Not I, Not I believe me: you have dancing shoes With nimble soles: I have a soul of lead
+L472231 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Young hearts run free. Never be caught up, caught up like Rosaline and thee. Nay, gentle Romeo, we must have you dance.
+L472418 +++$+++ u7309 +++$+++ m493 +++$+++ TYBALT +++$+++ I am for you.
+L472417 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Good king of cat's, nothing but one of your nine lives.
+L472416 +++$+++ u7309 +++$+++ m493 +++$+++ TYBALT +++$+++ What wouldst thou have with me?
+L472415 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Calm, Dishonorable, Vile Submission! Thou art my souls hate! Tybalt! You ratcatcher, will you walk?
+L472407 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Consort? What does thou make us minstrels? An thou make minstrels of us look to hear nothing of discords. Here's my fiddlestick. Here's that shall make you dance! Zounds, Consort!
+L472406 +++$+++ u7309 +++$+++ m493 +++$+++ TYBALT +++$+++ Mercutio! Thou art consortest with Romeo?
+L472405 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ Could you not take some occasion without giving?
+L472404 +++$+++ u7309 +++$+++ m493 +++$+++ TYBALT +++$+++ You shall find me apt enough to that, sir. And you will give me occasion.
+L472403 +++$+++ u7305 +++$+++ m493 +++$+++ MERCUTIO +++$+++ OH, and but one word with one of us? Couple it with something. Make it a word and a...a blow.
+L472402 +++$+++ u7309 +++$+++ m493 +++$+++ TYBALT +++$+++ Follow me close. Gentlemen, gooday. A word with one of you?
+L472452 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ As if that name, Shot from the deadly level of a gun did murder her, as that name's cursed hand did murder her kinsman.
+L472451 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ O, she says nothing sir, but weeps and weeps, and then on Romeo cries and then falls down again.
+L472450 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Sir. Ah, sir. Death the end of all
+L472449 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Nurse.
+L472378 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Bid her to come to confession this afternoon; And there she shall at Father Laurence' cell Be shrived and married.
+L472377 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ If ye should lead her into a fool's paradise, as they say, it were a very gross kind of behavior, as they say: for the lady is young; and, therefore, if you should deal double with her, truly it were an ill thing, and very weak dealing.
+L472279 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ His name is Romeo, and he's a Montague; The only son of your great enemy.
+L472278 +++$+++ u7307 +++$+++ m493 +++$+++ ROMEO +++$+++ Is she a Capulet?
+L472277 +++$+++ u7306 +++$+++ m493 +++$+++ NURSE +++$+++ Madam, your mother craves a word with you. Come lets away.
+L472852 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ As my American friend Larry would say: are you fucking deaf?  It's under your seat.
+L472851 +++$+++ u7310 +++$+++ m494 +++$+++ DAPPER GENT +++$+++ What?
+L472850 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ It's under your seat.
+L472848 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ To make a point.  I don't know her, and I was ready to splatter her brains all over the sidewalk.  I don't particularly like you, so imagine what I'll do if you try anything...
+L472847 +++$+++ u7310 +++$+++ m494 +++$+++ DAPPER GENT +++$+++ Why did you do that?
+L472841 +++$+++ u7310 +++$+++ m494 +++$+++ DAPPER GENT +++$+++ You know it is.
+L472840 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Do you really think so?
+L472839 +++$+++ u7310 +++$+++ m494 +++$+++ DAPPER GENT +++$+++ This is important.
+L472838 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Always in a rush, you are.  All these years I've known you, you could never wait for anything.
+L472837 +++$+++ u7310 +++$+++ m494 +++$+++ DAPPER GENT +++$+++ Do you have it?
+L473280 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I'm up for that...
+L473279 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I don't know.  I was thinking...Maybe the three of us might partner up -- guns for hire, that sort of thing.
+L473278 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ So where do you go from here?
+L473277 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Only the stupid ones.  Cigarettes kill more patriots than bullets.  Besides, I'm not IRA no more.
+L472815 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I don't want you dead, woman, I want the the truth!
+L472814 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ You go shoot me if you want, Vincent, but you'll be dead before I hit the ground.
+L472813 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ And I don't believe you...
+L472812 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Well I don't!
+L472811 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ When this whole thing started you made it clear: you're running the show.  And I don't believe you'd be running this show if you didn't know what was going on.
+L472810 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I don't know.
+L472809 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Finding this package is a thing easier said than done.  We don't even know what it is.  What did we steal?
+L472808 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Of course.
+L472789 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Very good.  Now all we have to do is live long enough to get paid.
+L472788 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ And then Sam, you and I clean up whatever's left to be cleaned.
+L472780 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Leaving...
+L472779 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ While Sam and I take out the back two cars...
+L472730 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Is that right?
+L472729 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ We kept it...
+L472607 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Of course.
+L472606 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Coordinate all you want, but make sure whatever you do gets cleared through me.  Are we in sync on this, Vincent?
+L472901 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I drink what every civilized man, woman and child in the world drinks: Guinness.
+L472900 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Oh yeah?  Whatta you drink, then?
+L472899 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Budweiser?  You talk to me of beer and you've the unbridled gall to mention Budweiser in the same sentence?  That's not beer!  Christ, it's not even a poor excuse for rabbit piss.
+L472898 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Best beer in the world?  Budweiser for me, thanks.
+L472897 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Best beer in the world known to man or God.
+L472896 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ What is?
+L472895 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Some places, not all.  Italy, for instance, they're serious about their food.  But try bloody Britain, anywhere in the U.K., you don't get much fancier than a deep-fried bar egg.  Food's not our thing, you see.
+L472894 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ This...this is incredible. Is the rest of Europe like this?
+L472828 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ That's why you were riding with him.
+L472827 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ I never did trust that blonde fuck...
+L472824 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ How do we know that?
+L472823 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ And you believed me?  But it wasn't my people who did it.
+L472787 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ And then...
+L472786 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Then Swede and I split with the package and meet you back at the rendezvous.
+L472774 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Which leads us to...
+L472773 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ You call me with the target's route, I follow along until we've reached the attack point and then I run his squag ass off the road.
+L472735 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ The deal?  The deal is we leave for Nice at first light.
+L472734 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ So what's the deal?
+L472602 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ And who are you?
+L472601 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ I drive -- and my name is Larry.  Larry from the States.
+L472593 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ The name is Deirdre, and I'm running this show.
+L472592 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Who the fuck are you?
+L472591 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ It's good to see you've all got such faith in our little undertaking.
+L473170 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ No, Seamus.  I heard you the first time.
+L473169 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ Do I need to repeat myself?
+L473168 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ Shut up!!!  Shut up and drive!  I'm your superior officer and you will do as I goddamn well say, is that understood?!?
+L473167 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ You're thinking with your gun, Seamus, and not your head...
+L473166 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ Plastic fucking surgeon?  You think I'm going to fix this, Deirdre lass?  It's the mark of the patriot, and I'll wear it like a badge.  As for those who done it to me, I'll take my pound of flesh before this is all over.
+L473165 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ You better be careful, Seamus, before something happens a plastic surgeon can't fix.
+L473151 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ They're good!
+L473150 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ Good Christ!  Can't you lose these jokers?
+L473149 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Not yet...
+L473148 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ About time!
+L473142 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ You lose them!
+L473141 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ Lose them!
+L473126 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ That's him.
+L473125 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ From Interpol?
+L473124 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ They're part of the team.  One of them's the guy I told you about.
+L473123 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ What in bloody hell is going on?
+L473033 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ Nothing.
+L473032 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Would somebody tell me what fucking well happened in there?
+L473031 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ Problem my ass!  I think you're lying to me, and if you are you're a dead man!
+L472970 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ I thought I did.
+L472969 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Not to me, you know that.
+L472968 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ It's been known to happen.
+L472967 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ So you thought that maybe I'd grown too attached to this charade I've been playing, is that it?
+L472966 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ It means I was worried that all the time you spent away from the fold might have affected you.  You've been living the life of the hired gun -- the well paid hired gun, I might note.  There's no glory to it, but there are those that like it.
+L472965 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ And what's that supposed to mean, Seamus Reilly?
+L472964 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ Now there's the Deirdre I know.
+L472963 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ When we're done with this, I want to do for that one myself.
+L473282 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Come off it, Sam -- if we weren't friends already we wouldn't be here now, would we?
+L473281 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Not me.  You work too often with the same people and you become friends -- clouds your judgement.
+L473250 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Alright?  It's bloody fucking freezing in here!
+L473249 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Are you alright?
+L473116 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Bloody fucking hell...
+L473115 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I didn't say I was.
+L473114 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Where do you get off saying word one? All the time pretending to be one of us, it's the same thing we were doing, Seamus and myself.  And here you are so high and mighty, like you're so different from the rest of us.
+L473113 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Don't even think that I'm buying that.
+L473112 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I'm a patriate.
+L473111 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Oh please..you're on some sort of holy mission?
+L473110 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Well, if it isn't Mr. Interpol himself.  I can't believe I misjudged you like I did.
+L472835 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ That we're too stupid to trace his calls.
+L472834 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Check this out.  Gregor's a spook, or he was one until recently.  When he was a spy he lived the life -- you know, a prince in some Eastern Bloc country where nobody had shit and Gregor had everything.  Then the wall goes down.  No more Cold War.  And Gregor is out of a job.  No apartment, no special stores with Western food and video tapes.  I would bet dollars against shit that Gregor liked that phone and he doesn't want to give it up.  And I wouldn't be surprised if he's arrogant enough to think...
+L472833 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I bought it for him -- all the stuff he was using, it was in his contract.  Cost a nice penny, too, especially that goddamned phone: Gregor had expensive tastes.
+L472826 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Exactly.  Gregor, he was the Russian's man.  It was my people came up with the idea for this run, but the Russians who had the capital to finance it.  Gregor, he was their insurance, and I was ours. Everybody else was supposed to be neutral.  Gregor must've got to Swede...
+L472825 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Because if they had she'd be gone along with the package, instead of sitting here with us.
+L472820 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I don't know...  Well I don't!  It's a goddamned mystery to me just like it is to you.  But I do know who we're working for.  My people, and the Russian mob.
+L472819 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Now, what did we steal?
+L472769 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Just business.
+L472768 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Duty calls?
+L472767 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I better be getting that.
+L472766 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Exactly.  And last night I wanted to be with someone who was just like me.
+L472765 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You're a hired gun, Deirdre -- just like me.
+L472764 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I know I don't have to, Sam, it's just that, for once, I want to.  when I was a -  Patriot, it was a given I'd sleep with any man it was deemed necessary for me to sleep with.  You know: any man who needed setting up.  Sometimes so we might blackmail him, sometimes so he could be killed.  Sometimes so I could kill him myself. IRA isn't exactly an enlightened feminist organization, Sam.  To most of the men I with I was always the girl.  "Send the girl to do it."  "Tell The girl to take care of it."  "Have the girl fuck him."  But I look at you and I get this feeling you take me for what I am: no more, no less.
+L472763 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You don't have to explain yourself to me, Deirdre.
+L472762 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Look, Sam, don't take it the wrong way when I tell you we won't be doing this again.
+L472745 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I probably do.  But for the time being, I'm willing to forget about it...
+L472744 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ And when I consider that, I have to wonder if you don't have some ulterior motive for being here, with me, right now.
+L472743 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Nobody's saying they don't.
+L472742 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Part of me says I should just look at this as a perk.  You know, a bonus.  But then I remember you're you -- Deirdre who used to belong to the IRA -- and it occurs to me that deceit and subterfuge come very naturally to you.
+L472741 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ That's right.
+L472740 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Is that right?
+L472739 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I still am.
+L472738 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I didn't think to see you again tonight. You were pretty pissed.
+L472737 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ I feel as if I've wandered onto the set of Enter The Dragon.  Could you teach me to do that?
+L472733 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ We weren't real thrilled about it either...
+L472732 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ The two of you were supposed to go to a simple meet and come back with a simple piece of information, and instead you went to fucking war...
+L472731 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Hazard pay...
+L472600 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Once.
+L472599 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ You were a soldier, were you?
+L472598 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Sam.  I'm a weapons guy.
+L473246 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ He'll kill me anway, Sam, shoot though me and kill this fucker.
+L473245 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Shut up!
+L473244 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Don't do it, Sam!
+L473243 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Go ahead, shoot... Shoot and kill the bitch, I don't care.  And yet you don't shoot.  Interesting. Put down your weapon and walk away.
+L473207 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Should any of you decide to rush me, I'll kill myself and whoever happens to be near me at the time.
+L473206 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ That fucking figures...
+L473030 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ There's a problem...
+L473029 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Where's the case?
+L472791 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Ready when you are...
+L472790 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Alright, Gregor, I'm...
+L472772 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Next.
+L472771 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I use my cell phone to get computer access to the telecommunications satellite used by our target.  I trace his cell phone signature and use it to pin point his location as he moves through Nice, relaying that information to you.
+L472770 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Now then, let's run through it one more time, shall we?  What's your job?
+L472630 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ In this business, your life and your reputation are more often than not one and the same.
+L472629 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ But would you stake your life, that's the question...
+L472628 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I'd stake my reputation.
+L472627 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ You sure about this?
+L472626 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I intend to.  This phone is wired like no other: it's got an encryption chip and instant sat-a-link recognition, it can talk to any computer in any language and make it understand.  With my custom hardware and this phone I can trace the target's cell phone signature and follow him anywhere he goes...
+L472625 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Good, because it cost enough.  There's cheaper phones by far than that one, man: you better fucking use it.
+L472624 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ It's quite satifactory.
+L472597 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ These days they they call me Gregor -- and I'm a tech.  I do electronic work, surveillance, computer runs.
+L472596 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ From here on in you want something you pay cash for it: no credit cards, no bank accounts are in place: ten percent up front, the rest when the job is done.  You.  What do you do and what should we call you?
+L472595 +++$+++ u7311 +++$+++ m494 +++$+++ DEIRDRE +++$+++ Not likely.  Once, yeah, I was -- but there wasn't an inch of profit in it, and I'm a cash oriented girl, if you take my meaning.  I'm a hired gun, same as the rest of you, and that's all any of us needs to know about the other.
+L472594 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Who are you?  IRA?
+L472919 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I think not.  After you...
+L472918 +++$+++ u7312 +++$+++ m494 +++$+++ EDVARD +++$+++ Perhaps we could both go at the same time...
+L472917 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ You first, Edvard.
+L472916 +++$+++ u7312 +++$+++ m494 +++$+++ EDVARD +++$+++ Do you have the material?
+L472915 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Really?  Do you have the money with you?
+L472914 +++$+++ u7312 +++$+++ m494 +++$+++ EDVARD +++$+++ We'll double your price.
+L472913 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I'm sure.  But I'm sorry to say that it's too late for trust: we have a serious problem.
+L472912 +++$+++ u7312 +++$+++ m494 +++$+++ EDVARD +++$+++ That was a mistake, trying to kill you. Mikhi did it without consulting me, I'd have never allowed it.
+L472911 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I'm touched, really, that they'd send someone of your caliber.  It's nice to know that they didn't make the mistake of underestimating me twice.
+L472910 +++$+++ u7312 +++$+++ m494 +++$+++ EDVARD +++$+++ Yes, Gregor, they sent me.
+L472713 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Then you better find it in your heart to tell me, Francois, because while your death is inevitable, it still isn't decided how painful it's going to be.
+L472712 +++$+++ u7313 +++$+++ m494 +++$+++ FRANCOIS +++$+++ In here...
+L472711 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Where's my information?
+L472710 +++$+++ u7313 +++$+++ m494 +++$+++ FRANCOIS +++$+++ Of course.
+L472709 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I take it you still want the money...
+L472708 +++$+++ u7313 +++$+++ m494 +++$+++ FRANCOIS +++$+++ If you say a word in English, Vincent, my friend with the high powered sporting rifle will shoot you in the throat. Sorry to screw you over like this, but the information you want might get me killed if I give it to you, and that's a price I'm not willing to pay.
+L472707 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ What's that?
+L472706 +++$+++ u7313 +++$+++ m494 +++$+++ FRANCOIS +++$+++ There's been a slight problem.
+L472705 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Here's yours.
+L472694 +++$+++ u7313 +++$+++ m494 +++$+++ FRANCOIS +++$+++ He's a cop, Vincent, he's French and he's a cop and you better shoot him in the fucking head right now!
+L472693 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ What do you mean?
+L472692 +++$+++ u7313 +++$+++ m494 +++$+++ FRANCOIS +++$+++ Bad company...
+L472691 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ He's company.
+L472690 +++$+++ u7313 +++$+++ m494 +++$+++ FRANCOIS +++$+++ Not so fast.  Who's that?
+L472689 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Do you have it?
+L473221 +++$+++ u7317 +++$+++ m494 +++$+++ MIKHI +++$+++ You'll die if you leave here.
+L473220 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ We'll die if we stay here!
+L473209 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I'll destroy whatever's in the case.
+L473208 +++$+++ u7317 +++$+++ m494 +++$+++ MIKHI +++$+++ And more importantly --
+L473195 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Enough!
+L473194 +++$+++ u7317 +++$+++ m494 +++$+++ MIKHI +++$+++ I'm shocked, shocked to think that you'd believe him.
+L473193 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Edvard said the same thing about you before he died.
+L473192 +++$+++ u7317 +++$+++ m494 +++$+++ MIKHI +++$+++ Whatever you wish...  This has all been a terrible mistake, Gregor.  I wanted to play straight with you, but Edvard insisted we try and kill you.
+L473191 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ No, Mikhi, I wouldn't.  Since I won't speak your language, and you can't speak mine, English will do nicely.
+L473190 +++$+++ u7317 +++$+++ m494 +++$+++ MIKHI +++$+++ Sit, sit...  Would you like one?
+L473205 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I think not.  I have, of course, taken the precaution of wiring the briefcase to explode five seconds after it opens.  Unless, of course, I deactivate it before it goes off.
+L473204 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ Figured enough to know there's an odd man out and I'm looking at him.
+L473203 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ So, you've got it all figured, do you?
+L473201 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ What's a little hate between business partners?
+L473200 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ But you hate each other!
+L473199 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ What am I doing here?  Why, I'm here to see my partners, Gregor, the boys in the Russian Mafia.  See, your bosses had hoped to screw me by hiring you to pull your thieving double cross.  But they only just found out that what's in the briefcase is completely useless without me.  I can't fight them, and they can't kill me -- that means we're gonna have to do business together.
+L473140 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ You've told me a lot of things, boyo...
+L473139 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ It is, I'm telling you it is!!
+L473138 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ This better be the real thing or you're a dead man!
+L473036 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I swear, it has to come here!  It has to...
+L473035 +++$+++ u7320 +++$+++ m494 +++$+++ SEAMUS +++$+++ If you're lying to me you poor excuse for a human being, I'm gonna blow your brains all over this car.
+L472933 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ A post office box.
+L472932 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Sent it where?
+L472931 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I sent it to myself in Paris.
+L472930 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Then where is it?
+L472929 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I swear...
+L472928 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Bullshit!
+L472927 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I don't have it with me...
+L472926 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Don't talk to me unless you tell me what I want to hear, understand?!?  You have no choice in this, don't think about winning, think about staying alive.  I want the item, and if you don't give it to me, I'm gonna kill you.
+L472580 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Now that is an interesting proposition.
+L472579 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ So none of us knows who's paying the freight, this is just some anonymous job. For all we know, we're working for different people.
+L472578 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I got this gig through a contractor. And he most definitely didn't know who was doing the hiring, only that they were paying a lot of money...
+L472577 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Whoever hired us.
+L472862 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ What I do is none of your concern.  What you should do is wait for my next phone call.  I'm going to find a place where I can tilt the field in my favor.  When I'm ready, I'll call you and tell you what I want you to do.
+L472861 +++$+++ u7318 +++$+++ m494 +++$+++ PHONE VOICE +++$+++ So what do we do?
+L472860 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I'm in the middle of saving you people a great deal of money -- the least you could do is have the decency to pay me!
+L472859 +++$+++ u7318 +++$+++ m494 +++$+++ PHONE VOICE +++$+++ It was a mistake, it shouldn't have happened.
+L472858 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Much to your disappointment, no doubt.
+L472857 +++$+++ u7318 +++$+++ m494 +++$+++ PHONE VOICE +++$+++ Gregor, is that you?
+L472856 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ It's done.
+L472855 +++$+++ u7318 +++$+++ m494 +++$+++ PHONE VOICE +++$+++ Is it done?
+L472759 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I do, I do...
+L472758 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ I just wanted to make sure you knew who you were dealing with.
+L472757 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I need you, Swede, I can't do this without you!
+L472756 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ Really?
+L472755 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Nobody's going to do that!
+L472754 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ Don't cross me...
+L472753 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ What are you doing?
+L472752 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ What's that?
+L472751 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ There is one other thing...
+L472750 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Then I guess we're set.
+L472749 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ That's it.
+L472748 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ A means to an end, is that it?
+L472747 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ I hadn't thought about it.  Understand me, Gregor -- I take no pleasure in killing.  It doesn't bother me one bit, but I don't get off on it.
+L472746 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ I would imagine that the great satisfaction in all of this will be killing the American.
+L472582 +++$+++ u7314 +++$+++ m494 +++$+++ GREGOR +++$+++ Because if there's more than one party involved, if we really are working for different people, then perhaps some of us are on different sides.  Your orders might be different from mine.
+L472581 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ How so?
+L473001 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ If he hadn't you'd have put a bullet in his head a long time ago.
+L473000 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ How did you know?
+L472999 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Not exactly?  But close enough, eh?  So he saved your life, then?
+L472998 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Not exactly.
+L472997 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ I've never seen a man who could have taken what he just went through.  He's a cop?
+L472996 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Of course.  Don't you?
+L472995 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ And you respect him.
+L472994 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Yes, Sam's tough alright.
+L472993 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ He's tough, your American friend.
+L472975 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Hello, my friend.  He doesn't look French to me, Vincent.
+L472974 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Hello, Jean-Pierre.
+L473027 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ A Samurai has honor, a Samurai live by the code of Bushido, the way of the warrior.  I'm just a killer for hire.  The world isn't about honor, anymore. It's about survival.
+L473026 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ You seem one to me.
+L473025 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Vincent's life is his own burden; he'll have to carry it for himself.  And I'm not any kind of Samurai.
+L473024 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Perhaps forged is a better word.  Like steel.  Like a sword.  You're a modern Samurai.  I've spent my life around extraordinary men -- men like Vincent. But I've never seen anyone like you.  I'm afraid Vincent will die if he goes with you.
+L473023 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Created?
+L473022 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ I suppose I want to know how a man like you is created.
+L473021 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ So what is it you want to know?
+L473020 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Perhaps.  But you are not healthy, and if you try I'll kill you.
+L473019 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ If I was healthy, I could take that away from you.
+L473018 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Call it a reckoning of character.
+L473017 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ So this is what, a test?
+L473016 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Not a word.  But no ordinary criminal would have the extensive military and medical expertise you do.  And so I place the pieces of the puzzle together in a way that makes sense to me.  You work for some government agency and you carry a gun, and in my world, that makes you a cop.
+L473015 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Vincent told you that I'm a cop?
+L473014 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ You suffered through an agonizing pain last night, pain you could have avoided by declaring yourself an agent of the law.
+L473013 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I didn't expect that he would.
+L473012 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ He sees this differently, as you well know.
+L473010 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Forgive my intrusion into your affairs, but I am the one who connected Vincent to this job, his agent, if you will.  He is one of my oldest friends and I owe him a great debt, much like the debt I suspect he owes you.
+L473009 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ It gets done now or not at all.  Another couple of days and the parties concerned are gone where I can't get them.
+L473008 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Something important?  A thing that cannot wait?
+L473007 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Yeah.
+L473006 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ But first you have something to take care of?
+L473005 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Soon.
+L473004 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ You should really let a doctor look at that.
+L473003 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Some, thanks.  Enough to move on, for now.
+L472992 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Then if you don't mind...  I'm gonna pass out.
+L472991 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Don't worry, we'll take care of it.
+L472990 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You think you can stitch me up on you own?
+L472980 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ No booze...Pain's in the mind, and the mind I can control.  Alright, let's do it.
+L472979 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Are you sure you won't have a drink?
+L472977 +++$+++ u7315 +++$+++ m494 +++$+++ JEAN-PIERRE +++$+++ Well, Vincent's American friend, shall we see what we can do for you?
+L472976 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ American.
+L472832 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Did he bring that with him?
+L472831 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ What are you gonna do, call him up and ask him to give us back our shit?
+L472807 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Fine with fucking me, we got work to do. I don't care what it takes, we are getting our property back and putting it into the hands of the people who are gonna pay us a great deal of money when we do.  I don't know about the rest of you guys, but I'm not the kind of guy to just sit back and take it in the ass.  I don't mean that in, like, a literal way...
+L472806 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ It's a cocktail.  Mostly demerol, cut with a little crank because we might need you awake in the real near future.
+L472622 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ My way is better.
+L472621 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Yeah, well...  My way works too.
+L472620 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Why don't you go do better, then...
+L472619 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ It's been known to happen.
+L472618 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Is that right?
+L472617 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Long enough to shoot back.
+L472616 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Not for long.
+L472615 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ All in the stomach, though.  Your man might live.
+L472614 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Gets the job done.
+L472613 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You shoot alright.
+L472590 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Anybody tries to unpleasant me I'll put two between his eyes -- one to do the job and the other to make sure it takes.
+L472589 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ The point remains: we could be working for different people.  There's a chance for one of us...  Maybe more than one of us -- has been paid to cross the others.  I don't know about you guys, but I like to know who I'm working for.  It can help prevent a great deal of...  ...unpleasantness.
+L472802 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ I don't think so.
+L472801 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ I don't particularly like killing, tubby, but I want you to know that this one I'm going to enjoy.
+L472796 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Not in mine.
+L472795 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ It's consider a virtue in some corners of the world.
+L472794 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Is that right?
+L472793 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ You should learn a little patience.
+L472792 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Where is this broad?
+L472778 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ I blast the lead car into oblivion...
+L472777 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ After we stop the target car I get out and use the heavy artillery to kill the driver and his bodyguard.
+L472776 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Eat shit and die slowly...
+L472775 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ I ride with fat-boy...
+L472635 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ Who you calling dumb, dickless?
+L472634 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ And you could stand to get a little smarter, ain't that right you dumb blonde fuck?
+L472633 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ I'm just worried about your health, Larry.  You could stand to shed a few pounds.
+L472632 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Who the fuck died and appointed you food czar?
+L472631 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ You should watch what you eat.
+L472610 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ Everybody.
+L472609 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ Who's they?
+L472608 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ They call me Swede.
+L472585 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ I got a surprise for you, blondie...
+L472584 +++$+++ u7321 +++$+++ m494 +++$+++ SWEDE +++$+++ What a surprise...
+L472583 +++$+++ u7316 +++$+++ m494 +++$+++ LARRY +++$+++ What're you talking about, man?  I don't understand.
+L473276 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Just to keep me company, Sam -- I hate smoking alone.  How about you?  I thought all you IRA types smoked.
+L473275 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I told you, I quit.
+L473271 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I guess that's for the best.
+L473270 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Gone.  Destroyed.
+L473269 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ What happened to it?
+L473268 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I don't know.  Nobody knows, except a bunch of people who are too dead to tell us.  There's probably a couple of guys back at the Company who know, but I don't think they plan to tell me anytime soon.
+L473267 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Tell me something first.  The package: what was it?
+L473266 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You better get some sleep, alright?
+L473265 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I know.
+L473264 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You don't owe me a goddamned thing, Vincent, and you know it.  You stepped in front of a bullet for me.  I owe you a heavy debt.
+L473263 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ "Your field dressing saved his life." That's three I owe you.
+L473262 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Nothing...
+L473261 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ What of it?
+L473260 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ You speak French.
+L473259 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ What?
+L473258 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ You son-of-a-bitch...
+L473237 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Finish it!
+L473236 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ And now...
+L473235 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Finish the job...
+L473234 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Let's get him out of here...
+L473223 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I'll work on it...
+L473222 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ You have to stop doing that!
+L473189 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ No, I don't.
+L473188 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Do you have a good answer?
+L473187 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ That's a good question.
+L473186 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ And when you finish?  What then?  This package, whatever it is, do you give it to the CIA?  Do you really think they deserve it?
+L473185 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ And yet you would have killed him to save my life.  You have a sense of honor, Vincent, that I can't even remember anymore.  I don't know that I ever even had it to begin with.  All I know to do, Vincent, is to finish my job.
+L473184 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Closest and oldest.
+L473183 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ It's the one thing I've got left to hold onto.  Jean-Pierre is one of your closest friends, is he not?
+L473182 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Why not?
+L473181 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Because I don't walk away.
+L473180 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Why then, Sam, don't you act like this is a job like any other?  Surely, if you are a hired gun, you realize that some times you just have to walk away without getting what you came for.
+L473179 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ The mark of a true Samurai.  What I do for the Company, Vincent, is no different than what you do.  We're both hired guns, and this is a job -- like any other job.
+L473178 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Why?  You've got more force of will than anyone I've ever seen.  You handle a gun like it's a part of you, you perform surgery on yourself without anesthesia...  And most amazing of all, you quit smoking, just like that.
+L473177 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Would you stop with that...
+L473176 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ What of it?  Samurai pain in the ass.
+L473175 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Not just like that... Just before I turn around and it's six months from now and the first thing I do when I wake up in the morning is light a cigarette.
+L473174 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Just like that?
+L473173 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Time to quit.
+L473172 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ If I'm going to die for the CIA, I'm going to go out smoking.  Besides, there's half a forest between us and them, they can't see a goddamned thing.
+L473171 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Not here.  They might see it.
+L473164 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Yeah.  We need out fucking heads examined.
+L473163 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Do we need anything else?
+L473162 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I think not.
+L473161 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ In a minute.
+L473160 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ If our positions were reversed, would you leave me?
+L473159 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ No you don't, and you know it.
+L473158 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ So I do it.
+L473157 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I know I don't need to say this to you, but I need to say it to you.  This is my job, I have to do it.
+L473156 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Something like that.
+L473155 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Business keeps you on the road?
+L473154 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I'm not here very much.
+L473147 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Why are you driving?  You're not French, you don't live here, you don't know these roads.  Why are you driving?
+L473146 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Gimme a goddamn cigarette!!!!
+L473145 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Right now?
+L473144 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Give me a cigarette.
+L473122 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ You don't know?  Bullshit, you had her, there was no way out.
+L473121 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I don't know...
+L473120 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ What the fuck happened?
+L473107 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You said it yourself: Gregor's not dead. If they had the package, they'd have killed him.
+L473106 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ You think?
+L473105 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ They don't have the package.
+L473102 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Because I owe you.  Look at that...
+L473101 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ How could you have done that?
+L473100 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I would have tried not to.  But yes, if it would have kept him from shooting you, I would have.
+L473099 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You would have done that?
+L473098 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I was waiting to see what would happen. I didn't want to kill him if I didn't have to.
+L473097 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You were behind the door?
+L473096 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I know.  Jean-Pierre did.
+L473095 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I never made that claim.
+L473094 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Not very zen of you, huh?  Not so much the modern Samurai after all.
+L473093 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ It is at that.
+L473092 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Very ugly.
+L473091 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Dark operations.  Wet work.  Kidnaping. Assassination.
+L473090 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Dark ops?
+L473089 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I'm a field agent -- last of an already extinct breed.  I do dark ops.
+L473088 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ It's a cover, then.  A cover within a cover, a feint within a feint.  You work for the CIA, it's the only possible answer.
+L473087 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Sure I do.  You heard him, you heard the guy -- that's what he said, what Edvard said.
+L473086 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Then quit.  You don't work for Interpol, Sam.
+L473085 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ It's my job.
+L473084 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Continue when it would be so much easier to give it up.
+L473083 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Do what?
+L473082 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Tell me, Sam: why do you do this?
+L473081 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ If Tony says this is it, then it's it.
+L473080 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You sure your friend got the right place?
+L473079 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Thorough man.
+L473078 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ The address of the Russian production company.  Just in case we need to find them.
+L473077 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ What's this?
+L473076 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Yes.
+L473075 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ The Irish representative?
+L473069 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ I know of him.
+L473068 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ You know him?
+L472988 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ Good.  Now take the forceps, and remember, Vincent, what we're doing here is routine.  I've done stuff like this at least twenty times in the field.  There are no vital organs where you're working, no major muscles or arteries -- you can't kill me.  Just make sure you've got the bullet before you try to pull it out.
+L472987 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Clearly.
+L472986 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You see the bullet?
+L472985 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Alright, it's done.
+L472962 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ Yes I do.
+L472961 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ You don't have to do this.
+L472960 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ It isn't about money for me, not anymore.
+L472959 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ This doesn't involve you, don't you understand?  I can't even guarantee you any money out of all this.
+L472958 +++$+++ u7323 +++$+++ m494 +++$+++ VINCENT +++$+++ I'm going with you.
+L472957 +++$+++ u7319 +++$+++ m494 +++$+++ SAM +++$+++ We?  There is no we in my world now, Vincent, just me.
+L665897 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ I think so.
+L665896 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Did you do it?
+L665894 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Oh!  Yes, Doctor.
+L665893 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Give him the sedative!
+L665892 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Are you serious??
+L665891 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ All right -- give it to him!
+L665874 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Stop -- singing!!!
+L665873 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ It has a pas-sion, 'The Con-ti nen-tal...'
+L665870 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ It's some-thing dar-ing, 'The Con-ti-nen-tal,' A way of danc-ing that's real-ly ul-tra new; It's ver-y sub-tle, 'The Con-ti-nen-tal.'
+L665869 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ This is not the finals -- just sing!
+L665868 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ I'd be so nervous.
+L665867 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Yes -- quickly, dear!
+L665866 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Me?  Sing?
+L665865 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Do you think you can sing it?
+L665862 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ I think I'll...carry him.
+L665861 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ What are you going to do?
+L665841 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ What do you think we should do?
+L665840 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ It looks that way.
+L665804 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Alive!  Look at it.  I have defeated death!
+L665803 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ I think you've done it, master.
+L665802 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Oh, Doctor!
+L665799 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Look here -  if it wasn't you, and it wasn't you, and it wasn't me...
+L665798 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ It wasn't me.
+L665777 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ I don't understand -- I followed the notes to the letter.
+L665776 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ I thought it was wonderful.
+L665775 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Reputation.  Reputation!
+L665757 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Oh!  Yes, Doctor.
+L665756 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Raise the platform, hurry!
+L665755 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Right here?
+L665752 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ I know.
+L665751 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Yes!
+L665750 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ A god?
+L665749 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Oh, Frederick... you're not only a great doctor, you're a great... you're almost a...
+L665748 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Soon, all the electrical secrets of Heaven shall be mine.
+L665693 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ 'Dilation of his sacral parasympathetic impulses would cause an increase in flow of blood and the erection to approximately nineteen inches of his apparatus genitals.'
+L665692 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ And look at this, Doctor!
+L665691 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ 'As the minuteness of the parts formed a great hindrance to my speed, I resolved to make the Creature of a gigantic stature.' Of course!  That would simplify everything.
+L665677 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Perhaps we'd better leave.
+L665676 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Oh, doctor!
+L665665 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ But who was playing it?
+L665664 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Well, this explains the music.
+L665663 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Look, Doctor!
+L665659 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ What a filthy mess.
+L665658 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Ooh!
+L665639 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ All right then, quietly!  Close your robe and stay right behind me. Don't make a sound!
+L665638 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Let me come with you, Doctor, please!  I don't want to stay up here alone.
+L665637 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Whatever it is, it's coming from down there.  I'm going down to see.
+L665636 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Dr. Fronkonsteen -- look!
+L665633 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ I don't know.  It just woke me up.
+L665632 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Yes!  What could it be at this hour?
+L665631 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Listen!  Don't you hear that strange music?
+L665630 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ What is it?  Is something wrong, Doctor?
+L665629 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Inga, wake up!
+L665628 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Yes, you may... but don't make any noise.
+L665627 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Inga!
+L665625 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Well... I'll just finish unpacking.
+L665624 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ No, thanks!  I want to get right to sleep.
+L665623 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Would you like a sandwich?
+L665622 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Well.. I suppose it would be all right, for just a little while.
+L665621 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Oh please -- just till I get sleepy. Then you can force me right back to my room.
+L665620 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Well...
+L665619 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ I know, but usually I can fall asleep right away.  It must be the strange room.
+L665618 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ We only arrived a few minutes ago.
+L665617 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Could I lie down in your bed for a little while?  I just can't sleep.
+L665616 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ That's quite all right.  What is it, dear?
+L665615 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Are you busy?
+L665565 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Just an atmospheric discharge. Nothing to be afraid of.
+L665564 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Sometimes I'm afraid of the lightning.
+L665559 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ I'm not sure I...get your drift.
+L665558 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Did you ever have a roll in the hay?
+L665553 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ Yes, thank you.  It wasn't bad.
+L665552 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Did you have a pleasant trip?
+L665549 +++$+++ u9017 +++$+++ m615 +++$+++ FREDDY +++$+++ How nice.
+L665548 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Extremely well.
+L666169 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Do Something!  Stall them!
+L666168 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ Another fifteen seconds to go.
+L666167 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Igor -- the clock!  Hurry!
+L666166 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ Oh, must be around ten... ten-thirty.
+L666161 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ Sounds like visitors.  It's all right -- Frau Blucher will show them in.
+L666160 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ 
+L666159 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ Absolutely!  May my mother grow two heads if I'm not telling the truth.
+L666158 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Igor -- are you sure the monster has a good brain?  Are you absolutely certain that you took the brain of Hans Delbruck that night?
+L666156 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Oh, Igor -- I'm so afraid!  I just hope this all ends well.
+L666155 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ What d'ya want to do to kill time?
+L666154 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Yes.
+L666153 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ Three minutes to go!
+L666152 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Four
+L666151 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ How long is it so far?
+L666150 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ The doctor said to allow seven minutes:  no more and no less -- or else they could both become hopelessly paralyzed.
+L666149 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ How do you know they're done?
+L665952 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ Why certainly.  Don't you, Frau Blucher?
+L665951 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ I think the doctor is a genius! Don't you, Igor?
+L665950 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ You can't expect to iron out all the kinks in one night.
+L665949 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ Look how far we've come.
+L665901 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ Why don't we all turn in?  It's been a long day.
+L665900 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ I'm getting tired.
+L665886 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ Do you know the theme from 'Doctor Zhivago'?
+L665885 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ It's working!  Oh, Doctor -- you play beautifully.
+L665696 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ Whew!  A nineteen-inch drill.
+L665695 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ His schwanzstucker.
+L665694 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ His what??
+L665652 +++$+++ u9020 +++$+++ m615 +++$+++ INGA +++$+++ There must have been someone else down here then.
+L665651 +++$+++ u9019 +++$+++ m615 +++$+++ IGOR +++$+++ No, not sound.
+L665997 +++$+++ u9021 +++$+++ m615 +++$+++ MAITRE D' +++$+++ Franz!  Help!  Lunatic!
+L665996 +++$+++ u9023 +++$+++ m615 +++$+++ MONSTER +++$+++ GRRRHMMNNNJKJMMMNN!
+L665995 +++$+++ u9021 +++$+++ m615 +++$+++ MAITRE D' +++$+++ Now just one moment.  There's no need for roughhousing.  Have you ever tried a tip?
+L665994 +++$+++ u9023 +++$+++ m615 +++$+++ MONSTER +++$+++ Foooooood!
+L665993 +++$+++ u9021 +++$+++ m615 +++$+++ MAITRE D' +++$+++ Oh, no sir-ee.  If yo don't have a reservation you can skip to ma-loo.
+L665992 +++$+++ u9023 +++$+++ m615 +++$+++ MONSTER +++$+++ Drink!
+L665991 +++$+++ u9021 +++$+++ m615 +++$+++ MAITRE D' +++$+++ I'm sorry, sir.  We only seat by reservation.
+L665990 +++$+++ u9023 +++$+++ m615 +++$+++ MONSTER +++$+++ Food!!
+L665989 +++$+++ u9021 +++$+++ m615 +++$+++ MAITRE D' +++$+++ Do you have a reservation?
+L665988 +++$+++ u9023 +++$+++ m615 +++$+++ MONSTER +++$+++ Food!
+L665987 +++$+++ u9021 +++$+++ m615 +++$+++ MAITRE D' +++$+++ Yes, sir, name, please?
+L666463 +++$+++ u9025 +++$+++ m616 +++$+++ BLOOMFIELD +++$+++ Zulu may not wear shoes or trousers and the like but it don 't mean to say they got no brains. They'll watch us  and wait  and find our weaknesses.
+L666462 +++$+++ u9026 +++$+++ m616 +++$+++ BOY-PULLEN +++$+++ Why don 't the Zulus attack?
+L666368 +++$+++ u9025 +++$+++ m616 +++$+++ BLOOMFIELD +++$+++ One Zulu is only one man.. ..and I'm afeared of no one man... but the Zulu, they come in the thousands.... like a black wave of death.... in the thousands.... and them assegais.... stabbing!
+L666367 +++$+++ u9026 +++$+++ m616 +++$+++ BOY-PULLEN +++$+++ You afeared of the Zulus then, Quartermaster?
+L666366 +++$+++ u9025 +++$+++ m616 +++$+++ BLOOMFIELD +++$+++ Could be.  Across the river into Zululand. . They might just be waiting there for us to show up... .them stabbing assegais pointing right at our bellies!....
+L666365 +++$+++ u9026 +++$+++ m616 +++$+++ BOY-PULLEN +++$+++ Will we be fighting the Zulus soo~, Quartermaster? .
+L666364 +++$+++ u9025 +++$+++ m616 +++$+++ BLOOMFIELD +++$+++ So, you got it in the line of dooty.. ... point taken.
+L666363 +++$+++ u9026 +++$+++ m616 +++$+++ BOY-PULLEN +++$+++ From the Cook, Sir They saw me dip your shaving tin in the tea-water this morning, made their tea taste of Lifebuoy toilet soap, they saij Handing him the bottle of gin he purloined earlier. 2t
+L666362 +++$+++ u9025 +++$+++ m616 +++$+++ BLOOMFIELD +++$+++ I listened extra careful to your "Stand To" this mornin', Boy. ft was peifecL I couldn't 've done it better meseif, not even when I was Bugler to The Duke Of Wellington.. .now tell me, where did you get that black eye?
+L666361 +++$+++ u9026 +++$+++ m616 +++$+++ BOY-PULLEN +++$+++ Will you hear "Last Post", Sir?
+L666505 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Our friend Colonel Dumford will be  should be   at this minute approaching Pulleine. I think we'll eat here. I want to scout that mountain top and be back with an appetite in one hour. .
+L666504 +++$+++ u9032 +++$+++ m616 +++$+++ NORRIS-NEWMAN +++$+++ Eleven o'clock, My LorJ 42
+L666503 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ What o'clock is it, Mr Noggs?
+L666398 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ My only fear is that the Zulu will avoid the engagement
+L666397 +++$+++ u9032 +++$+++ m616 +++$+++ NORRIS-NEWMAN +++$+++ So attack is your defence. Well let's hope Cetshwayo will offer his Impis full destruction.
+L666396 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Do not confuse yourse{fi Why? We must strike a heavy blow. This cannot be a war of manoeuvre.
+L666395 +++$+++ u9032 +++$+++ m616 +++$+++ NORRIS-NEWMAN +++$+++ If I've got it right, My Lord, you lead an invasion into Zululand, for I see it all around me, but "why?" is the question my readers will ask. "why?"
+L666394 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Tell what you see. Write it well, Sir, and make sure you get it right
+L666393 +++$+++ u9032 +++$+++ m616 +++$+++ NORRIS-NEWMAN +++$+++ They spurred onto high ground, My Lord, full of spirit and looking for the Zulu. Full of sport they were, My Lord.
+L666392 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Were they in good heart as they entered enemy territory?
+L666391 +++$+++ u9032 +++$+++ m616 +++$+++ NORRIS-NEWMAN +++$+++ Indeedldid, MyLord. Itwas one ofthe first to cross.
+L666390 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ 1 saw you lead our Cavalry sir
+L666389 +++$+++ u9032 +++$+++ m616 +++$+++ NORRIS-NEWMAN +++$+++ Excuse me, My Lord.  Norris-Newman, of "The Standard", My Lord.
+L666388 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ An historical moment, Gentlemen.
+L666488 +++$+++ u9030 +++$+++ m616 +++$+++ DURNFORD +++$+++ And the threat of counter invasion no longer exists? 40
+L666487 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Tomorrow we will continue our advance on Ulundi. Dumford, kindly return to your unit Bring them here immediately to support Pulleine. Mr Vereker will join you as ADC. Do you understand me clearly?
+L666484 +++$+++ u9030 +++$+++ m616 +++$+++ DURNFORD +++$+++ I'm explaining my reasons.
+L666483 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Are you dictating the strategy of this war, Sir?
+L666482 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Intelligence? Sources of your own? Did it not occur to you they may be native rumours? Rumours to draw you off- to leave the whole ofNatal open to a possible counter thrust
+L666481 +++$+++ u9030 +++$+++ m616 +++$+++ DURNFORD +++$+++ I have received intelligence from, sources of my own that the Zulu Impis are moving North of here and threaten your left.
+L666480 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ You intended to bring your reserves across the river?
+L666358 +++$+++ u9030 +++$+++ m616 +++$+++ DURNFORD +++$+++ My Lord.  This list was prepared for you. I don 't think another can understand its true value.
+L666357 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Excellent. Thank you.  Give them to Crealock, would you?
+L666250 +++$+++ u9030 +++$+++ m616 +++$+++ DURNFORD +++$+++ I thought it might be more effective to find someone who speaks Zulu.
+L666249 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Oh... indeed. Crealock, we should see that Colonel Dumford has an Officer for his hard riders. Perhaps a subaltern from the Twenty Fourth.
+L666248 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ They come well recommended do they? DURNFORD
+L666247 +++$+++ u9030 +++$+++ m616 +++$+++ DURNFORD +++$+++ Sikali Horse, My Lord. Christians alL I know each one by name.
+L666246 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Splendid horsemanship  Who are they?
+L666547 +++$+++ u9029 +++$+++ m616 +++$+++ CREALOCK +++$+++ Certainly, Sin
+L666546 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Splendid site, Crealock, splendil I want to establish Camp here immediately.
+L666486 +++$+++ u9029 +++$+++ m616 +++$+++ CREALOCK +++$+++ A large party of Zulus have been sighted in the direction of the King's KraaL Getting up, CHELMSFORD moves over to look at the map on his desk.
+L666485 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Yes?
+L666461 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Thank you.
+L666460 +++$+++ u9029 +++$+++ m616 +++$+++ CREALOCK +++$+++ The only reports of enemy activity have come from the direction of the Royal Kraal, at Ulundi.
+L666385 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ Our runners bare his dispatches, do they not?
+L666384 +++$+++ u9029 +++$+++ m616 +++$+++ CREALOCK +++$+++ Er, called Noggs, Sir Actual name is Norris-Newman. He presented credentials from "The Standard".
+L666383 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ What's that strange name the newspaper chap's called?
+L666252 +++$+++ u9027 +++$+++ m616 +++$+++ CHELMSFORD +++$+++ But will they make good use of them?
+L666251 +++$+++ u9029 +++$+++ m616 +++$+++ CREALOCK +++$+++ Yes. I see you've issued each of them with a Martini Henry Carbine. Our quota for Native contingencies: one rifle to ten men and only five rounds per rifle.
+L666502 +++$+++ u9033 +++$+++ m616 +++$+++ STUART SMITH +++$+++ Right.  Bombardier, to me please.
+L666501 +++$+++ u9028 +++$+++ m616 +++$+++ COGHILL +++$+++ Well, fed or hungry, Pulleine wants them in position immediately. .
+L666500 +++$+++ u9033 +++$+++ m616 +++$+++ STUART SMITH +++$+++ Well, my horses are feeding, as you may observe, Mr Coghill. It'll take a little while.
+L666499 +++$+++ u9028 +++$+++ m616 +++$+++ COGHILL +++$+++ How quickly can you move your artillery forward?
+L666498 +++$+++ u9033 +++$+++ m616 +++$+++ STUART SMITH +++$+++ Yes.
+L666497 +++$+++ u9028 +++$+++ m616 +++$+++ COGHILL +++$+++ Stuart?
+L666576 +++$+++ u9031 +++$+++ m616 +++$+++ MELVILL +++$+++ Keep steady. You're the best shots of the Twenty-Fourth. You bunch of heathens, do it
+L666575 +++$+++ u9028 +++$+++ m616 +++$+++ COGHILL +++$+++ Choose your targets men. That's right Watch those markers. 55
+L666327 +++$+++ u9031 +++$+++ m616 +++$+++ MELVILL +++$+++ ft could be you flatter yourself CoghilL It's that odd eye.
+L666326 +++$+++ u9028 +++$+++ m616 +++$+++ COGHILL +++$+++ Well that one. The one who keeps looking at me.
+L666325 +++$+++ u9031 +++$+++ m616 +++$+++ MELVILL +++$+++ Which one?
+L666324 +++$+++ u9028 +++$+++ m616 +++$+++ COGHILL +++$+++ Do you think she might be interested in  someone?
+L666264 +++$+++ u9031 +++$+++ m616 +++$+++ MELVILL +++$+++ Well that's typical of Her Majesty's army. Appoint an engineer to do a soldier's work.
+L666263 +++$+++ u9028 +++$+++ m616 +++$+++ COGHILL +++$+++ Um. There are rumours that my Lord Chelmsford intends to make Durnford Second in Command.
+L666262 +++$+++ u9031 +++$+++ m616 +++$+++ MELVILL +++$+++ Lighting COGHILL' 5 cigar: Our good Colonel Dumford scored quite a coup with the Sikali Horse.
+L666522 +++$+++ u9034 +++$+++ m616 +++$+++ VEREKER +++$+++ So far only their scouts. But we have had reports of a small Impi farther north, over there. 
+L666521 +++$+++ u9030 +++$+++ m616 +++$+++ DURNFORD +++$+++ And I assure you, you do not In fact I'd be obliged for your best advice. What have your scouts seen?
+L666520 +++$+++ u9034 +++$+++ m616 +++$+++ VEREKER +++$+++ Well I assure you, Sir, I have no desire to create difficulties. 45
+L666372 +++$+++ u9034 +++$+++ m616 +++$+++ VEREKER +++$+++ I think Chelmsford wants a good man on the border Why he fears a flanking attack and requires a steady Commander in reserve.
+L666371 +++$+++ u9030 +++$+++ m616 +++$+++ DURNFORD +++$+++ Lord Chelmsford seems to want me to stay back with my Basutos.
+L666370 +++$+++ u9034 +++$+++ m616 +++$+++ VEREKER +++$+++ I'm to take the Sikali with the main column to the river
+L666369 +++$+++ u9030 +++$+++ m616 +++$+++ DURNFORD +++$+++ Your orders, Mr Vereker?
+L666257 +++$+++ u9030 +++$+++ m616 +++$+++ DURNFORD +++$+++ Good ones, yes, Mr Vereker. Gentlemen who can ride and shoot
+L666256 +++$+++ u9034 +++$+++ m616 +++$+++ VEREKER +++$+++ Colonel Durnford... William Vereker. I hear you 've been seeking Officers?
