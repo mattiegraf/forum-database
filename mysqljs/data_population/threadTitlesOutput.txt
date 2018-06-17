@@ -1,0 +1,55 @@
+
+insert into thread values('Food',6,'RIP Anthony Bourdain','https://www.cnn.com/2018/06/08/us/anthony-bourdain-obit/index.htmlA mix of a storyteller and a che','2018-4-3', 'nabstua@gmail.com');
+insert into thread values('Food',7,'So, after I made a post on r/eatcheapandhealt','EDIT: [WE HAVE RECIPES.](https://missmedlandtaylor.com/)[Yesterdays post](https://www.reddit.com/','2018-2-15', 'nabstua@gmail.com');
+insert into thread values('Food',8,'Get your turkey out to thaw if its 200lbs or','','2018-4-8', 'catdog@gmail.com');
+insert into thread values('Food',9,'Alton Brown announces the return of Good Eat','https://twitter.com/altonbrown/status/904449569127370753','2018-2-11', 'nonadmin@gmail.com');
+insert into thread values('Food',10,'As if 2016 couldnt get any worse, I just saw','','2018-5-14', 'greenearth@yahoo.ca');
+insert into thread values('Food',11,'Getting sick of the way online recipes are be','Does anyone have any idea why for the love of all things amazing that people who are writing online ','2018-4-16', 'deskrage@gmail.com');
+insert into thread values('Food',12,'I never thought it would happen to me, but it','I spent three hours making a Korean bone broth soup. Once all of the bones were finally clean of all','2018-2-17', 'catdog@gmail.com');
+insert into thread values('Food',13,'Is anyone else fully sick of recipe sites tha','It just pisses me off; Im not even sure if anyone bothers to read the mountain of text before the r','2018-4-5', 'greenearth@yahoo.ca');
+insert into thread values('Food',14,'Is anyone else considered the chef or pers','I guess Im a decent cook, but Im always baffled when I make a dish and people ask me where I learn','2018-2-10', 'greenearth@yahoo.ca');
+insert into thread values('Food',15,'A friend of mine told me Cooking alone for y','Sorry if this post isnt allowed - I couldnt tell from the Rules. Technically this post is permitte','2018-5-22', 'json@hotmail.com');
+
+insert into thread values('Movies/Television',16,'YouTube channel Every Frame a Painting anno','Co-Creators Tony Zhou and Taylor Ramos officially announced there wont be any new EFAP videos comin','2018-2-4', 'itsdatboi@gmail.com');
+insert into thread values('Movies/Television',18,'I am Tony Zhou, creator of the Every Frame a','First off, thanks to your mod bulcmlifeurt for putting this together.So I am Tony Zhou. Im a film','2018-6-1', 'nabstua@gmail.com');
+insert into thread values('Movies/Television',19,'Wonder Woman really isnt that great','I recently watched Wonder Woman for the second time since seeing it in theatre and now that the dust','2018-1-17', 'nonadmin@gmail.com');
+insert into thread values('Movies/Television',20,'The Last Jedi is Poor Storytelling: How Episo','**[Spoilers follow]**Although critics praise director Rian Johnson for taking Star Wars in a bold ','2018-1-10', 'mad@yahoo.ca');
+insert into thread values('Movies/Television',21,'RESULTS: /r/TrueFilms favorite films of 2014','','2018-3-28', 'deskrage@gmail.com');
+insert into thread values('Movies/Television',22,'500 Days of Summers color palette (theory). W','To preface, I have seen this movie maybe five or six times now and love everything about it. However','2018-4-22', 'itsdatboi@gmail.com');
+insert into thread values('Movies/Television',23,'As a Mexican I am emotionally overwhelmed & s','I was already excited for this movie due to Pixars reputation & the fact that our Mexican heritage ','2018-4-19', 'snowstorm@outlook.com');
+insert into thread values('Movies/Television',24,'Childish Gambino - This is America Analysis','If I posted in the wrong sub, I apologize, please do message me the right sub to post this in.I en','2018-3-8', 'vybaby@gmail.com');
+insert into thread values('Movies/Television',25,'[RESULTS] R/TRUEFILMS FAVORITE FILMS OF 2017','','2018-6-13', 'superfoody@live.com');
+insert into thread values('Movies/Television',26,'Alan Rickman, star of stage and screen has di','http://www.bbc.co.uk/news/entertainment-arts-35313604Most well known for playing Severus Snape in ','2018-6-4', 'greenearth@yahoo.ca');
+
+insert into thread values('Sports',27,'CHIEFS -7 UPVOTE PARTY','WHAT A WAY TO COVER LMAO','2018-1-4', 'catdog@gmail.com');
+insert into thread values('Sports',28,'U.S. Supreme Court rules federal ban on state','Time for all states to finally allow sports betting!','2018-2-21', 'nabstua@gmail.com');
+insert into thread values('Sports',29,'Super Bowl Live Betting Strategy Thread','it is what it says. nba finals we had some awesome updates and discussion, me and /u/sab3r even caug','2018-6-4', 'itsdatboi@gmail.com');
+insert into thread values('Sports',30,'Lets put on money on Net Neutrality. Go to th','https://www.battleforthenet.com/?utm_source=AN&utm_medium=email&utm_campaign=BFTNCallTool&utm_conten','2018-5-14', 'nabstua@gmail.com');
+insert into thread values('Sports',31,'News years resolution was no more online spor','','2018-3-19', 'admin@gmail.com');
+insert into thread values('Sports',32,'DO NOT USE BETONLINE - CAUGHT CHEATING AT BLA','I know this sub is about sports betting but BetOnline was caught red handed cheating in blackjack by','2018-6-2', 'deskrage@gmail.com');
+insert into thread values('Sports',33,'RP-Excel Wk 5 Algorithmic Predictions | The M','Hey Guys! Romeo (aka RP-Excel) here again with my weekly RP1 algorithmic picks!  **Last weeks p','2018-6-13', 'itsdatboi@gmail.com');
+insert into thread values('Sports',34,'HOW TO BET THE NHL PLAYOFFS (a study by Profe','Hello everyone!  With the 2017 NHL playoffs set to begin tomorrow night, I figured I would revisit','2018-5-19', 'snowstorm@outlook.com');
+insert into thread values('Sports',35,'I followed eight professional tipsters of a p','Hey guys,The title probably says it allhttps://cognitivefootball.wordpress.com/2018/03/04/the-il','2018-1-8', 'catdog@gmail.com');
+insert into thread values('Sports',36,'I hope he didnt max bet that 100% lock...','https://www.reddit.com/r/sportsbook/comments/78q2ng/is_this_the_first_legitimate_100_lock_youve/> ','2018-2-16', 'deskrage@gmail.com');
+
+insert into thread values('Gaming',37,'John @Totalbiscuit Bain July 8, 1984 - May 24','','2018-1-19', 'deskrage@gmail.com');
+insert into thread values('Gaming',38,'Belgium says loot boxes are gambling, wants t','','2018-4-14', 'nabstua@gmail.com');
+insert into thread values('Gaming',39,'The ONLY way a large company such as EA will ','I feel like I should make this reality clear to everyone who is rightfully annoyed and upset by the ','2018-5-9', 'admin@gmail.com');
+insert into thread values('Gaming',40,'Titanfall 2 will not have a season pass, all ','','2018-3-24', 'json@hotmail.com');
+insert into thread values('Gaming',41,'Totalbiscuit hospitalized, his cancer is spre','','2018-6-9', 'vybaby@gmail.com');
+insert into thread values('Gaming',42,'[E3 2018] Cyberpunk 2077','**Name: Cyberpunk 2077****Platforms: PC, Xbox, Playstation****Genre: RPG.****Release Date: TBA','2018-4-17', 'json@hotmail.com');
+insert into thread values('Gaming',43,'EA fired Plants VS Zombies creator for object','','2018-5-16', 'itsdatboi@gmail.com');
+insert into thread values('Gaming',44,'Sony faces growing Fortnite backlash at E3','','2018-2-1', 'deskrage@gmail.com');
+insert into thread values('Gaming',45,'Later today, Red Dead 2 gets a new trailer. B','The hypetrain is about to start for Rockstar and Take2s next AAA title Red Dead Redemption 2. I hope','2018-1-14', 'snowstorm@outlook.com');
+insert into thread values('Gaming',46,'First Look at Nintendo Switch','','2018-6-14', 'superfoody@live.com');
+
+insert into thread values('Music',47,'Lets Talk: Songs that are good introductions','On a couple other subs theres been a couple discussions recently about songs that work as good intr','2018-5-12', 'itsdatboi@gmail.com');
+insert into thread values('Music',48,'Hi, Im Max Landis and I wrote a 150 page ess','https://www.youtube.com/watch?v=jCFh0lJ-WAgThis is the gateway video, but the site itself, featuri','2018-1-26', 'deskrage@gmail.com');
+insert into thread values('Music',49,'We need to get rid of the false idea that cla','Haydn was a self-taught peasant. Beethoven came from a down-and-out family and his dad was always in','2018-3-21', 'nabstua@gmail.com');
+insert into thread values('Music',50,'Could Trump Presidency Spell Resurgence for P','The bread and butter of a lot of Punk music is political unrest from the left. Many are calling Trum','2018-6-14', 'vybaby@gmail.com');
+insert into thread values('Music',51,'ALRIGHT GUYS. ITS TIME TO GO FULL MUSIC SNOB.','We always see those posts about poorly regarded albums that you like, where youre meant to explai','2018-5-17', 'admin@gmail.com');
+insert into thread values('Music',52,'A Personal Farewell to Pitchfork','Im slightly ashamed that Im writing this but its for good reason. I say without any hesitation th','2018-1-22', 'greenearth@yahoo.ca');
+insert into thread values('Music',53,'K-pop is exploitative as a industry, and blan','IMO, I am sickened by K-Pop both as a industry and as a genre of music.It is the ONLY genre of mus','2018-1-17', 'greenearth@yahoo.ca');
+insert into thread values('Music',54,'So hip-hop got To Pimp a Butterfly. Can roc','Needless to say this is just speculating, but speculating is part of what makes music discussion fun','2018-1-20', 'itsdatboi@gmail.com');
+insert into thread values('Music',55,'What albums have the craziest back-stories?','(Hopefully this is an acceptable post, if it isnt then please delete!) Im currently beginning wor','2018-4-13', 'itsdatboi@gmail.com');
+insert into thread values('Music',56,'Lets talk Arcade Fire, Reflektor','The album just leaked and because of the excitement surrounding this release, I thought we could sta','2018-5-12', 'itsdatboi@gmail.com');
