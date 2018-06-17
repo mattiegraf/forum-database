@@ -158,6 +158,19 @@ FROM subscribed_to S3
 WHERE S.email = S3.email AND S2.name = S3.name)
 );
 
+/*ADMIN QUERY - Allows admin to see if a user has posted in every subforum. A true and loyal user of the Boboverse. */
+
+SELECT DISTINCT email
+FROM account A
+WHERE NOT EXISTS (
+SELECT *
+FROM subforum S
+WHERE NOT EXISTS (
+SELECT name
+FROM thread T
+WHERE A.email = T.email AND T.name = S.name)
+);
+
 /* ADMIN QUERY - Allows admin to see comments on all threads in a easy-to-read manner. */
 SELECT t.title, t.textbody, r.body, r.date_posted, r.email
 FROM thread t JOIN reply r ON t.id = r.thread_id_num;
