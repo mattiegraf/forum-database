@@ -12,113 +12,87 @@ var connection = mysql.createConnection({
   multipleStatements : true
 });
 
+
+
+/** The main function to query the database
+ * @param {string} query - the SQL query as a string
+ * @param {function(RowDataPacket[])} - callback function to deal with the array returned by the query
+ *                                    - if nothing needs to be done with the data, the callback can be null
+ * WARNING: This function is async so I don't think you can return anything in the callback - it always returns undefined
+ *          So any operations with the data must be performed within the callback function
+ */
+function makeQuery(query, callback) {
+  connection.query(query, (error, results) => {
+    if (error) console.log(error.code);
+    if (callback) callback(results);
+  });
+}
+
+
+
+
 // connect to the database
 connection.connect();
-// here are some example queries to see how the functions work
+initializeDb();
+
+// uncomment this to run some example queries
 exampleQueries();
+
+
 // disconnect from the database
 connection.end();
+
+
+
+
+
+
+
 
 /**
  * Initializes the database
  * - first drops every table, then re-creates them and populates them
- * - note: this function has unexpected behaviour when the tables do not already exist in the database
+ * - note: this function has unexpected behaviour when all the tables do not already exist in the database
  */
+function initializeDb() {
+  for (sqlQuery of queries.dropTables) {
+    makeQuery(sqlQuery, null);
+  }
+  makeQuery(queries.initTables, null);
+}
+
+
+// here are some example queries to see how the functions work
 function exampleQueries() {
 
-  // Drop old tables if they exist
-  connection.query(queries.dropTables, (error, results, fields) => {
-    if (!error) console.log("\ndropped tables");
+  // Example: print all the subforums
+  makeQuery("select * from subforum;", console.log);
+
+
+  // Example: get the first account from the account table
+  makeQuery("select * from account;", results => {
+    console.log(results[0]);
   });
 
-  // Initialize and populate new tables
-  connection.query(queries.initTables, (error, results, fields) => {
-    if (error) throw error;
-    console.log("initialized tables\n");
-  });
 
-  // // Get user info example
-  // connection.query(queries.getUserInfo("datboi"), (error, results, fields) => {
-  //   // if results is an empty array, then no info was returned from the SQL query
-  //   // make sure to check this before trying to access results!!
-  //   if (results.length > 0) {
-  //     console.log("get user info example:")
-  //     console.log("username:", results[0].username, "password:", results[0].password, "\n");
-  //   }
-  // });
+  // Example: create a new thread
+  // when nothing needs to be done with the data, the callback is null
+  let newThreadExampleQuery = queries.createThread("Food", 1000000, "test title", "test body", "2018-01-01", 'vybaby@gmail.com');
+  makeQuery(newThreadExampleQuery, null);
 
-  // // User adding comment example
-  // let exampleCommentQuery = queries.insertReply(5, 17, "Food", "I have absolutely terrible taste", "2018-06-06", "mad@yahoo.ca");
-  // connection.query(exampleCommentQuery, (error, results, fields) => {
-  //   if (error) throw error;
-  //   console.log("inserting comment example (check db to see inserted comment)\n");
-  // });
 
-  // // User deleting comment example
-  // connection.query(queries.deleteReply('superfoody@live.com', 1, 17), (error, results, fields) => {
-  //   if (error) throw error;
-  //   console.log("delete reply example (check db to see deleted comment)");
-  // });
-
-  // // Creating thread example
-  // let exampleThreadCreationQuery = queries.createThread('Sports',6,'Sports suk','','2018-07-10','vybaby@gmail.com');
-  // connection.query(exampleThreadCreationQuery, (error, results, fields) => {
-  //   if (error) throw error;
-  //   console.log("thread creation example (check db for results)");
-  // });
-
-  // // Deleting thread example
-  // connection.query(queries.deleteThread('json@hotmail.com', 2), (error, results, fields) => {
-  //   if (error) throw error;
-  //   console.log("thread deletion example (check db for results)");
-  // });
-
-  // // Sending message example
-  // let sendMessageQuery = queries.sendMessage(6, 'I am actively repulsed by paperclips', '2018-06-06', 'catdog@gmail.com', 'deskrage@gmail.com');
-  // connection.query(sendMessageQuery, (error, results, fields) => {
-  //   if (error) throw error;
-  //   console.log("send message example (check db for results)");
-  // });
-
-  // // Subscribe to subforum example
-  // connection.query(queries.subscribeTo('json@hotmail.com', 'Sports'), (error, results, fields) => {
-  //   if (error) throw error;
-  //   console.log("subscribe to subforum example (check db for results)");
-  // });
-
-  // // Unsubscribe from subforum example
-  // connection.query(queries.unsubscribeFrom('json@hotmail.com', 'Gaming'), (error, results, fields) => {
-  //   if (error) throw error;
-  //   console.log("unsubscribe from subforum example (check db for results)");
-  // });
-
-  // Get 20 most recent messages example
-  // Returns an array of RowDataPacket objects
-  connection.query(queries.getMessages('mad@yahoo.ca'), (error, results, fields) => {
-    if (error) throw error;
-
-    console.log("get messages example:")
-    if (results.length > 0)
+  // Example: get 20 most recent messages to a given user
+  makeQuery(queries.getMessages('mad@yahoo.ca'), results => {
+    // for results that can have no entries, make sure to check if the array is empty first
+    if (results.length)
       console.log(results);
   });
 
-  // // example: Get most commented-in threads for subforum
-  // // This doesn't return anything right now because there aren't any threads from the past week
-  // connection.query(queries.getMostCommentedThreads('Movies/Television'), (error, results, fields) => {
-  //   if (error) throw error;
-  //
-  //   console.log("get most commented-in threads example:");
-  //   if (results.length > 0)
-  //     console.log(results);
-  //   else
-  //     console.log('no threads found')
-  // });
 
-  // // example: get all replies to given thread
-  // // returns an array of RowDataPacket objects
-  // connection.query(queries.getReplies(30), (error, results, fields) => {
-  //   if (error) throw error;
-  //   console.log('get replies from thread example:')
-  //   console.log(results);
-  // });
+  // Example: get user info
+  makeQuery(queries.getUserInfo('datboi'), results => {
+    if (results.length)
+      console.log('username:', results[0].username, 'password:', results[0].password);
+  })
+
 }
