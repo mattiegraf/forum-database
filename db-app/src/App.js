@@ -10,7 +10,7 @@ import {Thread, NewThread } from './Thread.jsx';
 import {Error, PermissionError} from './Error.jsx';
 import {TwoFieldForm, OneFieldSelectForm} from './Forms.jsx';
 import {AdminView} from './Admin.jsx';
-var queryTools =  require('./mysqljs/queryTools.js');
+import {initializeDb, makeQuery, connection} from './mysqljs/queryTools.js'
 var queries = require('./mysqljs/queries.js');
 console.log(queries);
  

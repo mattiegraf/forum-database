@@ -36,13 +36,11 @@ function makeQuery(query, callback) {
  * - note: this function has unexpected behaviour when all the tables do not already exist in the database
  */
 function initializeDb() {
-    for (sqlQuery of queries.dropTables) {
-      makeQuery(sqlQuery, null);
-    }
-    makeQuery(queries.initTables, null);
+  for (let i = 0; i < queries.dropTables.length; i++) {
+    makeQuery(queries.dropTables[i], null);
   }
+  
+  makeQuery(queries.initTables, null);
+}
 
-
-  module.exports = {
-    initializeDb : initializeDb,
-    makeQuery : makeQuery};
+export {initializeDb, makeQuery, connection}
