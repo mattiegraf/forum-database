@@ -2,6 +2,7 @@
 
 # dependencies
 /db-app/node_modules
+/db-app/client/node_modules
 
 # testing
 /db-app/coverage
