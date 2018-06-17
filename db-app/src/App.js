@@ -10,6 +10,9 @@ import {Thread, NewThread } from './Thread.jsx';
 import {Error, PermissionError} from './Error.jsx';
 import {TwoFieldForm, OneFieldSelectForm} from './Forms.jsx';
 import {AdminView} from './Admin.jsx';
+var queryTools =  require('./mysqljs/queryTools.js');
+var queries = require('./mysqljs/queries.js');
+console.log(queries);
  
 
 const Hot = () => (
@@ -67,6 +70,9 @@ class App extends Component {
    (cookies && cookies.get('username') && cookies.get('username') !== "undefined") ? this.state = {loggedIn : true} : this.state = {loggedIn : false};
     beginSession = beginSession.bind(this);
     endSession = endSession.bind(this);
+    if(!cookies.get('dbinit')){
+
+    }
   }
     
   render() {
