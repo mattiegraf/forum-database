@@ -13,12 +13,6 @@ var connection = mysql.createConnection({
 });
 
 
-connection.connect();
-initializeDb();
-// exampleQueries(); // uncomment this to run some example queries - function definition below
-connection.end();
-
-
 
 /** The main function to query the database
  * @param {string} query - the SQL query as a string
@@ -28,12 +22,31 @@ connection.end();
  *          So any operations with the data must be performed within the callback function
  */
 function makeQuery(query, callback) {
-
   connection.query(query, (error, results) => {
     if (error) console.log(error.code);
     if (callback) callback(results);
   });
 }
+
+
+
+
+// connect to the database
+connection.connect();
+initializeDb();
+
+// uncomment this to run some example queries
+exampleQueries();
+
+
+// disconnect from the database
+connection.end();
+
+
+
+
+
+
 
 
 /**
@@ -49,24 +62,23 @@ function initializeDb() {
 }
 
 
-
-// here are some example queries to see how some of the functions work
+// here are some example queries to see how the functions work
 function exampleQueries() {
 
-  //Example: print all the subforums
+  // Example: print all the subforums
   makeQuery("select * from subforum;", console.log);
+
 
   // Example: get the first account from the account table
   makeQuery("select * from account;", results => {
     console.log(results[0]);
   });
 
-  // Example: creating a reply in a thread
-  // NOTE: when the results array isn't needed, the callback can be set to null
-  makeQuery(queries.insertReply(30, 'heyo', 'mad@yahoo.ca'), null);
 
-  // Example: creating a new thread
-  makeQuery(queries.createThread('Sports', 'lets go letestu', 'ooOOOOooOo', 'nabstua@gmail.com'), null);
+  // Example: create a new thread
+  // when nothing needs to be done with the data, the callback is null
+  let newThreadExampleQuery = queries.createThread("Food", 1000000, "test title", "test body", "2018-01-01", 'vybaby@gmail.com');
+  makeQuery(newThreadExampleQuery, null);
 
 
   // Example: get 20 most recent messages to a given user
@@ -76,11 +88,11 @@ function exampleQueries() {
       console.log(results);
   });
 
+
   // Example: get user info
   makeQuery(queries.getUserInfo('datboi'), results => {
     if (results.length)
-      // even when there is only one row, results is ALWAYS an array
       console.log('username:', results[0].username, 'password:', results[0].password);
-  });
+  })
 
 }

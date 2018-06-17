@@ -1,25 +1,15 @@
 {
-  "name": "db-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "mysql": "^2.15.0",
-    "react": "^16.4.0",
-    "react-cookie": "^2.1.6",
-    "react-dom": "^16.4.0",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "universal-cookie": "^2.1.5"
-  },
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
 }
