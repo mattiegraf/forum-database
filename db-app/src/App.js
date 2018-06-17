@@ -64,7 +64,7 @@ const cookies = new Cookies();
 class App extends Component {
   constructor(props){
     super(props);
-   (cookies.get('username') !== "undefined") ? this.state = {loggedIn : true} : this.state = {loggedIn : false};
+   (cookies && cookies.get('username') && cookies.get('username') !== "undefined") ? this.state = {loggedIn : true} : this.state = {loggedIn : false};
     beginSession = beginSession.bind(this);
     endSession = endSession.bind(this);
   }
@@ -84,7 +84,7 @@ class App extends Component {
 }
 
 function LoginPage(props){
-  if(cookies.get('username') !== "undefined"){
+  if(cookies && cookies.get('username') && cookies.get('username') !== "undefined"){
     return(
       <div>
         <h1>Hello {cookies.get('username')}</h1>
@@ -123,7 +123,7 @@ function endSession(){
 }
 
 function RouteDirectory(){
-  if(cookies.get('username') !== "undefined"){
+  if(cookies && cookies.get('username') && cookies.get('username') !== "undefined"){
     return(
       <div>
             <Switch>
@@ -179,7 +179,7 @@ function NavigationButtons(props){
 //makes other buttons disappear???
 function DisplayUsername(){
   const f = cookies.get('username');
-  if(f !== "undefined"){
+  if(cookies && f && f !== "undefined"){
     return (
       <button>{f}</button>
     );
