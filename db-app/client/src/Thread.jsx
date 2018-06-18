@@ -68,7 +68,7 @@ class Thread extends Component {
           return response.json();
       }).then(function(data) {
           self.setState({thread: data});
-          console.log(data);
+          //console.log(data);
       }).catch(err => {
       console.log('caught it!',err);
       })
@@ -80,11 +80,15 @@ class Thread extends Component {
             {this.state.thread.map( (thread)=> {
                 return(
                 <div>
-                    <h1>{thread.title}</h1>
-                    <h4>{thread.email}</h4>
-                    <p>{thread.body}</p>
+                    <div>
+                        <h1>{thread.title}</h1>
+                        <h4>{thread.email}</h4>
+                        <p>{thread.textbody}</p>
+                    </div>
+                    <div>
+                        <Comments match = {this.match}/>
+                    </div>
                 </div>
-            
                 );})}
             </div>
             );
@@ -111,7 +115,7 @@ const NewThread = ({match}) => {
 };
 
 
-function Comments(props){
+function Comments1(props){
     var comments = props.comments.map((comment) => {
         return(
             <div>
@@ -121,6 +125,52 @@ function Comments(props){
             </div>
     )});
     return (<div>{comments}</div>);
+}
+
+class Comments extends Component {
+    constructor(props) {
+      super(props)
+      this.state = {
+          comments: []
+      }
+      this.match = props.match;
+  }
+  
+  componentDidMount() {
+      let self = this;
+      fetch('/comments/'+this.match.params.name+'/'+this.match.params.id, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+          self.setState({comments: data});
+          console.log(data);
+      }).catch(err => {
+      console.log('caught it!',err);
+      })
+  }
+  
+    render(){
+      return (
+          <div>
+            <h3>Responses</h3>
+            {this.state.comments.map( (comment)=> {
+                return(
+                <div>
+                    <h5>{comment.email}</h5>
+                    <p>{comment.body}</p>
+                </div>
+            
+                );})}
+            </div>
+            );
+  
+      
+    }
+  
 }
 
 function DeleteThread(props){

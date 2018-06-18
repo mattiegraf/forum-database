@@ -94,23 +94,34 @@ function LoginPage(props){
   }
 }
 
-//login handler
+
 function beginSession(email, password){
-  //type checking should mostly be done when creating a user, which is functionality
-  //that currently doesn't exist... 
-  if(email !== "undefined" && email !== ""){
-    var account = Data.userData.find(acc => acc.email === email);
-    if(account && account.password === password){
-      cookies.set('username', account.username, { path: '/' });
-      cookies.set('adminBit', account.isAdmin, { path: '/' });
-      this.setState({loggedIn : true});
-    } 
-  }
+    let self = this;
+    if(email && email !== "undefined"){
+      fetch('/user/'+email+'/'+password, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+        console.log(data);
+        cookies.set('username', data[0].username, { path: '/' });
+        cookies.set('email', data[0].email, { path: '/' })
+        cookies.set('adminBit', data[0].isadmin.data[0], { path: '/' })
+        self.setState({loggedIn : true});
+    }).catch(err => {
+      console.log('caught it!',err);
+      });
+    }
+
 }
 
 //logout handler
 function endSession(){
   cookies.set('username', undefined, { path: '/' });
+  cookies.set('email', undefined, { path: '/' });
   cookies.set('adminBit', undefined, { path: '/' });
   this.setState({loggedIn : false});
 }

@@ -92,6 +92,21 @@ app.get('/thread/:name/:id', function(req, res){
 });
 
 
+/* Allows user to see all the comments for a given thread. */
+app.get('/comments/:name/:id', function(req, res){
+  connection.query("select * from reply where name = '"+req.params.name+"'and thread_id_num = "+req.params.id+";", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+/* Allows user to see all the comments for a given thread. */
+app.get('/user/:email/:pass', function(req, res){
+  connection.query('SELECT * FROM account WHERE password = "'+req.params.pass+'" and email = "' + req.params.email + '";', (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
 
 ///dont touch this!!
 app.listen(port, () => console.log(`Listening on port ${port}`));
