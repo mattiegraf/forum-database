@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Data from './Data.js';
 import {OneFieldForm, OneFieldSelectForm, OneSelectForm} from './Forms.jsx';
 import { Link } from 'react-router-dom';
-//import Cookies from 'universal-cookie';
+import Cookies from 'universal-cookie';
+import {Error, PermissionError} from './Error.jsx'
 
-//const cookies = new Cookies();
+const cookies = new Cookies();
 
 
 function AdminView({match}){
@@ -22,12 +23,24 @@ function AdminView({match}){
 }
 
 function AdminStats(){
-    return (
-        <div>
-        <h1>Admin Stats</h1>
-        <p>Misc. Stats from the Forum</p>
-        </div>
-    );
+    const adminBit = Number(cookies.get('adminBit'));
+    if(!adminBit){
+        return <PermissionError/>;
+    }
+    else{
+        return (
+            <div>
+            <h1>Admin Stats</h1>
+            <p>Misc. Stats from the Forum</p>
+            <Bobofan/>
+            <AgeWorstBobo/>
+            <AgeBestBobo/>
+            <AgeGrandBobo/>
+            <AgeBabyBobo/>
+            </div>
+        );
+    }
+    
 }
 
 function RemoveModerator(){
@@ -113,6 +126,225 @@ function RemoveUserHandler(email){
     console.log('caught it!',err);
     });
 
+}
+
+
+class Bobofan extends Component {
+    constructor(props) {
+      super(props)
+      this.state = {
+          fan: []
+      }
+      this.match = props.match;
+  }
+  
+  componentDidMount() {
+      let self = this;
+      fetch('/superfan', {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+          self.setState({fan: data});
+          console.log(data);
+      }).catch(err => {
+      console.log('caught it!',err);
+      })
+  }
+  
+    render(){
+      return (
+          <div>
+            <h3>Ultimate BoboVerse Fans!</h3>
+            <p>These superfans have posted a thread in every subforum! Wow!</p>
+            <ul>
+                {this.state.fan.map( (fan)=> {
+                    return(<li>{fan.email}</li>);})}
+            </ul>
+            </div>
+            );
+  
+      
+    }
+  
+}
+
+
+class AgeWorstBobo extends Component {
+    constructor(props) {
+      super(props)
+      this.state = {
+          age: []
+      }
+      this.match = props.match;
+  }
+  
+  componentDidMount() {
+      let self = this;
+      fetch('/ageofworstbobo', {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+          self.setState({age: data});
+          console.log(data);
+      }).catch(err => {
+      console.log('caught it!',err);
+      })
+  }
+  
+    render(){
+      return (
+          <div>
+            <h3>Age of Worst Bobo</h3>
+            <p>Age of the User with the Lowest Average Banana Score: 
+                {this.state.age.map( (age)=> {
+                        return(age.age);})}
+            </p>
+                
+            </div>
+            );
+  
+      
+    }
+  
+}
+
+class AgeGrandBobo extends Component {
+    constructor(props) {
+      super(props)
+      this.state = {
+          age: []
+      }
+      this.match = props.match;
+  }
+  
+  componentDidMount() {
+      let self = this;
+      fetch('/ageofgrandbobo', {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+          self.setState({age: data});
+          console.log(data);
+      }).catch(err => {
+      console.log('caught it!',err);
+      })
+  }
+  
+    render(){
+      return (
+          <div>
+            <h3>Age of GrandBobo</h3>
+            <p>Age of the Oldest User: 
+                {this.state.age.map( (age)=> {
+                        return(age.age);})}
+            </p>
+            </div>
+            );
+  
+      
+    }
+  
+}
+
+
+class AgeBabyBobo extends Component {
+    constructor(props) {
+      super(props)
+      this.state = {
+          age: []
+      }
+      this.match = props.match;
+  }
+  
+  componentDidMount() {
+      let self = this;
+      fetch('/ageofbabybobo', {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+          self.setState({age: data});
+          console.log(data);
+      }).catch(err => {
+      console.log('caught it!',err);
+      })
+  }
+  
+    render(){
+      return (
+          <div>
+            <h3>Age of BabyBobo</h3>
+            <p>Age of the Youngest User: 
+                {this.state.age.map( (age)=> {
+                        return(age.age);})}
+            </p>
+                
+            </div>
+            );
+  
+      
+    }
+  
+}
+
+
+
+class AgeBestBobo extends Component {
+    constructor(props) {
+      super(props)
+      this.state = {
+          age: []
+      }
+      this.match = props.match;
+  }
+  
+  componentDidMount() {
+      let self = this;
+      fetch('/ageofbestbobo', {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+          self.setState({age: data});
+          console.log(data);
+      }).catch(err => {
+      console.log('caught it!',err);
+      })
+  }
+  
+    render(){
+      return (
+          <div>
+            <h3>Age of Best Bobo</h3>
+            <p>Age of the User with the Highest Average Banana Score: 
+                {this.state.age.map( (age)=> {
+                        return(age.age);})}
+            </p>
+                
+            </div>
+            );
+  
+      
+    }
+  
 }
 
   export {AdminView, AdminStats};

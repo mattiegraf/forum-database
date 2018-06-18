@@ -103,79 +103,9 @@
     return "delete from moderates where email = '"+email+"' and name = '"+subforumName+"';"
   }
   
-  
-  /* ADMIN QUERY - Check to see if any users are subscribed to every subforum. AKA a "superfan" of the Boboverse.*/
-  function adminSuperfanCheck() {
-    return `
-    SELECT DISTINCT email
-    FROM subscribed_to S
-    WHERE NOT EXISTS (
-    SELECT *
-    FROM subscribed_to S2
-    WHERE NOT EXISTS (
-    SELECT name
-    FROM subscribed_to S3
-    WHERE S.email = S3.email AND S2.name = S3.name)
-    );`;
-  }
-  
   /* ADMIN QUERY - Allows admin to see comments on all threads in a easy-to-read manner. */
   function adminViewAllComments() {
     return "SELECT t.title, t.textbody, r.body, r.date_posted, r.email FROM thread t JOIN reply r ON t.id = r.thread_id_num;"
-  }
-  
-  
-  /* ADMIN QUERY - Allows admin to see the youngest user(s) on the server. */
-  function adminGetYoungestUser() {
-    return `
-    SELECT *
-    FROM account
-    WHERE age = (
-    SELECT MIN(age)
-    FROM account);`
-  }
-  
-  
-  /* ADMIN QUERY - Allows admin to see the oldest user(s) on the server. */
-  function adminGetOldestUser(){
-    return `
-    SELECT *
-    FROM account
-    WHERE age = (
-    SELECT MAX(age)
-    FROM account);`;
-  }
-  
-  /* ADMIN QUERY - Allows admin to see the age with the highest average banana score. */
-  function adminGetAgeWithMaxBananaScore() {
-    return `
-    SELECT *
-    FROM(
-    SELECT AVG(banana_score)AS AvgBananaScore, age
-    FROM account
-    GROUP BY age) AS t
-    WHERE AvgBananaScore = (
-    SELECT MAX(AvgBananaScore)
-    FROM(
-    SELECT AVG(banana_score)AS AvgBananaScore, age
-    FROM account
-    GROUP BY age) AS t);`;
-  }
-  
-  /* ADMIN QUERY - Allows admin to see the age with the lowest average banana score. */
-  function adminGetAgeWithMinBananaScore(){
-    return `
-    SELECT *
-    FROM(
-    SELECT AVG(banana_score)AS AvgBananaScore, age
-    FROM account
-    GROUP BY age) AS t
-    WHERE AvgBananaScore = (
-    SELECT MIN(AvgBananaScore)
-    FROM(
-    SELECT AVG(banana_score)AS AvgBananaScore, age
-    FROM account
-    GROUP BY age) AS t);`;
   }
   
   /* ADMIN QUERY - Allows admin to add a user to the super exclusive Boboverse forum. */
@@ -195,19 +125,3 @@
   function adminGeneralQuery(selectConstraint, fromConstraint, whereConstraint) {
     return "select "+selectConstraint+" from "+fromConstraint+" where "+whereConstraint+";"
   }
-  
-  /*ADMIN QUERY - Allows admin to see if a user has posted a thread in every subforum. A true and loyal user of the Boboverse. */
-  function adminSuperDuperFanCheck() {
-    return `
-    SELECT DISTINCT email
-    FROM account A
-    WHERE NOT EXISTS (
-    SELECT *
-    FROM subforum S
-    WHERE NOT EXISTS (
-    SELECT name
-    FROM thread T
-    WHERE A.email = T.email AND T.name = S.name)
-    );`
-  }
-  

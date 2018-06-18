@@ -123,5 +123,90 @@ app.get('/deleteuser/:email', function(req, res){
   });
 });
 
+//finds someone who is subscribed to every subforum, true boboverse fan
+app.get('/superfan', function(req, res){
+  connection.query(`
+  SELECT DISTINCT email
+  FROM account A
+  WHERE NOT EXISTS (
+  SELECT *
+  FROM subforum S
+  WHERE NOT EXISTS (
+  SELECT name
+  FROM thread T
+  WHERE A.email = T.email AND T.name = S.name)
+  );`, (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+/* ADMIN QUERY - Allows admin to see the age with the lowest average banana score. */
+app.get('/ageofworstbobo', function(req, res){
+  connection.query(`
+  SELECT *
+  FROM(
+  SELECT AVG(banana_score)AS AvgBananaScore, age
+  FROM account
+  GROUP BY age) AS t
+  WHERE AvgBananaScore = (
+  SELECT MIN(AvgBananaScore)
+  FROM(
+  SELECT AVG(banana_score)AS AvgBananaScore, age
+  FROM account
+  GROUP BY age) AS t);`, (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+/* ADMIN QUERY - Allows admin to see the age with the highest average banana score. */
+app.get('/ageofbestbobo', function(req, res){
+  connection.query(`
+  SELECT *
+  FROM(
+  SELECT AVG(banana_score)AS AvgBananaScore, age
+  FROM account
+  GROUP BY age) AS t
+  WHERE AvgBananaScore = (
+  SELECT MAX(AvgBananaScore)
+  FROM(
+  SELECT AVG(banana_score)AS AvgBananaScore, age
+  FROM account
+  GROUP BY age) AS t);`, (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+  /* ADMIN QUERY - Allows admin to see the oldest user(s) on the server. */
+app.get('/ageofgrandbobo', function(req, res){
+  connection.query(`
+  SELECT DISTINCT age
+  FROM account
+  WHERE age = (
+  SELECT MAX(age)
+  FROM account);`, (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+/* ADMIN QUERY - Allows admin to see the youngest user(s) on the server. */
+app.get('/ageofbabybobo', function(req, res){
+  connection.query(`
+  SELECT *
+  FROM account
+  WHERE age = (
+  SELECT MIN(age)
+  FROM account);`, (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
 ///dont touch this!!
 app.listen(port, () => console.log(`Listening on port ${port}`));
