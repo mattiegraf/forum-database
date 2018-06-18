@@ -285,7 +285,7 @@ class Comments extends Component {
 function DeleteThread(props){
     var deleteView = null;
     if(props.author === props.email || props.isAdmin || props.moderatorFlag){
-        deleteView = <button onClick = {DeleteThreadHandler(props.id, props.author)}>Delete</button>
+        deleteView = <button onClick = {() => {DeleteThreadHandler(props.id, props.author)}}>Delete</button>
     }
     return deleteView;
 }
