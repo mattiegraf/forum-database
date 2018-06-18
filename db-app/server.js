@@ -279,5 +279,25 @@ app.get('/deletethread/:id/:author', function(req, res){
   });
 });
 
+  /* ADMIN QUERY - Allows admin to adjust a user's banana score. */
+app.get('/updatebscore/:email/:score', function(req, res){
+  connection.query(`
+  UPDATE account
+  SET banana_score = `+req.params.score+`
+  WHERE email = '`+req.params.email+`';`, (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+// Get top 20 best users
+app.get('/top20bscore/', function(req, res){
+  connection.query("SELECT * FROM account ORDER BY banana_score DESC LIMIT 20;", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
 ///dont touch this!!
 app.listen(port, () => console.log(`Listening on port ${port}`));
