@@ -9,10 +9,24 @@
 <body>
   <h1>Admin page</h1>
 
-  <form action="/login" method="get">
-    First name: <input type="text" name="username"><br>
-    Last name:  <input type="text" name="password"><br>
+  <hr>
+  <h3>Get user info:</h3>
+  <form action="/getAccountInfo" method="get">
+    <p>Pick a field from: username, password, age, banana_score, isadmin</p>
+    <input type="text" name="chosenField" placeholder="Enter field here">
     <input type="submit" value="Submit">
   </form>
+
+  <hr>
+  <h3>Create new account:</h3>
+  <form action="/createAccount" method="get">
+    <p>Enter account info below to create a new account:</p>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <hr>
+
+
 </body>
 </html>
