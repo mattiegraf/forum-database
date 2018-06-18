@@ -11,12 +11,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 // NOTE: date should always be a string of format "YYYY-MM-DD"
-
-
-// Selects the username and password of a specific user. Can be used for logging in.
-function getUserInfo(username) {
-    return 'SELECT username, password FROM account WHERE account.username = "' + username + '";';
-  }
   
   // Allows user to add a reply to a thread
   function insertReply(commentId, threadId, subforumName, textBody, date, accountEmail) {
@@ -52,20 +46,8 @@ function getUserInfo(username) {
   }
   
   
-  // Get all the replies to a given thread
-  function getReplies(threadId) {
-    return 'SELECT * FROM reply WHERE thread_id_num = '+threadId+';';
-  }
-  
-  
   // MADI ALL THE ONES BELOW HERE ARE UNTESTED
   // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  
-  
-  /* View threads on subforums by latest post date. */
-  function getThreadsByPostDate(subforumName) {
-    return "select * from thread where name = '"+subforumName+"' order by date_posted desc;";
-  }
   
   
   /* View 10 threads with similar titles to a search phrase. */
@@ -77,18 +59,6 @@ function getUserInfo(username) {
   /* View 10 subforums with similar names as a search phrase. */
   function getSubforumsByName(searchPhrase) {
     return "select * from subforum where name like '%"+searchPhrase+"%' limit 10;";
-  }
-  
-  
-  /* Checks to see if a user moderates a subforum.*/
-  function checkIfUserIsMod(email, subforumName) {
-    return "select * from moderates where email = '"+email+"' and name = '"+subforumName+"';"
-  }
-  
-  
-  /* Allows user to see all the comments for a given thread. */
-  function getCommentsForThread(threadId) {
-    return "select * from reply where thread_id_num = "+threadId+";"
   }
   
   
@@ -115,13 +85,6 @@ function getUserInfo(username) {
     return "delete from subforum where name = '"+subforumName+"';"
   }
   
-  
-  /* ADMIN QUERY - Delete an account that isn't another admin. */
-  function adminDeleteAccount(email) {
-    return "delete from account where email = '"+email+"' and isadmin = 0;"
-  }
-  
-  
   /* ADMIN QUERY - Appoint moderation of a user for a subforum. */
   function adminModUser(email, subforumName) {
     return "insert into moderates values('"+email+"', '"+subforumName+"');"
@@ -133,79 +96,9 @@ function getUserInfo(username) {
     return "delete from moderates where email = '"+email+"' and name = '"+subforumName+"';"
   }
   
-  
-  /* ADMIN QUERY - Check to see if any users are subscribed to every subforum. AKA a "superfan" of the Boboverse.*/
-  function adminSuperfanCheck() {
-    return `
-    SELECT DISTINCT email
-    FROM subscribed_to S
-    WHERE NOT EXISTS (
-    SELECT *
-    FROM subscribed_to S2
-    WHERE NOT EXISTS (
-    SELECT name
-    FROM subscribed_to S3
-    WHERE S.email = S3.email AND S2.name = S3.name)
-    );`;
-  }
-  
   /* ADMIN QUERY - Allows admin to see comments on all threads in a easy-to-read manner. */
   function adminViewAllComments() {
     return "SELECT t.title, t.textbody, r.body, r.date_posted, r.email FROM thread t JOIN reply r ON t.id = r.thread_id_num;"
-  }
-  
-  
-  /* ADMIN QUERY - Allows admin to see the youngest user(s) on the server. */
-  function adminGetYoungestUser() {
-    return `
-    SELECT *
-    FROM account
-    WHERE age = (
-    SELECT MIN(age)
-    FROM account);`
-  }
-  
-  
-  /* ADMIN QUERY - Allows admin to see the oldest user(s) on the server. */
-  function adminGetOldestUser(){
-    return `
-    SELECT *
-    FROM account
-    WHERE age = (
-    SELECT MAX(age)
-    FROM account);`;
-  }
-  
-  /* ADMIN QUERY - Allows admin to see the age with the highest average banana score. */
-  function adminGetAgeWithMaxBananaScore() {
-    return `
-    SELECT *
-    FROM(
-    SELECT AVG(banana_score)AS AvgBananaScore, age
-    FROM account
-    GROUP BY age) AS t
-    WHERE AvgBananaScore = (
-    SELECT MAX(AvgBananaScore)
-    FROM(
-    SELECT AVG(banana_score)AS AvgBananaScore, age
-    FROM account
-    GROUP BY age) AS t);`;
-  }
-  
-  /* ADMIN QUERY - Allows admin to see the age with the lowest average banana score. */
-  function adminGetAgeWithMinBananaScore(){
-    return `
-    SELECT *
-    FROM(
-    SELECT AVG(banana_score)AS AvgBananaScore, age
-    FROM account
-    GROUP BY age) AS t
-    WHERE AvgBananaScore = (
-    SELECT MIN(AvgBananaScore)
-    FROM(
-    SELECT AVG(banana_score)AS AvgBananaScore, age
-    FROM account
-    GROUP BY age) AS t);`;
   }
   
   /* ADMIN QUERY - Allows admin to add a user to the super exclusive Boboverse forum. */
@@ -225,19 +118,3 @@ function getUserInfo(username) {
   function adminGeneralQuery(selectConstraint, fromConstraint, whereConstraint) {
     return "select "+selectConstraint+" from "+fromConstraint+" where "+whereConstraint+";"
   }
-  
-  /*ADMIN QUERY - Allows admin to see if a user has posted a thread in every subforum. A true and loyal user of the Boboverse. */
-  function adminSuperDuperFanCheck() {
-    return `
-    SELECT DISTINCT email
-    FROM account A
-    WHERE NOT EXISTS (
-    SELECT *
-    FROM subforum S
-    WHERE NOT EXISTS (
-    SELECT name
-    FROM thread T
-    WHERE A.email = T.email AND T.name = S.name)
-    );`
-  }
-  

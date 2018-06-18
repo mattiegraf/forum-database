@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import {TwoFieldForm, OneFieldSelectForm} from './Forms.jsx';
+import {TwoFieldForm} from './Forms.jsx';
+import Cookies from 'universal-cookie';
+
+const cookies = new Cookies();
 
 const MessagePage = ({match}) => (
     <div>
@@ -22,7 +25,8 @@ class MessageView extends Component {
   
   componentDidMount() {
       let self = this;
-      fetch('/viewmessages/nabstua@gmail.com', {
+      const to = cookies.get('email');
+      fetch('/viewmessages/'+to, {
           method: 'GET'
       }).then(function(response) {
           if (response.status >= 400) {
@@ -66,8 +70,9 @@ const NewMessagePage = () => (
 );
 
 
-function sendMessageHandler(to, body, from){
-    fetch('/sendMessage/'+to+'/'+"mad@yahoo.ca"+'/'+body, {
+function sendMessageHandler(to, body){
+    const from = cookies.get('email');
+    fetch('/sendMessage/'+to+'/'+from+'/'+body, {
         method: 'GET'
     }).then(function(response) {
         if (response.status >= 400) {
