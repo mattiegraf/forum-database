@@ -54,14 +54,6 @@ WHERE age = (
 SELECT MAX(age)
 FROM account);
 
-/* ADMIN QUERY - Allows admin to see the user(s) with the highest banana score*/
-
-SELECT *
-FROM account
-WHERE banana_score = (
-SELECT MAX(banana_score)
-FROM account);
-
 /* ADMIN QUERY - Allows admin to see the age with the highest average banana score. NESTED AGGREGATION WITH GROUP-BY.*/
 
 SELECT *
