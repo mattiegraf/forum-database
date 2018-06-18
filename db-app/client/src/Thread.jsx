@@ -78,11 +78,12 @@ class Thread extends Component {
       return (
           <div>
             {this.state.thread.map( (thread)=> {
+                const temail = thread.email ? thread.email : "[deleted]";
                 return(
                 <div>
                     <div>
                         <h1>{thread.title}</h1>
-                        <h4>{thread.email}</h4>
+                        <h4>{temail}</h4>
                         <p>{thread.textbody}</p>
                     </div>
                     <div>
@@ -158,9 +159,10 @@ class Comments extends Component {
           <div>
             <h3>Responses</h3>
             {this.state.comments.map( (comment)=> {
+                const cemail = comment.email ? comment.email : "[deleted]";
                 return(
                 <div>
-                    <h5>{comment.email}</h5>
+                    <h5>{cemail}</h5>
                     <p>{comment.body}</p>
                 </div>
             

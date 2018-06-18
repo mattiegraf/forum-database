@@ -98,9 +98,26 @@ app.get('/comments/:name/:id', function(req, res){
   });
 });
 
-/* Allows user to see all the comments for a given thread. */
+/* For login, gets account based on email and password*/
 app.get('/user/:email/:pass', function(req, res){
   connection.query('SELECT * FROM account WHERE password = "'+req.params.pass+'" and email = "' + req.params.email + '";', (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+/* For information purposes, gets admin status based on email*/
+app.get('/isadminuser/:email', function(req, res){
+  connection.query('SELECT isadmin FROM account WHERE email = "' + req.params.email + '";', (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+/* delete non-admin user*/
+app.get('/deleteuser/:email', function(req, res){
+  connection.query("delete from account where email = '"+req.params.email+"' and isadmin = 0;", (err, rows) => {
     if (err) throw err;
     res.send(rows)
   });

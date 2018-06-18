@@ -1,17 +1,31 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Data from './Data.js';
 import {OneFieldForm, OneFieldSelectForm, OneSelectForm} from './Forms.jsx';
+import { Link } from 'react-router-dom';
+//import Cookies from 'universal-cookie';
+
+//const cookies = new Cookies();
 
 
-function AdminView(){
+function AdminView({match}){
     return (
         <div>
         <h1>Admin Area</h1>
+        <h5><Link to={`${match.url}/stats`}>Go to Admin Stats</Link></h5>
         <AddModerator/>
         <RemoveModerator/>
         <AddSubforum/>
         <RemoveSubforum/>
         <RemoveUser/>
+        </div>
+    );
+}
+
+function AdminStats(){
+    return (
+        <div>
+        <h1>Admin Stats</h1>
+        <p>Misc. Stats from the Forum</p>
         </div>
     );
 }
@@ -59,10 +73,46 @@ function RemoveUser(){
     return(
         <div>
             <h3>Delete Account</h3>
-            <OneFieldForm fieldName = "Username" submitName = "Delete"/>
+            <OneFieldForm fieldName = "Email" submitName = "Delete" handler = {RemoveUserHandler}/>
       </div>
     );
 }
 
+function RemoveUserHandler(email){
+    let self = this;
+    /*
+    if(email && email !== "undefined" && myEmail && email !== myEmail){
+      fetch('/isadminuser/'+email, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+        if(!data[0].isadmin.data[0]){
+            //delete user
+            console.log("kill user");
+        }
+    }).catch(err => {
+      console.log('caught it!',err);
+      });
+    }*/
+    //console.log(email);
 
-  export {AdminView};
+    fetch('/deleteuser/'+email, {
+        method: 'GET'
+    }).then(function(response) {
+        if (response.status >= 400) {
+            throw new Error("Bad response from server");
+        }
+        return response;
+    }).then(function(response) {
+      //report success here
+  }).catch(err => {
+    console.log('caught it!',err);
+    });
+
+}
+
+  export {AdminView, AdminStats};

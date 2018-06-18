@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Data from './Data.js';
 import {Error} from './Error.jsx';
 
 class Subforum extends Component {

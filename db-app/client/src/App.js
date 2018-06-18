@@ -5,11 +5,10 @@ import { Link, Route, Switch, Redirect } from 'react-router-dom';
 import Cookies from 'universal-cookie';
 import Subforum from './Subforum.jsx';
 import Subforums from './Subforums.jsx';
-import Data from './Data.js';
 import {Thread, NewThread } from './Thread.jsx';
 import {Error, PermissionError} from './Error.jsx';
 import {TwoFieldForm, OneFieldSelectForm} from './Forms.jsx';
-import {AdminView} from './Admin.jsx'; 
+import {AdminView, AdminStats} from './Admin.jsx'; 
 import {MessagePage, NewMessagePage} from './Message.jsx';
 
 const Hot = () => (
@@ -133,6 +132,7 @@ function RouteDirectory(){
             <Switch>
               <Route exact path="/" component={Hot}/>
               <Route exact path="/admin" component={AdminPage}/>
+              <Route exact path="/admin/stats" component={AdminStats}/>
               <Route exact path="/top" component={Top}/>
               <Route exact path="/new" component={New}/>
               <Route exact path="/login" component={LoginPage}/>
@@ -197,7 +197,7 @@ function AdminPage(props){
     return <PermissionError/>;
   }
   else{
-    return <AdminView/>;
+    return <AdminView match={props.match}/>;
   }
 }
 

@@ -11,12 +11,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 // NOTE: date should always be a string of format "YYYY-MM-DD"
-
-
-// Selects the username and password of a specific user. Can be used for logging in.
-function getUserInfo(username) {
-    return 'SELECT username, password FROM account WHERE account.username = "' + username + '";';
-  }
   
   // Allows user to add a reply to a thread
   function insertReply(commentId, threadId, subforumName, textBody, date, accountEmail) {
@@ -52,20 +46,8 @@ function getUserInfo(username) {
   }
   
   
-  // Get all the replies to a given thread
-  function getReplies(threadId) {
-    return 'SELECT * FROM reply WHERE thread_id_num = '+threadId+';';
-  }
-  
-  
   // MADI ALL THE ONES BELOW HERE ARE UNTESTED
   // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  
-  
-  /* View threads on subforums by latest post date. */
-  function getThreadsByPostDate(subforumName) {
-    return "select * from thread where name = '"+subforumName+"' order by date_posted desc;";
-  }
   
   
   /* View 10 threads with similar titles to a search phrase. */
@@ -85,11 +67,6 @@ function getUserInfo(username) {
     return "select * from moderates where email = '"+email+"' and name = '"+subforumName+"';"
   }
   
-  
-  /* Allows user to see all the comments for a given thread. */
-  function getCommentsForThread(threadId) {
-    return "select * from reply where thread_id_num = "+threadId+";"
-  }
   
   
   /* MOD/ADMIN QUERY - Delete a thread that they are not the author of. */
@@ -114,13 +91,6 @@ function getUserInfo(username) {
   function adminDeleteSubforum(subforumName) {
     return "delete from subforum where name = '"+subforumName+"';"
   }
-  
-  
-  /* ADMIN QUERY - Delete an account that isn't another admin. */
-  function adminDeleteAccount(email) {
-    return "delete from account where email = '"+email+"' and isadmin = 0;"
-  }
-  
   
   /* ADMIN QUERY - Appoint moderation of a user for a subforum. */
   function adminModUser(email, subforumName) {
