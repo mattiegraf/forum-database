@@ -33,6 +33,7 @@ function AdminStats(){
             <h1>Admin Stats</h1>
             <p>Misc. Stats from the Forum</p>
             <Bobofan/>
+            <BestBobo/>
             <AgeWorstBobo/>
             <AgeBestBobo/>
             <AgeGrandBobo/>
@@ -41,6 +42,11 @@ function AdminStats(){
         );
     }
     
+}
+
+//will allow an admin to view all comments
+function AdminCommentStream(){
+
 }
 
 function RemoveModerator(){
@@ -149,7 +155,7 @@ class Bobofan extends Component {
           return response.json();
       }).then(function(data) {
           self.setState({fan: data});
-          console.log(data);
+          //console.log(data);
       }).catch(err => {
       console.log('caught it!',err);
       })
@@ -172,6 +178,49 @@ class Bobofan extends Component {
   
 }
 
+class BestBobo extends Component {
+    constructor(props) {
+      super(props)
+      this.state = {
+          best: []
+      }
+      this.match = props.match;
+  }
+  
+  componentDidMount() {
+      let self = this;
+      fetch('/bestbobo', {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+          self.setState({best: data});
+          //console.log(data);
+      }).catch(err => {
+      console.log('caught it!',err);
+      })
+  }
+  
+    render(){
+      return (
+          <div>
+            <h3>Best Bobos</h3>
+            <p>These bobos have the highest banana score of all accounts!</p>
+            <ul>
+                {this.state.best.map( (best)=> {
+                    return(<li>{best.email}</li>);})}
+            </ul>
+            </div>
+            );
+  
+      
+    }
+  
+}
+
 
 class AgeWorstBobo extends Component {
     constructor(props) {
@@ -184,7 +233,7 @@ class AgeWorstBobo extends Component {
   
   componentDidMount() {
       let self = this;
-      fetch('/ageofworstbobo', {
+      fetch('/ageofworstavgbobo', {
           method: 'GET'
       }).then(function(response) {
           if (response.status >= 400) {
@@ -193,7 +242,7 @@ class AgeWorstBobo extends Component {
           return response.json();
       }).then(function(data) {
           self.setState({age: data});
-          console.log(data);
+          //console.log(data);
       }).catch(err => {
       console.log('caught it!',err);
       })
@@ -202,8 +251,8 @@ class AgeWorstBobo extends Component {
     render(){
       return (
           <div>
-            <h3>Age of Worst Bobo</h3>
-            <p>Age of the User with the Lowest Average Banana Score: 
+            <h3>Age of Worst Bobos</h3>
+            <p>Age with the Lowest Average Banana Score: 
                 {this.state.age.map( (age)=> {
                         return(age.age);})}
             </p>
@@ -236,7 +285,7 @@ class AgeGrandBobo extends Component {
           return response.json();
       }).then(function(data) {
           self.setState({age: data});
-          console.log(data);
+          //console.log(data);
       }).catch(err => {
       console.log('caught it!',err);
       })
@@ -279,7 +328,7 @@ class AgeBabyBobo extends Component {
           return response.json();
       }).then(function(data) {
           self.setState({age: data});
-          console.log(data);
+          //console.log(data);
       }).catch(err => {
       console.log('caught it!',err);
       })
@@ -315,7 +364,7 @@ class AgeBestBobo extends Component {
   
   componentDidMount() {
       let self = this;
-      fetch('/ageofbestbobo', {
+      fetch('/ageofbestavgbobo', {
           method: 'GET'
       }).then(function(response) {
           if (response.status >= 400) {
@@ -324,7 +373,7 @@ class AgeBestBobo extends Component {
           return response.json();
       }).then(function(data) {
           self.setState({age: data});
-          console.log(data);
+          //console.log(data);
       }).catch(err => {
       console.log('caught it!',err);
       })
@@ -333,8 +382,8 @@ class AgeBestBobo extends Component {
     render(){
       return (
           <div>
-            <h3>Age of Best Bobo</h3>
-            <p>Age of the User with the Highest Average Banana Score: 
+            <h3>Age of Best Bobos</h3>
+            <p>Age with the Highest Average Banana Score: 
                 {this.state.age.map( (age)=> {
                         return(age.age);})}
             </p>

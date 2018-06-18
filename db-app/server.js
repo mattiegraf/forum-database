@@ -143,7 +143,7 @@ app.get('/superfan', function(req, res){
 
 
 /* ADMIN QUERY - Allows admin to see the age with the lowest average banana score. */
-app.get('/ageofworstbobo', function(req, res){
+app.get('/ageofworstavgbobo', function(req, res){
   connection.query(`
   SELECT *
   FROM(
@@ -162,7 +162,7 @@ app.get('/ageofworstbobo', function(req, res){
 });
 
 /* ADMIN QUERY - Allows admin to see the age with the highest average banana score. */
-app.get('/ageofbestbobo', function(req, res){
+app.get('/ageofbestavgbobo', function(req, res){
   connection.query(`
   SELECT *
   FROM(
@@ -207,6 +207,36 @@ app.get('/ageofbabybobo', function(req, res){
     res.send(rows)
   });
 });
+
+
+app.get('/bestbobo', function(req, res){
+  connection.query(`
+  SELECT *
+  FROM account
+  WHERE banana_score = (
+  SELECT MAX(banana_score)
+  FROM account);`, (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+  /* Checks to see if a user moderates a subforum.*/
+app.get('/modcheck/:email/:name', function(req, res){
+  connection.query("select * from moderates where email = '"+req.params.email+"' and name = '"+req.params.name+"';", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+  
+  function checkIfUserIsMod(email, subforumName) {
+    return 
+  }
+  
+
 
 ///dont touch this!!
 app.listen(port, () => console.log(`Listening on port ${port}`));

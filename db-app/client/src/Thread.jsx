@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { OneFieldForm, TwoFieldForm } from './Forms.jsx'
 import Cookies from 'universal-cookie';
 
+const cookies = new Cookies();
+
 
 const Thread2 = ({match}) => {
     var subforum= Data.subforumData.find(s => s.name === match.params.name);
@@ -52,9 +54,12 @@ class Thread extends Component {
     constructor(props) {
       super(props)
       this.state = {
-          thread: []
+          thread: [],
+          mod: 0
       }
       this.match = props.match;
+      this.email = cookies.get('email');
+      this.adminBit = cookies.get('adminBit');
   }
   
   componentDidMount() {
@@ -69,7 +74,26 @@ class Thread extends Component {
       }).then(function(data) {
           self.setState({thread: data});
           //console.log(data);
-      }).catch(err => {
+      });
+    
+      fetch('/modcheck/'+this.email+'/'+self.match.params.name, {
+        method: 'GET'
+    }).then(function(response) {
+        if (response.status >= 400) {
+            throw new Error("Bad response from server");
+        }
+        return response.json();
+    }).then(function(data) {
+        if(data.length){
+            self.setState({mod: 1});
+            //console.log("mod state reset to 1!")
+        }
+        else{
+            //probably not necessary
+            self.setState({mod: 0});
+        } 
+        console.log(data);
+    }).catch(err => {
       console.log('caught it!',err);
       })
   }
@@ -85,9 +109,11 @@ class Thread extends Component {
                         <h1>{thread.title}</h1>
                         <h4>{temail}</h4>
                         <p>{thread.textbody}</p>
+                        <DeleteThread username = {this.email} adminBit = {this.adminBit} moderatorFlag = {this.state.mod} 
+                        author = {thread.email} id = {thread.id}/>
                     </div>
                     <div>
-                        <Comments match = {this.match}/>
+                        <Comments match = {this.match} mod = {this.state.mod}/>
                     </div>
                 </div>
                 );})}
@@ -97,6 +123,10 @@ class Thread extends Component {
       
     }
   
+  }
+
+  const Test = (props) => {
+      
   }
 
 const NewThread = ({match}) => {
@@ -135,6 +165,10 @@ class Comments extends Component {
           comments: []
       }
       this.match = props.match;
+      this.email = cookies.get('email');
+      this.adminBit = cookies.get('adminBit');
+      //this.mod = props.mod;
+      //console.log("mod status" + this.mod)
   }
   
   componentDidMount() {
@@ -164,6 +198,7 @@ class Comments extends Component {
                 <div>
                     <h5>{cemail}</h5>
                     <p>{comment.body}</p>
+                    <DeleteComment author = {comment.email} username = {this.email} moderatorFlag = {this.props.mod} id = {comment.id_num}/>
                 </div>
             
                 );})}
