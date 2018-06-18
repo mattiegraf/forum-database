@@ -198,7 +198,7 @@ app.get('/ageofgrandbobo', function(req, res){
 /* ADMIN QUERY - Allows admin to see the youngest user(s) on the server. */
 app.get('/ageofbabybobo', function(req, res){
   connection.query(`
-  SELECT *
+  SELECT DISTINCT age
   FROM account
   WHERE age = (
   SELECT MIN(age)
