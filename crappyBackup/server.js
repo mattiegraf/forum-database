@@ -1,6 +1,57 @@
 
 console.log('Server-side code running');
+function handleErr(err) {
+  let errStr = "code: " + err.code + "<br>errno: " + err.errno + "<br>sqlMessage: " + err.sqlMessage + "<br>sql: " + err.sql;
+  return "<h2> There was an error parsing your request. </h2><br>" + errStr;
+}
 
+fieldsDict = {
+  account : 'email, username, password, age, banana_score, isadmin',
+  message : 'id_num, body, date_sent, sent_email, received_email',
+  moderates : 'email, name',
+  reply : 'id_num, thread_id_num, name, body, date_posted, email',
+  subforum : 'name',
+  subscribed_to : 'email, name',
+  thread : 'name, id, title, textbody, date_posted, email'
+}
+
+/**
+ * @param {string} fields - fields of the form "field1, field2, field3"
+ * @param {array}  rows   - resulting rows from the query
+ * @param {string} query  - the SQL query as a string
+ */
+function genTableFromQuery(fields, rows, query) {
+  fields = fields.split(',').map(x => x.trim());
+
+  let out = `<p> SQL query: ${query} </p><table>`;
+
+  for (let i = 0; i < fields.length; i++) {
+    out += '<th>'+fields[i]+'</th>';
+  }
+
+  for (let i = 0; i < rows.length; i++) {
+    out += '<tr>';
+
+    for (let j = 0; j < fields.length; j++) {
+      out += '<td>' + rows[i][fields[j]] + '</td>';
+    }
+
+    out += '</tr>';
+  }
+
+  out += '</table>';
+
+  return out;
+}
+
+function makeQuery(query, callback) {
+  connection.query(query, (err, rows) => {
+    if (!err) callback(rows);
+    else handleErr(err);
+  })
+}
+
+// setup
 var mysql = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
@@ -8,59 +59,84 @@ var connection = mysql.createConnection({
   password : 'cs304bobo',
   database : 'boboverse',
   port : 3306,
-  multipleStatements : true
+  multipleStatements : true,
+  typeCast: function castField( field, useDefaultTypeCasting ) {
+
+       // We only want to cast bit fields that have a single-bit in them. If the field
+       // has more than one bit, then we cannot assume it is supposed to be a Boolean.
+       if ( ( field.type === "BIT" ) && ( field.length === 1 ) ) {
+
+           var bytes = field.buffer();
+
+           // A Buffer in Node represents a collection of 8-bit unsigned integers.
+           // Therefore, our single "bit field" comes back as the bits '0000 0001',
+           // which is equivalent to the number 1.
+           return( bytes[ 0 ] === 1 );
+
+       }
+
+       return( useDefaultTypeCasting() );
+
+     }
 });
+var queries = require('./js/queries.js')
+
 const express = require('express');
 const app = express();
 // serve files from the public directory
 app.use(express.static('public'));
 
-
-
-// connection.connect();
-//
-// connection.query("select 1 + 1 as solution;", (err, rows) => {
-//   console.log(rows[0].solution);
-// });
-//
-// app.get('/', function(req, res){
-//   res.send('<h1> hello world! </h1>');
-// });
-//
-// app.listen(3000);
-//
-// connection.end();
-
 connection.connect();
 
 // serve index page
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+app.get('/', (req, res) => { res.sendFile(__dirname + '/index.html'); });
+
+
+// Initialize database
+app.get('/initDb', (req, res) => {
+  for (let i = 0; i < queries.dropTables.length; i++) {
+    connection.query(queries.dropTables[i], (err, res) => {if (err) console.log(err);});
+  }
+  connection.query(queries.initTables, (err, res) => {if (err) console.log(err);})
+
+  res.send('<h2> Database initialized! </h2>');
 });
-//
-app.get('/login', (req, res) => {
-  let username = req.query.username;
-  let password = req.query.password;
-  res.send(`<h1> hello ${username}! </h1>
-    <p> your password is: ${password}</p>`);
+
+
+// Admin general query
+app.get('/makeGeneralQuery', (req, res) => {
+  let q = req.query;
+
+  // special case when selecting *
+  let selectField = (q.selectField.trim() == '*') ? fieldsDict[q.fromField.toLowerCase()] : q.selectField;
+
+  let query = 'select '+selectField+' from '+q.fromField;
+
+  if (q.whereField) query += ' where '+q.whereField;
+
+  connection.query(query, (err, rows) => {
+    if (!err) {
+      res.send(genTableFromQuery(selectField, rows, query));
+    }
+    else {
+      res.send(handleErr(err));
+    }
+  })
 })
 
 
-// // 1. Get all user emails
-// app.post('/getEmails', (req, res) => {
-//   connection.query("select * from account", (err, rows) => {
-//     if (err) throw err;
-//     res.send(rows)
-//   });
-// });
-//
-//
-// // 2. Get all threads for given subforum
-// app.post('/getThreadsForSubforum', (req, res) => {
-//   console.log(req.body.subforumName);
-// });
+// Admin create account
+app.get('/createAccount', (req, res) => {
+  let q = req.query;
 
-
-app.listen(3000, () => {
-  console.log("listening on localhost:3000");
+  let query = "insert into account values('"+q.email+"','"+q.username+"','"+q.password+"',"+q.age+","+q.banana_score+", 0)"
+  connection.query(query, (err, rows) => {
+    if (!err) {
+      res.send("<h2> Account created successfully! </h2>");
+    }
+    else res.send(handleErr(err));
+  });
 });
+
+
+app.listen(3000, () => { console.log("listening on localhost:3000"); });
