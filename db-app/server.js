@@ -55,7 +55,6 @@ app.get('/subforumthreads/:name', function(req, res){
 });
 
 
-//!!! fix after login implemented
 // Allows user to view the last 20 messages sent to their account.
 app.get('/viewmessages/:email', function(req, res){
   connection.query("SELECT * FROM message WHERE received_email = '"+req.params.email+"' ORDER BY date_sent DESC LIMIT 20;", (err, rows) => {
@@ -64,7 +63,6 @@ app.get('/viewmessages/:email', function(req, res){
   });
 });
 
-//!!! fix after login implemented
 // Allow user to send a message to another user
 app.get('/sendMessage/:to/:from/:body', function(req, res){
   connection.query("insert into message values((select max(id_num) + 1 from message m1), '"+req.params.body+"', curdate(), '"+req.params.from+"', '"+req.params.to+"');", (err, rows) => {
