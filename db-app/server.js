@@ -38,14 +38,7 @@ app.get('/subforums', (req, res) => {
   });
 });
 
-app.get('/xxx', (req, res) => {
-  connection.query("SELECT * FROM subforum", (err, rows) => {
-    if (err) throw err;
-    res.send(rows)
-  });
-});
-
-
+//get one particular subforum
 app.get('/s/:name', (req, res) => {
   connection.query("SELECT name FROM subforum WHERE subforum.name = '" + req.params.name + "';", (err, rows) => {
     if (err) throw err;
@@ -54,8 +47,8 @@ app.get('/s/:name', (req, res) => {
 });
 
 /* View threads on subforums by latest post date. */
-app.get('/yyy', function(req, res){
-  connection.query("SELECT * FROM thread WHERE name = 'Food' order by date_posted desc;", (err, rows) => {
+app.get('/subforumthreads/:name', function(req, res){
+  connection.query("SELECT * FROM thread WHERE name = '"+req.params.name+"' order by date_posted desc;", (err, rows) => {
     if (err) throw err;
     res.send(rows)
   });

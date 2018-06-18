@@ -13,7 +13,7 @@ class Subforums extends Component {
 
 componentDidMount() {
     let self = this;
-    fetch('/xxx', {
+    fetch('/subforums', {
         method: 'GET'
     }).then(function(response) {
         if (response.status >= 400) {
@@ -46,7 +46,5 @@ componentDidMount() {
   }
 
 }
-
-
 
 export default Subforums;

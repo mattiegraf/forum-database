@@ -30,7 +30,7 @@ componentDidMount() {
     console.log('caught it!',err);
     })
 
-    fetch('/yyy', {
+    fetch('/subforumthreads/' + this.match.params.name, {
         method: 'GET'
     }).then(function(response) {
         if (response.status >= 400) {
