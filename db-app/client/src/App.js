@@ -10,6 +10,7 @@ import {Thread, NewThread } from './Thread.jsx';
 import {Error, PermissionError} from './Error.jsx';
 import {TwoFieldForm, OneFieldSelectForm} from './Forms.jsx';
 import {AdminView} from './Admin.jsx'; 
+import {MessagePage, NewMessagePage} from './Message.jsx';
 
 const Hot = () => (
   <div>
@@ -31,19 +32,6 @@ const New = () => (
   </div>
 );
 
-const MessagePage = ({match}) => (
-  <div>
-    <h1>Messages</h1>
-    <Link to={`${match.url}/new`}>Create New Message</Link>
-  </div>
-);
-
-const NewMessagePage = () => (
-  <div>
-    <h1>Compose New Message</h1>
-    <TwoFieldForm fieldName1 = "Username" fieldName2 = "Message Body" submitName = "Send"/>
-  </div>
-);
 
 const Subscribed = () => (
   <div>

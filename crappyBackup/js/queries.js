@@ -18,6 +18,7 @@ function getUserInfo(username) {
   return 'SELECT username, password FROM account WHERE account.username = "' + username + '";';
 }
 
+
 // Allows user to add a reply to a thread
 function insertReply(commentId, threadId, subforumName, textBody, date, accountEmail) {
   return 'INSERT INTO reply values('+commentId+','+threadId+',"'+subforumName+'","'+textBody+'","'+date+'","'+accountEmail+'")';

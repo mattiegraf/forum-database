@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Data from './Data.js';
 import {Error} from './Error.jsx';
 import { Link } from 'react-router-dom';
@@ -6,7 +6,7 @@ import { OneFieldForm, TwoFieldForm } from './Forms.jsx'
 import Cookies from 'universal-cookie';
 
 
-const Thread = ({match}) => {
+const Thread2 = ({match}) => {
     var subforum= Data.subforumData.find(s => s.name === match.params.name);
     var thread;
     var threadData;
@@ -47,6 +47,52 @@ const Thread = ({match}) => {
         </div>
       )    
 };
+
+class Thread extends Component {
+    constructor(props) {
+      super(props)
+      this.state = {
+          thread: []
+      }
+      this.match = props.match;
+  }
+  
+  componentDidMount() {
+      let self = this;
+      fetch('/thread/'+this.match.params.name+'/'+this.match.params.id, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+          self.setState({thread: data});
+          console.log(data);
+      }).catch(err => {
+      console.log('caught it!',err);
+      })
+  }
+  
+    render(){
+      return (
+          <div>
+            {this.state.thread.map( (thread)=> {
+                return(
+                <div>
+                    <h1>{thread.title}</h1>
+                    <h4>{thread.email}</h4>
+                    <p>{thread.body}</p>
+                </div>
+            
+                );})}
+            </div>
+            );
+  
+      
+    }
+  
+  }
 
 const NewThread = ({match}) => {
     var subforum= Data.subforumData.find(s => s.name === match.params.name);
