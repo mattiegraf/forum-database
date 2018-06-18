@@ -384,7 +384,7 @@ insert into subforum
 values('Food');
 
 insert into subforum
-values('Movies/Television');
+values('Media');
 
 insert into subforum
 values('Music');
@@ -400,7 +400,7 @@ insert into thread
 values('Food', 17, 'Crunchy or Smooth Peanut Butter?', 'What is your favourite? #nojudgezone', '2018-06-01', 'vybaby@gmail.com');
 
 insert into thread
-values('Movies/Television', 1, 'Air Bud', 'Best movie of all time do not even @ me.', '2018-06-02', 'catdog@gmail.com');
+values('Media', 1, 'Air Bud', 'Best movie of all time do not even @ me.', '2018-06-02', 'catdog@gmail.com');
 
 insert into thread
 values('Music', 4, 'Selling Extra Killers Concert Ticket', 'My friend ditched me at the last minute. Anybody looking to go? DM me for ticket prices.', '2018-06-03', 'mad@yahoo.ca');
@@ -443,13 +443,13 @@ insert into reply
 values(4, 2, 'Sports', 'USA is in it this year right?', '2018-06-10', 'superfoody@live.com');
 
 insert into reply
-values(1, 1, 'Movies/Television', 'Hiss.', '2018-06-11', 'snowstorm@outlook.com');
+values(1, 1, 'Media', 'Hiss.', '2018-06-11', 'snowstorm@outlook.com');
 
 insert into reply
 values(2, 5, 'Gaming', 'UGH. They did not add Swampert. Hate it.', '2018-06-12', 'mad@yahoo.ca');
 
 insert into reply
-values(2, 1, 'Movies/Television', 'Meow.', '2018-06-13', 'deskrage@gmail.com');
+values(2, 1, 'Media', 'Meow.', '2018-06-13', 'deskrage@gmail.com');
 
 insert into reply
 values(2, 4, 'Music', 'I can give you three fiddy one and two handfuls of almonds.', '2018-06-14', 'catdog@gmail.com');
@@ -465,7 +465,7 @@ insert into subscribed_to
 values('mad@yahoo.ca', 'Music');
 
 insert into subscribed_to
-values('vybaby@gmail.com', 'Movies/Television');
+values('vybaby@gmail.com', 'Media');
 
 insert into subscribed_to
 values('json@hotmail.com', 'Gaming');
@@ -474,7 +474,7 @@ insert into subscribed_to
 values('deskrage@gmail.com', 'Gaming');
 
 insert into subscribed_to
-values('deskrage@gmail.com', 'Movies/Television');
+values('deskrage@gmail.com', 'Media');
 
 insert into subscribed_to
 values('deskrage@gmail.com', 'Music');
@@ -500,7 +500,7 @@ insert into moderates
 values('deskrage@gmail.com', 'Sports');
 
 insert into moderates
-values('snowstorm@outlook.com', 'Movies/Television');
+values('snowstorm@outlook.com', 'Media');
 
 insert into moderates
 values('json@hotmail.com', 'Gaming');
@@ -1583,16 +1583,16 @@ insert into thread values('Food',13,'Is anyone else fully sick of recipe sites t
 insert into thread values('Food',14,'Is anyone else considered the chef or pers','I guess Im a decent cook, but Im always baffled when I make a dish and people ask me where I learn','2018-2-10', 'greenearth@yahoo.ca');
 insert into thread values('Food',15,'A friend of mine told me Cooking alone for y','Sorry if this post isnt allowed - I couldnt tell from the Rules. Technically this post is permitte','2018-5-22', 'json@hotmail.com');
 
-insert into thread values('Movies/Television',16,'YouTube channel Every Frame a Painting anno','Co-Creators Tony Zhou and Taylor Ramos officially announced there wont be any new EFAP videos comin','2018-2-4', 'itsdatboi@gmail.com');
-insert into thread values('Movies/Television',18,'I am Tony Zhou, creator of the Every Frame a','First off, thanks to your mod bulcmlifeurt for putting this together.So I am Tony Zhou. Im a film','2018-6-1', 'nabstua@gmail.com');
-insert into thread values('Movies/Television',19,'Wonder Woman really isnt that great','I recently watched Wonder Woman for the second time since seeing it in theatre and now that the dust','2018-1-17', 'nonadmin@gmail.com');
-insert into thread values('Movies/Television',20,'The Last Jedi is Poor Storytelling: How Episo','**[Spoilers follow]**Although critics praise director Rian Johnson for taking Star Wars in a bold ','2018-1-10', 'mad@yahoo.ca');
-insert into thread values('Movies/Television',21,'RESULTS: /r/TrueFilms favorite films of 2014','','2018-3-28', 'deskrage@gmail.com');
-insert into thread values('Movies/Television',22,'500 Days of Summers color palette (theory). W','To preface, I have seen this movie maybe five or six times now and love everything about it. However','2018-4-22', 'itsdatboi@gmail.com');
-insert into thread values('Movies/Television',23,'As a Mexican I am emotionally overwhelmed & s','I was already excited for this movie due to Pixars reputation & the fact that our Mexican heritage ','2018-4-19', 'snowstorm@outlook.com');
-insert into thread values('Movies/Television',24,'Childish Gambino - This is America Analysis','If I posted in the wrong sub, I apologize, please do message me the right sub to post this in.I en','2018-3-8', 'vybaby@gmail.com');
-insert into thread values('Movies/Television',25,'[RESULTS] R/TRUEFILMS FAVORITE FILMS OF 2017','','2018-6-13', 'superfoody@live.com');
-insert into thread values('Movies/Television',26,'Alan Rickman, star of stage and screen has di','http://www.bbc.co.uk/news/entertainment-arts-35313604Most well known for playing Severus Snape in ','2018-6-4', 'greenearth@yahoo.ca');
+insert into thread values('Media',16,'YouTube channel Every Frame a Painting anno','Co-Creators Tony Zhou and Taylor Ramos officially announced there wont be any new EFAP videos comin','2018-2-4', 'itsdatboi@gmail.com');
+insert into thread values('Media',18,'I am Tony Zhou, creator of the Every Frame a','First off, thanks to your mod bulcmlifeurt for putting this together.So I am Tony Zhou. Im a film','2018-6-1', 'nabstua@gmail.com');
+insert into thread values('Media',19,'Wonder Woman really isnt that great','I recently watched Wonder Woman for the second time since seeing it in theatre and now that the dust','2018-1-17', 'nonadmin@gmail.com');
+insert into thread values('Media',20,'The Last Jedi is Poor Storytelling: How Episo','**[Spoilers follow]**Although critics praise director Rian Johnson for taking Star Wars in a bold ','2018-1-10', 'mad@yahoo.ca');
+insert into thread values('Media',21,'RESULTS: /r/TrueFilms favorite films of 2014','','2018-3-28', 'deskrage@gmail.com');
+insert into thread values('Media',22,'500 Days of Summers color palette (theory). W','To preface, I have seen this movie maybe five or six times now and love everything about it. However','2018-4-22', 'itsdatboi@gmail.com');
+insert into thread values('Media',23,'As a Mexican I am emotionally overwhelmed & s','I was already excited for this movie due to Pixars reputation & the fact that our Mexican heritage ','2018-4-19', 'snowstorm@outlook.com');
+insert into thread values('Media',24,'Childish Gambino - This is America Analysis','If I posted in the wrong sub, I apologize, please do message me the right sub to post this in.I en','2018-3-8', 'vybaby@gmail.com');
+insert into thread values('Media',25,'[RESULTS] R/TRUEFILMS FAVORITE FILMS OF 2017','','2018-6-13', 'superfoody@live.com');
+insert into thread values('Media',26,'Alan Rickman, star of stage and screen has di','http://www.bbc.co.uk/news/entertainment-arts-35313604Most well known for playing Severus Snape in ','2018-6-4', 'greenearth@yahoo.ca');
 
 insert into thread values('Sports',27,'CHIEFS -7 UPVOTE PARTY','WHAT A WAY TO COVER LMAO','2018-1-4', 'catdog@gmail.com');
 insert into thread values('Sports',28,'U.S. Supreme Court rules federal ban on state','Time for all states to finally allow sports betting!','2018-2-21', 'nabstua@gmail.com');
@@ -1731,113 +1731,113 @@ insert into reply values(12,15, 'Food','Cooking for myself isnt sad. I like it b
 insert into reply values(13,15, 'Food','Im scared to go out and eat alone because someone might think Im lonely and come sit with me and t','2018-5-28','catdog@gmail.com');
 insert into reply values(14,15, 'Food','I like cooking alone because no one can see me flounder in the kitchen. ','2018-5-27','mad@yahoo.ca');
 
-insert into reply values(5,16, 'Movies/Television','Heres the link [on Medium.](https://medium.com/@tonyszhou/postmortem-1b338537fabc) The article it','2018-2-9','snowstorm@outlook.com');
-insert into reply values(6,16, 'Movies/Television','One of the few legitimately informative and interesting  movie-based YouTube channels. Its a shame.','2018-2-5','vybaby@gmail.com');
-insert into reply values(7,16, 'Movies/Television','Oh no! That channel was so excellent. I hope its ending because they got an offer to make it a TV s','2018-2-18','itsdatboi@gmail.com');
-insert into reply values(8,16, 'Movies/Television','Id recommend Lessons from the Screenplay for anyone looking for a channel along the same lines with','2018-2-23','snowstorm@outlook.com');
-insert into reply values(9,16, 'Movies/Television','Some channels I follow that can maybe fill the void - [kaptainkristian](https://www.youtube.com/chan','2018-2-11','admin@gmail.com');
-insert into reply values(10,16, 'Movies/Television','~~I thought it ended a long time ago, it has been an year since their last vido.~~ At least some clo','2018-2-13','deskrage@gmail.com');
-insert into reply values(11,16, 'Movies/Television','One of the best YouTube channels in YouTubes short history. I seriously hope they continue doing si','2018-2-18','greenearth@yahoo.ca');
-insert into reply values(12,16, 'Movies/Television','I cant believe its been more than a year since their last video. Nothing else on YouTube comes clo','2018-2-11','superfoody@live.com');
-insert into reply values(13,16, 'Movies/Television','This channel has made me look at the screen with greater attention to detail and introduced me to Bu','2018-2-15','mad@yahoo.ca');
-insert into reply values(14,16, 'Movies/Television','>For instance, wed always wanted to talk about Tarkovsky, but its impossible to talk about how he ','2018-2-12','mad@yahoo.ca');
+insert into reply values(5,16, 'Media','Heres the link [on Medium.](https://medium.com/@tonyszhou/postmortem-1b338537fabc) The article it','2018-2-9','snowstorm@outlook.com');
+insert into reply values(6,16, 'Media','One of the few legitimately informative and interesting  movie-based YouTube channels. Its a shame.','2018-2-5','vybaby@gmail.com');
+insert into reply values(7,16, 'Media','Oh no! That channel was so excellent. I hope its ending because they got an offer to make it a TV s','2018-2-18','itsdatboi@gmail.com');
+insert into reply values(8,16, 'Media','Id recommend Lessons from the Screenplay for anyone looking for a channel along the same lines with','2018-2-23','snowstorm@outlook.com');
+insert into reply values(9,16, 'Media','Some channels I follow that can maybe fill the void - [kaptainkristian](https://www.youtube.com/chan','2018-2-11','admin@gmail.com');
+insert into reply values(10,16, 'Media','~~I thought it ended a long time ago, it has been an year since their last vido.~~ At least some clo','2018-2-13','deskrage@gmail.com');
+insert into reply values(11,16, 'Media','One of the best YouTube channels in YouTubes short history. I seriously hope they continue doing si','2018-2-18','greenearth@yahoo.ca');
+insert into reply values(12,16, 'Media','I cant believe its been more than a year since their last video. Nothing else on YouTube comes clo','2018-2-11','superfoody@live.com');
+insert into reply values(13,16, 'Media','This channel has made me look at the screen with greater attention to detail and introduced me to Bu','2018-2-15','mad@yahoo.ca');
+insert into reply values(14,16, 'Media','>For instance, wed always wanted to talk about Tarkovsky, but its impossible to talk about how he ','2018-2-12','mad@yahoo.ca');
 
-insert into reply values(5,18, 'Movies/Television','Okay I stuck around till 7 p.m. Phew I am exhausted. Thank you all for participating in this. It was','2018-6-25','admin@gmail.com');
-insert into reply values(6,18, 'Movies/Television','Hi Tony,Im trying to understand better the differences that editing makes in film versus the actu','2018-6-14','superfoody@live.com');
-insert into reply values(7,18, 'Movies/Television','Hey Mr. Zhou, My question is how do pick the topics/ subject matter for your videos? is it somethin','2018-6-6','nonadmin@gmail.com');
-insert into reply values(8,18, 'Movies/Television','Hi Tony, thanks once again from me, the mods of /r/truefilm and the community for doing this. I ha','2018-6-26','snowstorm@outlook.com');
-insert into reply values(9,18, 'Movies/Television','Tony, I just wanted to say a few things.First as a young filmmaker, your videos have been like an ','2018-6-12','snowstorm@outlook.com');
-insert into reply values(10,18, 'Movies/Television','Hey! Almost forgot this AMA was happening, glad I didnt!1. Is Every Frame a Painting your current','2018-6-18','nonadmin@gmail.com');
-insert into reply values(11,18, 'Movies/Television','Tony, any movie podcast you could recommend? or any other channel or analysis series that doesnt ','2018-6-8','vybaby@gmail.com');
-insert into reply values(12,18, 'Movies/Television','Are there any current Western directors who you think shoot and edit action properly, as outlined in','2018-6-8','greenearth@yahoo.ca');
-insert into reply values(13,18, 'Movies/Television','Hi Tony! Heres something /u/Carpeaux wanted to ask you:Im awful at showing up in time for this s','2018-6-10','admin@gmail.com');
-insert into reply values(14,18, 'Movies/Television','Tony, where did you learn to analyze film the way you did.  Is it just repeated observation or were ','2018-6-1','json@hotmail.com');
+insert into reply values(5,18, 'Media','Okay I stuck around till 7 p.m. Phew I am exhausted. Thank you all for participating in this. It was','2018-6-25','admin@gmail.com');
+insert into reply values(6,18, 'Media','Hi Tony,Im trying to understand better the differences that editing makes in film versus the actu','2018-6-14','superfoody@live.com');
+insert into reply values(7,18, 'Media','Hey Mr. Zhou, My question is how do pick the topics/ subject matter for your videos? is it somethin','2018-6-6','nonadmin@gmail.com');
+insert into reply values(8,18, 'Media','Hi Tony, thanks once again from me, the mods of /r/truefilm and the community for doing this. I ha','2018-6-26','snowstorm@outlook.com');
+insert into reply values(9,18, 'Media','Tony, I just wanted to say a few things.First as a young filmmaker, your videos have been like an ','2018-6-12','snowstorm@outlook.com');
+insert into reply values(10,18, 'Media','Hey! Almost forgot this AMA was happening, glad I didnt!1. Is Every Frame a Painting your current','2018-6-18','nonadmin@gmail.com');
+insert into reply values(11,18, 'Media','Tony, any movie podcast you could recommend? or any other channel or analysis series that doesnt ','2018-6-8','vybaby@gmail.com');
+insert into reply values(12,18, 'Media','Are there any current Western directors who you think shoot and edit action properly, as outlined in','2018-6-8','greenearth@yahoo.ca');
+insert into reply values(13,18, 'Media','Hi Tony! Heres something /u/Carpeaux wanted to ask you:Im awful at showing up in time for this s','2018-6-10','admin@gmail.com');
+insert into reply values(14,18, 'Media','Tony, where did you learn to analyze film the way you did.  Is it just repeated observation or were ','2018-6-1','json@hotmail.com');
 
-insert into reply values(5,19, 'Movies/Television','The movie depicts the Germans so much as the bad guys that I literally thought the story took place ','2018-1-22','nabstua@gmail.com');
-insert into reply values(6,19, 'Movies/Television','All these are valid criticisms. The biggest issue with this movie for me is something you touch upon','2018-1-28','itsdatboi@gmail.com');
-insert into reply values(7,19, 'Movies/Television','I just got around to seeing it a couple of nights ago, you know not being in any rush to see it beca','2018-1-18','snowstorm@outlook.com');
-insert into reply values(8,19, 'Movies/Television','I couldnt agree with some of these more.  I didnt have issue with the opening scene, but after tha','2018-1-18','nabstua@gmail.com');
-insert into reply values(9,19, 'Movies/Television','I always find it hilarious when people in /r/TrueFilm critique Hollywood blockbusters like WW (or an','2018-1-25','itsdatboi@gmail.com');
-insert into reply values(10,19, 'Movies/Television','Not to mention the completely insensitive manner they deal with PTSD. Ewan Bremners character is cl','2018-1-22','mad@yahoo.ca');
-insert into reply values(11,19, 'Movies/Television','Superhero movies in general arent that great. Theres not a one that isnt heavily dependent on the','2018-1-26','catdog@gmail.com');
-insert into reply values(12,19, 'Movies/Television','The bell tower jump was rad.  That jump was novel superhero movie physics.You do a good service wi','2018-1-28','catdog@gmail.com');
-insert into reply values(13,19, 'Movies/Television','Wonder Woman is a fantasy about having power to act on your compassion without fear.Its most power','2018-1-24','mad@yahoo.ca');
+insert into reply values(5,19, 'Media','The movie depicts the Germans so much as the bad guys that I literally thought the story took place ','2018-1-22','nabstua@gmail.com');
+insert into reply values(6,19, 'Media','All these are valid criticisms. The biggest issue with this movie for me is something you touch upon','2018-1-28','itsdatboi@gmail.com');
+insert into reply values(7,19, 'Media','I just got around to seeing it a couple of nights ago, you know not being in any rush to see it beca','2018-1-18','snowstorm@outlook.com');
+insert into reply values(8,19, 'Media','I couldnt agree with some of these more.  I didnt have issue with the opening scene, but after tha','2018-1-18','nabstua@gmail.com');
+insert into reply values(9,19, 'Media','I always find it hilarious when people in /r/TrueFilm critique Hollywood blockbusters like WW (or an','2018-1-25','itsdatboi@gmail.com');
+insert into reply values(10,19, 'Media','Not to mention the completely insensitive manner they deal with PTSD. Ewan Bremners character is cl','2018-1-22','mad@yahoo.ca');
+insert into reply values(11,19, 'Media','Superhero movies in general arent that great. Theres not a one that isnt heavily dependent on the','2018-1-26','catdog@gmail.com');
+insert into reply values(12,19, 'Media','The bell tower jump was rad.  That jump was novel superhero movie physics.You do a good service wi','2018-1-28','catdog@gmail.com');
+insert into reply values(13,19, 'Media','Wonder Woman is a fantasy about having power to act on your compassion without fear.Its most power','2018-1-24','mad@yahoo.ca');
 
-insert into reply values(5,20, 'Movies/Television','How do you feel about the fact that half of the movie was an inconsequential arc regarding the light','2018-1-15','itsdatboi@gmail.com');
-insert into reply values(6,20, 'Movies/Television','I will watch your career with great interest.Thanks for the piece. I dont understand how there ca','2018-1-10','nonadmin@gmail.com');
-insert into reply values(7,20, 'Movies/Television','I agree with the vast majority of what you have said, but just wanted to touch on this:>  progress','2018-1-18','admin@gmail.com');
-insert into reply values(8,20, 'Movies/Television','I agree with a lot of this, especially these two points. >* a lot happens. But not a lot happens f','2018-1-11','catdog@gmail.com');
-insert into reply values(9,20, 'Movies/Television','Good post! I agree with much of this, but I think certain elements are wrong in important ways.  And','2018-1-19','vybaby@gmail.com');
-insert into reply values(10,20, 'Movies/Television','It annoys me to no end when people defend this film by acting like the only reason I dont like it i','2018-1-22','snowstorm@outlook.com');
-insert into reply values(11,20, 'Movies/Television','I feel like you enjoyed TFA a lot more than I did.. Particularly the JJ Abrams mysteries such as R','2018-1-26','superfoody@live.com');
-insert into reply values(12,20, 'Movies/Television','I have started nurturing a pet theory that Johnson is making a comment on interminable blockbuster s','2018-1-23','superfoody@live.com');
-insert into reply values(13,20, 'Movies/Television','I agree with a good chunk of your commentary as well as the other points raised here, but also take ','2018-1-25','snowstorm@outlook.com');
-insert into reply values(14,20, 'Movies/Television','I think critical reception was positive because this was a Star Wars film that really had something ','2018-1-12','admin@gmail.com');
+insert into reply values(5,20, 'Media','How do you feel about the fact that half of the movie was an inconsequential arc regarding the light','2018-1-15','itsdatboi@gmail.com');
+insert into reply values(6,20, 'Media','I will watch your career with great interest.Thanks for the piece. I dont understand how there ca','2018-1-10','nonadmin@gmail.com');
+insert into reply values(7,20, 'Media','I agree with the vast majority of what you have said, but just wanted to touch on this:>  progress','2018-1-18','admin@gmail.com');
+insert into reply values(8,20, 'Media','I agree with a lot of this, especially these two points. >* a lot happens. But not a lot happens f','2018-1-11','catdog@gmail.com');
+insert into reply values(9,20, 'Media','Good post! I agree with much of this, but I think certain elements are wrong in important ways.  And','2018-1-19','vybaby@gmail.com');
+insert into reply values(10,20, 'Media','It annoys me to no end when people defend this film by acting like the only reason I dont like it i','2018-1-22','snowstorm@outlook.com');
+insert into reply values(11,20, 'Media','I feel like you enjoyed TFA a lot more than I did.. Particularly the JJ Abrams mysteries such as R','2018-1-26','superfoody@live.com');
+insert into reply values(12,20, 'Media','I have started nurturing a pet theory that Johnson is making a comment on interminable blockbuster s','2018-1-23','superfoody@live.com');
+insert into reply values(13,20, 'Media','I agree with a good chunk of your commentary as well as the other points raised here, but also take ','2018-1-25','snowstorm@outlook.com');
+insert into reply values(14,20, 'Media','I think critical reception was positive because this was a Star Wars film that really had something ','2018-1-12','admin@gmail.com');
 
-insert into reply values(5,21, 'Movies/Television','Bonus! /u/pastypilgrim kindly ran your choices through an algorithm that produced a visual represent','2018-3-28','json@hotmail.com');
-insert into reply values(6,21, 'Movies/Television','Wow, Nightcrawler did really poorly in the box office','2018-3-28','json@hotmail.com');
-insert into reply values(7,21, 'Movies/Television','Goodness! Thank you for putting it together like this. Im already looking forward to several movies','2018-3-28','snowstorm@outlook.com');
-insert into reply values(8,21, 'Movies/Television','Honestly, I am very disappointed seeing Mr. Turner way down on #47. I felt it was excellent on all l','2018-3-28','vybaby@gmail.com');
-insert into reply values(9,21, 'Movies/Television','Quite disappointed in myself as to how few of these Ive seen. Time to start watching!','2018-3-28','superfoody@live.com');
-insert into reply values(10,21, 'Movies/Television','Ive really wanted to try Goodbye to Language, but I know its in 3D and since its Godard, I feel l','2018-3-28','itsdatboi@gmail.com');
-insert into reply values(11,21, 'Movies/Television','Im so happy to see The Rover included in the list. I was truly surprised and thrilled by that film.','2018-3-28','snowstorm@outlook.com');
-insert into reply values(12,21, 'Movies/Television','Extremely surprised that John Wick did not make it on to this list. Next to Calvary and Ida, it was ','2018-3-28','superfoody@live.com');
-insert into reply values(13,21, 'Movies/Television','This is great. So many movies that I missed. Is there a thread like this for 2013? ','2018-3-28','json@hotmail.com');
+insert into reply values(5,21, 'Media','Bonus! /u/pastypilgrim kindly ran your choices through an algorithm that produced a visual represent','2018-3-28','json@hotmail.com');
+insert into reply values(6,21, 'Media','Wow, Nightcrawler did really poorly in the box office','2018-3-28','json@hotmail.com');
+insert into reply values(7,21, 'Media','Goodness! Thank you for putting it together like this. Im already looking forward to several movies','2018-3-28','snowstorm@outlook.com');
+insert into reply values(8,21, 'Media','Honestly, I am very disappointed seeing Mr. Turner way down on #47. I felt it was excellent on all l','2018-3-28','vybaby@gmail.com');
+insert into reply values(9,21, 'Media','Quite disappointed in myself as to how few of these Ive seen. Time to start watching!','2018-3-28','superfoody@live.com');
+insert into reply values(10,21, 'Media','Ive really wanted to try Goodbye to Language, but I know its in 3D and since its Godard, I feel l','2018-3-28','itsdatboi@gmail.com');
+insert into reply values(11,21, 'Media','Im so happy to see The Rover included in the list. I was truly surprised and thrilled by that film.','2018-3-28','snowstorm@outlook.com');
+insert into reply values(12,21, 'Media','Extremely surprised that John Wick did not make it on to this list. Next to Calvary and Ida, it was ','2018-3-28','superfoody@live.com');
+insert into reply values(13,21, 'Media','This is great. So many movies that I missed. Is there a thread like this for 2013? ','2018-3-28','json@hotmail.com');
 
-insert into reply values(5,22, 'Movies/Television','In case anyone is interested here is a [movie barcode] (http://41.media.tumblr.com/tumblr_lpnkkgv275','2018-4-28','snowstorm@outlook.com');
-insert into reply values(6,22, 'Movies/Television','Really nicely structured piece, dude. Its the subtle (or in this case fairly unsubtle, but still su','2018-4-26','json@hotmail.com');
-insert into reply values(7,22, 'Movies/Television','I also love this film, and have always admired its use of colour both for aesthetic reasons and for ','2018-4-23','catdog@gmail.com');
-insert into reply values(8,22, 'Movies/Television','This is a really convincing theory that I hadnt really thought of before for this film. It is actua','2018-4-25','mad@yahoo.ca');
-insert into reply values(9,22, 'Movies/Television','Production Designers really dont get enough credit. I mean, sure, on *Star Wars* or *Lord of the Ri','2018-4-25','snowstorm@outlook.com');
-insert into reply values(10,22, 'Movies/Television','Really good observation. I think the theme of the movie is the balance between passion and pragmat','2018-4-28','greenearth@yahoo.ca');
-insert into reply values(11,22, 'Movies/Television','This is not at all on topic, but until your analysis, I never noticed that the architectural firm To','2018-4-26','mad@yahoo.ca');
-insert into reply values(12,22, 'Movies/Television','Message of the film: stick to your own color. Gotcha.But in all seriousness, I clicked on this thi','2018-4-26','json@hotmail.com');
-insert into reply values(13,22, 'Movies/Television','That is amazing. Its this kind of stuff thats right in front of your damn face but so little of us','2018-4-22','itsdatboi@gmail.com');
-insert into reply values(14,22, 'Movies/Television','i love this i was a little aware of the colors after like 6 times of watching this movie.is my favo','2018-4-26','itsdatboi@gmail.com');
+insert into reply values(5,22, 'Media','In case anyone is interested here is a [movie barcode] (http://41.media.tumblr.com/tumblr_lpnkkgv275','2018-4-28','snowstorm@outlook.com');
+insert into reply values(6,22, 'Media','Really nicely structured piece, dude. Its the subtle (or in this case fairly unsubtle, but still su','2018-4-26','json@hotmail.com');
+insert into reply values(7,22, 'Media','I also love this film, and have always admired its use of colour both for aesthetic reasons and for ','2018-4-23','catdog@gmail.com');
+insert into reply values(8,22, 'Media','This is a really convincing theory that I hadnt really thought of before for this film. It is actua','2018-4-25','mad@yahoo.ca');
+insert into reply values(9,22, 'Media','Production Designers really dont get enough credit. I mean, sure, on *Star Wars* or *Lord of the Ri','2018-4-25','snowstorm@outlook.com');
+insert into reply values(10,22, 'Media','Really good observation. I think the theme of the movie is the balance between passion and pragmat','2018-4-28','greenearth@yahoo.ca');
+insert into reply values(11,22, 'Media','This is not at all on topic, but until your analysis, I never noticed that the architectural firm To','2018-4-26','mad@yahoo.ca');
+insert into reply values(12,22, 'Media','Message of the film: stick to your own color. Gotcha.But in all seriousness, I clicked on this thi','2018-4-26','json@hotmail.com');
+insert into reply values(13,22, 'Media','That is amazing. Its this kind of stuff thats right in front of your damn face but so little of us','2018-4-22','itsdatboi@gmail.com');
+insert into reply values(14,22, 'Media','i love this i was a little aware of the colors after like 6 times of watching this movie.is my favo','2018-4-26','itsdatboi@gmail.com');
 
-insert into reply values(5,23, 'Movies/Television','As a Lithuanian living in the US, I was shocked to see how similar Mexican values are to ours. Not t','2018-4-23','admin@gmail.com');
-insert into reply values(6,23, 'Movies/Television','Saw it last week and was overwhelmed by how unique it was, might even go so far as to call it odd on','2018-4-23','catdog@gmail.com');
-insert into reply values(7,23, 'Movies/Television','Mexican here: it was alright. I do agree with you that its nice having some semblance of Mexican cu','2018-4-24','itsdatboi@gmail.com');
-insert into reply values(8,23, 'Movies/Television','Theres been a lot of controversy surrounding this movie and The Book of Life. If youve seen The Bo','2018-4-26','itsdatboi@gmail.com');
-insert into reply values(9,23, 'Movies/Television','Hey, this post makes me super happy for all the obvious reasons, but I just wanted to say thanks for','2018-4-24','mad@yahoo.ca');
-insert into reply values(10,23, 'Movies/Television','I liked much of the inner values of this film, but it also raises a big single flag to me.  The conc','2018-4-25','greenearth@yahoo.ca');
-insert into reply values(11,23, 'Movies/Television','I agree 110%. I was so afraid of this movie portraying Mexican heritage in a whitewashed, try-hard H','2018-4-28','mad@yahoo.ca');
-insert into reply values(12,23, 'Movies/Television','~~Pixar~~ Disney puts together heritage councils and the creators take lots of field trips.https:/','2018-4-24','deskrage@gmail.com');
-insert into reply values(13,23, 'Movies/Television','Going by reviews Ive been reading from Latino critics, I am so freaking happy at how I, frankly, ca','2018-4-24','itsdatboi@gmail.com');
-insert into reply values(14,23, 'Movies/Television','So glad that there are other people feeling like this. Its been a week since Ive watched Coco and ','2018-4-21','catdog@gmail.com');
+insert into reply values(5,23, 'Media','As a Lithuanian living in the US, I was shocked to see how similar Mexican values are to ours. Not t','2018-4-23','admin@gmail.com');
+insert into reply values(6,23, 'Media','Saw it last week and was overwhelmed by how unique it was, might even go so far as to call it odd on','2018-4-23','catdog@gmail.com');
+insert into reply values(7,23, 'Media','Mexican here: it was alright. I do agree with you that its nice having some semblance of Mexican cu','2018-4-24','itsdatboi@gmail.com');
+insert into reply values(8,23, 'Media','Theres been a lot of controversy surrounding this movie and The Book of Life. If youve seen The Bo','2018-4-26','itsdatboi@gmail.com');
+insert into reply values(9,23, 'Media','Hey, this post makes me super happy for all the obvious reasons, but I just wanted to say thanks for','2018-4-24','mad@yahoo.ca');
+insert into reply values(10,23, 'Media','I liked much of the inner values of this film, but it also raises a big single flag to me.  The conc','2018-4-25','greenearth@yahoo.ca');
+insert into reply values(11,23, 'Media','I agree 110%. I was so afraid of this movie portraying Mexican heritage in a whitewashed, try-hard H','2018-4-28','mad@yahoo.ca');
+insert into reply values(12,23, 'Media','~~Pixar~~ Disney puts together heritage councils and the creators take lots of field trips.https:/','2018-4-24','deskrage@gmail.com');
+insert into reply values(13,23, 'Media','Going by reviews Ive been reading from Latino critics, I am so freaking happy at how I, frankly, ca','2018-4-24','itsdatboi@gmail.com');
+insert into reply values(14,23, 'Media','So glad that there are other people feeling like this. Its been a week since Ive watched Coco and ','2018-4-21','catdog@gmail.com');
 
-insert into reply values(5,24, 'Movies/Television','Dont forget the pale horse rider passing in the background, the literal symbol of death and the apo','2018-3-25','deskrage@gmail.com');
-insert into reply values(6,24, 'Movies/Television','I immediately associated the man shot in the beginning with the blues. Older black man sitting down ','2018-3-20','snowstorm@outlook.com');
-insert into reply values(7,24, 'Movies/Television','I think in some ways youre missing the forest for the trees with your analysis.  Theres a lot of b','2018-3-8','itsdatboi@gmail.com');
-insert into reply values(8,24, 'Movies/Television','Solid analysis.To address your hunned bands question, its common slang for bands to mean $1000.','2018-3-26','snowstorm@outlook.com');
-insert into reply values(9,24, 'Movies/Television','>He is run after by a mob of white people.This has a double meaning of white people consuming blac','2018-3-19','json@hotmail.com');
-insert into reply values(10,24, 'Movies/Television','> This is reinforced by how the corners are rounded and cut off, quite telling that he wants an Anal','2018-3-23','snowstorm@outlook.com');
-insert into reply values(11,24, 'Movies/Television','The fake gun throws me for a loop. While I would posit that it likely is a reference to police shoot','2018-3-23','nonadmin@gmail.com');
-insert into reply values(12,24, 'Movies/Television','Good work, you definitely got a lot of good details in your post. Id say I agree with [Genius](http','2018-3-19','mad@yahoo.ca');
-insert into reply values(13,24, 'Movies/Television','Feels more like a meta-commentary on the fetishizing of drugs and violence in hip-hop. We did someth','2018-3-24','catdog@gmail.com');
-insert into reply values(14,24, 'Movies/Television','Well put. First time I see the teacher interpretation and I like it. As a white person I relate to t','2018-3-19','superfoody@live.com');
+insert into reply values(5,24, 'Media','Dont forget the pale horse rider passing in the background, the literal symbol of death and the apo','2018-3-25','deskrage@gmail.com');
+insert into reply values(6,24, 'Media','I immediately associated the man shot in the beginning with the blues. Older black man sitting down ','2018-3-20','snowstorm@outlook.com');
+insert into reply values(7,24, 'Media','I think in some ways youre missing the forest for the trees with your analysis.  Theres a lot of b','2018-3-8','itsdatboi@gmail.com');
+insert into reply values(8,24, 'Media','Solid analysis.To address your hunned bands question, its common slang for bands to mean $1000.','2018-3-26','snowstorm@outlook.com');
+insert into reply values(9,24, 'Media','>He is run after by a mob of white people.This has a double meaning of white people consuming blac','2018-3-19','json@hotmail.com');
+insert into reply values(10,24, 'Media','> This is reinforced by how the corners are rounded and cut off, quite telling that he wants an Anal','2018-3-23','snowstorm@outlook.com');
+insert into reply values(11,24, 'Media','The fake gun throws me for a loop. While I would posit that it likely is a reference to police shoot','2018-3-23','nonadmin@gmail.com');
+insert into reply values(12,24, 'Media','Good work, you definitely got a lot of good details in your post. Id say I agree with [Genius](http','2018-3-19','mad@yahoo.ca');
+insert into reply values(13,24, 'Media','Feels more like a meta-commentary on the fetishizing of drugs and violence in hip-hop. We did someth','2018-3-24','catdog@gmail.com');
+insert into reply values(14,24, 'Media','Well put. First time I see the teacher interpretation and I like it. As a white person I relate to t','2018-3-19','superfoody@live.com');
 
-insert into reply values(5,25, 'Movies/Television','Number of Submissions: 80Number of Films Submitted: 87Number of Documentaries: 6 (7 if you count','2018-6-13','admin@gmail.com');
-insert into reply values(6,25, 'Movies/Television','Interesting to see Ladybird over CMBYN. While I generally enjoyed Ladybird, the film seemed like a f','2018-6-14','snowstorm@outlook.com');
-insert into reply values(7,25, 'Movies/Television','This is a good list (Im especially happy that Blade Runner 2049 and Phantom Thread, my two favorite','2018-6-20','nonadmin@gmail.com');
-insert into reply values(8,25, 'Movies/Television','Ah, to bad I missed the cut off, I had a few more movies I wanted to catch before voting!Really ha','2018-6-23','json@hotmail.com');
-insert into reply values(9,25, 'Movies/Television','Can someone explain to me why Wind River hasnt gotten more love? I genuinely think it is one of the','2018-6-18','superfoody@live.com');
-insert into reply values(10,25, 'Movies/Television','Why no love for Logan Lucky?  I think its a very well made modern day heist film with a twist in ','2018-6-21','nabstua@gmail.com');
-insert into reply values(11,25, 'Movies/Television','Biggest omission by far is *I Dont Feel at Home in This World Anymore*. Went from Grand Jury Prize ','2018-6-16','itsdatboi@gmail.com');
-insert into reply values(12,25, 'Movies/Television','Solid list','2018-6-27','deskrage@gmail.com');
-insert into reply values(13,25, 'Movies/Television','I do think that over time, people will start to appreciate 3 Billboards for what it is. A lot of peo','2018-6-28','snowstorm@outlook.com');
-insert into reply values(14,25, 'Movies/Television','What immediately jumps out to me is how I wouldnt consider a dozen or so of the films on this list ','2018-6-20','nabstua@gmail.com');
+insert into reply values(5,25, 'Media','Number of Submissions: 80Number of Films Submitted: 87Number of Documentaries: 6 (7 if you count','2018-6-13','admin@gmail.com');
+insert into reply values(6,25, 'Media','Interesting to see Ladybird over CMBYN. While I generally enjoyed Ladybird, the film seemed like a f','2018-6-14','snowstorm@outlook.com');
+insert into reply values(7,25, 'Media','This is a good list (Im especially happy that Blade Runner 2049 and Phantom Thread, my two favorite','2018-6-20','nonadmin@gmail.com');
+insert into reply values(8,25, 'Media','Ah, to bad I missed the cut off, I had a few more movies I wanted to catch before voting!Really ha','2018-6-23','json@hotmail.com');
+insert into reply values(9,25, 'Media','Can someone explain to me why Wind River hasnt gotten more love? I genuinely think it is one of the','2018-6-18','superfoody@live.com');
+insert into reply values(10,25, 'Media','Why no love for Logan Lucky?  I think its a very well made modern day heist film with a twist in ','2018-6-21','nabstua@gmail.com');
+insert into reply values(11,25, 'Media','Biggest omission by far is *I Dont Feel at Home in This World Anymore*. Went from Grand Jury Prize ','2018-6-16','itsdatboi@gmail.com');
+insert into reply values(12,25, 'Media','Solid list','2018-6-27','deskrage@gmail.com');
+insert into reply values(13,25, 'Media','I do think that over time, people will start to appreciate 3 Billboards for what it is. A lot of peo','2018-6-28','snowstorm@outlook.com');
+insert into reply values(14,25, 'Media','What immediately jumps out to me is how I wouldnt consider a dozen or so of the films on this list ','2018-6-20','nabstua@gmail.com');
 
-insert into reply values(5,26, 'Movies/Television','*Snow Cake*, which Rickman stars in, is a film thats really close to my heart. I never really knew ','2018-6-21','vybaby@gmail.com');
-insert into reply values(6,26, 'Movies/Television','This makes me incredibly sad. I absolutely loved him in Galaxy Quest, such a funny part he played in','2018-6-13','nonadmin@gmail.com');
-insert into reply values(7,26, 'Movies/Television','By Grabthars Hammer, this is sad news.','2018-6-23','vybaby@gmail.com');
-insert into reply values(8,26, 'Movies/Television','The first performance that I ever actually *loved* was Rickman as the Sheriff of Nottingham in Robin','2018-6-15','greenearth@yahoo.ca');
-insert into reply values(9,26, 'Movies/Television','Ok, the day before Bowie died I watched Basquiat and yesterday I watched Sweeney Todd. WHAT IS HAP','2018-6-19','snowstorm@outlook.com');
-insert into reply values(10,26, 'Movies/Television','this is just a terrible week.  I recently watched CBGB, he was great in that.  RIP Alan. ','2018-6-6','admin@gmail.com');
-insert into reply values(11,26, 'Movies/Television','Devastating news.  I feel like someone cut my heart out with a spoon.','2018-6-11','itsdatboi@gmail.com');
-insert into reply values(12,26, 'Movies/Television','[How I feel about this new](https://media2.giphy.com/media/qOVZOYP1d2zBu/giphy.gif)Edit: [Source](','2018-6-7','snowstorm@outlook.com');
-insert into reply values(13,26, 'Movies/Television','To me he will always be the sad ghostly husband from Truly Madly Deeply.','2018-6-4','greenearth@yahoo.ca');
-insert into reply values(14,26, 'Movies/Television','Look...at...me... he whispered. The green eyes found the black, but after a second, something in t','2018-6-6','superfoody@live.com');
+insert into reply values(5,26, 'Media','*Snow Cake*, which Rickman stars in, is a film thats really close to my heart. I never really knew ','2018-6-21','vybaby@gmail.com');
+insert into reply values(6,26, 'Media','This makes me incredibly sad. I absolutely loved him in Galaxy Quest, such a funny part he played in','2018-6-13','nonadmin@gmail.com');
+insert into reply values(7,26, 'Media','By Grabthars Hammer, this is sad news.','2018-6-23','vybaby@gmail.com');
+insert into reply values(8,26, 'Media','The first performance that I ever actually *loved* was Rickman as the Sheriff of Nottingham in Robin','2018-6-15','greenearth@yahoo.ca');
+insert into reply values(9,26, 'Media','Ok, the day before Bowie died I watched Basquiat and yesterday I watched Sweeney Todd. WHAT IS HAP','2018-6-19','snowstorm@outlook.com');
+insert into reply values(10,26, 'Media','this is just a terrible week.  I recently watched CBGB, he was great in that.  RIP Alan. ','2018-6-6','admin@gmail.com');
+insert into reply values(11,26, 'Media','Devastating news.  I feel like someone cut my heart out with a spoon.','2018-6-11','itsdatboi@gmail.com');
+insert into reply values(12,26, 'Media','[How I feel about this new](https://media2.giphy.com/media/qOVZOYP1d2zBu/giphy.gif)Edit: [Source](','2018-6-7','snowstorm@outlook.com');
+insert into reply values(13,26, 'Media','To me he will always be the sad ghostly husband from Truly Madly Deeply.','2018-6-4','greenearth@yahoo.ca');
+insert into reply values(14,26, 'Media','Look...at...me... he whispered. The green eyes found the black, but after a second, something in t','2018-6-6','superfoody@live.com');
 
 insert into reply values(5,27, 'Sports','Parlayed the Chiefs and the over. Woke my wife and daughter up lol','2018-1-8','admin@gmail.com');
 insert into reply values(6,27, 'Sports','WAS +7 and Under 48 SADNESS PARTY, FOLLOW ME!','2018-1-18','admin@gmail.com');

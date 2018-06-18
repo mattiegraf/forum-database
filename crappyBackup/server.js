@@ -5,16 +5,6 @@ function handleErr(err) {
   return "<h2> There was an error parsing your request. </h2><br>" + errStr;
 }
 
-fieldsDict = {
-  account : 'email, username, password, age, banana_score, isadmin',
-  message : 'id_num, body, date_sent, sent_email, received_email',
-  moderates : 'email, name',
-  reply : 'id_num, thread_id_num, name, body, date_posted, email',
-  subforum : 'name',
-  subscribed_to : 'email, name',
-  thread : 'name, id, title, textbody, date_posted, email'
-}
-
 /**
  * @param {string} fields - fields of the form "field1, field2, field3"
  * @param {array}  rows   - resulting rows from the query
@@ -116,8 +106,9 @@ app.get('/initDb', (req, res) => {
 app.get('/makeGeneralQuery', (req, res) => {
   let q = req.query;
 
-  let query = 'select '+q.selectField+' from '+q.fromField;
-  if (q.whereField) query += ' where '+q.whereField;
+  let query = 'select '+q.selectField+' FROM '+q.fromField;
+  if (q.whereField) query += ' WHERE '+q.whereField;
+  if (q.orderByField) query += ' ORDER BY '+q.orderByField;
 
   connection.query(query, (err, rows) => {
     if (!err) {
