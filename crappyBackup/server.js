@@ -21,25 +21,34 @@ fieldsDict = {
  * @param {string} query  - the SQL query as a string
  */
 function genTableFromQuery(fields, rows, query) {
-  fields = fields.split(',').map(x => x.trim());
 
   let out = `<p> SQL query: ${query} </p><table>`;
 
-  for (let i = 0; i < fields.length; i++) {
-    out += '<th>'+fields[i]+'</th>';
-  }
+  // if results were returned
+  if (rows.length > 0) {
+      fields = Object.keys(rows[0]);
 
-  for (let i = 0; i < rows.length; i++) {
-    out += '<tr>';
-
-    for (let j = 0; j < fields.length; j++) {
-      out += '<td>' + rows[i][fields[j]] + '</td>';
+    // generate header row
+    for (let i = 0; i < fields.length; i++) {
+      out += '<th>'+fields[i]+'</th>';
     }
 
-    out += '</tr>';
+    // add html for the row
+    for (let i = 0; i < rows.length; i++) {
+      out += '<tr>';
+
+      // add html for the entry
+      for (let j = 0; j < fields.length; j++)
+        out += '<td>' + rows[i][fields[j]] + '</td>';
+
+      out += '</tr>';
+    }
+    out += '</table>';
   }
 
-  out += '</table>';
+  else out += `<strong>Query returned no rows</strong>`;
+
+  out += '<link rel="stylesheet" href="style.css">';
 
   return out;
 }
@@ -107,16 +116,12 @@ app.get('/initDb', (req, res) => {
 app.get('/makeGeneralQuery', (req, res) => {
   let q = req.query;
 
-  // special case when selecting *
-  let selectField = (q.selectField.trim() == '*') ? fieldsDict[q.fromField.toLowerCase()] : q.selectField;
-
-  let query = 'select '+selectField+' from '+q.fromField;
-
+  let query = 'select '+q.selectField+' from '+q.fromField;
   if (q.whereField) query += ' where '+q.whereField;
 
   connection.query(query, (err, rows) => {
     if (!err) {
-      res.send(genTableFromQuery(selectField, rows, query));
+      res.send(genTableFromQuery(q.selectField, rows, query));
     }
     else {
       res.send(handleErr(err));
