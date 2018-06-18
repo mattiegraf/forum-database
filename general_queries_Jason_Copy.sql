@@ -33,6 +33,14 @@ WHERE id = PLACEHOLDER_THREAD_ID)
 INSERT INTO thread
 values('PLACEHOLDER_SUBFORUM', PLACEHOLDER_ID, 'PLACEHOLDER_TITLE', 'PLACEHOLDER_TEXT_BODY', 'PLACEHOLDER_DATE', 'PLACEHOLDER_EMAIL');
 
+/* Allows user to add a thread without manually inserting an id. */
+
+INSERT INTO thread
+values(PLACEHOLDER_NAME, 
+(SELECT MAX(id) + 1
+FROM thread t1)
+, 'PLACEHOLDER_TITLE', 'PLACEHOLER_TEXT_BODY', 'PLACEHOLDER_DATE', 'PLACEHOLDER_EMAIL');
+
 /* Allows user to delete a thread. */
 
 DELETE FROM thread
