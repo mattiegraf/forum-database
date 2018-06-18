@@ -238,11 +238,46 @@ app.get('/addmod/:email/:name', function(req, res){
   });
 });
 
-  function adminModUser(email, subforumName) {
-    return 
-  }
-  
+  /* ADMIN QUERY - Add a subforum. */
+app.get('/addsubforum/:name', function(req, res){
+    connection.query("insert into subforum values('"+req.params.name+"');", (err, rows) => {
+      if (err) throw err;
+      res.send(rows)
+    });
+  });
 
+ /* ADMIN QUERY - Delete a subforum. */
+app.get('/removesubforum/:name', function(req, res){
+    connection.query("delete from subforum where name = '"+req.params.name+"';", (err, rows) => {
+      if (err) throw err;
+      res.send(rows)
+    });
+  });
+
+/* ADMIN QUERY - Remove moderation ability of a user for a subforum. */
+app.get('/removemod/:email/:name', function(req, res){
+  connection.query("delete from moderates where email = '"+req.params.email+"' and name = '"+req.params.name+"';", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+  // Allow user to create a thread
+app.get('/createthread/:name/:title/:body/:author', function(req, res){
+  connection.query('INSERT INTO thread values("'+req.params.name+'", (select max(id) + 1 from thread t1) ,"'+req.params.title+'", "'+req.params.body+'", curdate(), "'+req.params.author+'");', (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+// Allow user to delete a thread
+app.get('/deletethread/:id/:author', function(req, res){
+  connection.query('DELETE FROM thread WHERE email = "'+req.params.author+'" AND id = '+req.params.id+';', (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
 
 ///dont touch this!!
 app.listen(port, () => console.log(`Listening on port ${port}`));

@@ -21,20 +21,7 @@
   // Allow user to delete their own reply in a thread
   function deleteReply(accountEmail, commentId, threadId) {
     return 'DELETE FROM reply WHERE email = "'+accountEmail+'" AND id_num = '+commentId+' AND thread_id_num = '+threadId+';';
-  }
-  
-  
-  // Allow user to create a thread
-  function createThread(subforumName, threadId, title, textBody, date, email) {
-    return 'INSERT INTO thread values("'+subforumName+'",'+threadId+',"'+title+'", "'+textBody+'", "'+date+'", "'+email+'");';
-  }
-  
-  
-  // Allow user to delete a thread they made
-  function deleteThread(email, threadId) {
-    return 'DELETE FROM thread WHERE email = "'+email+'" AND id = '+threadId+';';
-  }
-  
+  }  
   
   // View threads on subforums by most commented on in the last week.
   function getMostCommentedThreads(subforumName) {
@@ -73,28 +60,6 @@
     return "delete from reply where id_num = "+threadId+" and thread_id_num = "+threadId+" and name = '"+subforumName+"';"
   }
   
-  
-  /* ADMIN QUERY - Add a subforum. */
-  function adminCreateSubforum(subforumName) {
-    return "insert into subforum values('"+subforumName+"');"
-  }
-  
-  
-  /* ADMIN QUERY - Delete a subforum. */
-  function adminDeleteSubforum(subforumName) {
-    return "delete from subforum where name = '"+subforumName+"';"
-  }
-  
-  /* ADMIN QUERY - Appoint moderation of a user for a subforum. */
-  function adminModUser(email, subforumName) {
-    return "insert into moderates values('"+email+"', '"+subforumName+"');"
-  }
-  
-  
-  /* ADMIN QUERY - Remove moderation ability of a user for a subforum. */
-  function adminUnmodUser(email, subforumName) {
-    return "delete from moderates where email = '"+email+"' and name = '"+subforumName+"';"
-  }
   
   /* ADMIN QUERY - Allows admin to see comments on all threads in a easy-to-read manner. */
   function adminViewAllComments() {

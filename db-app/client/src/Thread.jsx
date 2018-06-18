@@ -60,7 +60,7 @@ class Thread extends Component {
       this.match = props.match;
       this.email = cookies.get('email');
       this.adminBit = Number(cookies.get('adminBit'));
-      console.log("Admin bit is: " + this.adminBit);
+      //console.log("Admin bit is: " + this.adminBit);
   }
   
   componentDidMount() {
@@ -93,7 +93,7 @@ class Thread extends Component {
             //probably not necessary
             self.setState({mod: 0});
         } 
-        console.log(data);
+        //console.log(data);
     }).catch(err => {
       console.log('caught it!',err);
       })
@@ -107,10 +107,13 @@ class Thread extends Component {
                 return(
                 <div>
                     <div>
+                        <h2><Link to={`/s/${this.match.params.name}`}>{thread.name} Board</Link></h2>
+                    </div>
+                    <div>
                         <h1>{thread.title}</h1>
                         <h4>{temail}</h4>
                         <p>{thread.textbody}</p>
-                        <DeleteThread username = {this.email} isAdmin = {this.adminBit} moderatorFlag = {this.state.mod} 
+                        <DeleteThread email = {this.email} isAdmin = {this.adminBit} moderatorFlag = {this.state.mod} 
                         author = {thread.email} id = {thread.id}/>
                     </div>
                     <div>
@@ -130,7 +133,7 @@ class Thread extends Component {
       
   }
 
-const NewThread = ({match}) => {
+const NewThread2 = ({match}) => {
     var subforum= Data.subforumData.find(s => s.name === match.params.name);
     if(subforum){
         return (
@@ -145,6 +148,74 @@ const NewThread = ({match}) => {
         return (<div><Error/></div>);
     }
 };
+
+
+class NewThread extends Component {
+    constructor(props) {
+      super(props)
+      this.state = {
+          subforum: []
+          
+      }
+      this.match = props.match;
+  }
+  
+  componentDidMount() {
+      let self = this;
+      fetch('/s/' + this.match.params.name, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+          self.setState({subforum: data});
+          //console.log(data);
+      }).catch(err => {
+      console.log('caught it!',err);
+      })
+  }
+  
+    render(){
+      return (
+  
+        <div>
+           {this.state.subforum.map( (subforum) => {
+               return(
+                <div>
+                    <h1>Post New Thread on <Link to={`/s/${this.match.params.name}`}>{subforum.name} Board</Link></h1>
+                    <TwoFieldForm fieldName1 = "Post Title" fieldName2 = "Post Body" rest = {subforum.name}
+                        handler = {NewThreadHandler}/>
+                </div>
+           )})}
+       </div>
+      )
+      
+    }
+  
+}
+
+function NewThreadHandler(title, body, name){
+    let self = this;
+    const author = cookies.get('email');
+    fetch('/createthread/'+name+'/'+title+'/'+body+'/'+author, {
+        method: 'GET'
+    }).then(function(response) {
+        if (response.status >= 400) {
+            throw new Error("Bad response from server");
+        }
+        return response.json();
+    }).then(function(data) {
+        console.log(data);
+    }).catch(err => {
+    console.log('caught it!',err);
+    });
+}
+
+  
+
+
 
 
 function Comments1(props){
@@ -183,7 +254,7 @@ class Comments extends Component {
           return response.json();
       }).then(function(data) {
           self.setState({comments: data});
-          console.log(data);
+          //console.log(data);
       }).catch(err => {
       console.log('caught it!',err);
       })
@@ -213,10 +284,26 @@ class Comments extends Component {
 
 function DeleteThread(props){
     var deleteView = null;
-    if(props.author === props.username || props.isAdmin || props.moderatorFlag){
-        deleteView = <button>Delete</button>
+    if(props.author === props.email || props.isAdmin || props.moderatorFlag){
+        deleteView = <button onClick = {DeleteThreadHandler(props.id, props.author)}>Delete</button>
     }
     return deleteView;
+}
+
+function DeleteThreadHandler(id, email){
+    let self = this;
+      fetch('/deletethread/'+id+'/'+email, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+        console.log(data);
+    }).catch(err => {
+      console.log('caught it!',err);
+      });
 }
 
 function DeleteComment(props){
