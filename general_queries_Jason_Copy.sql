@@ -123,6 +123,11 @@ SELECT MAX(id_num)
 FROM reply
 WHERE thread_id_num = PLACEHOLDER_INTEGER;
 
+/* Allows user to get the list of subforums. */
+
+SELECT *
+FROM subforum;
+
 /* MOD/ADMIN QUERY - Delete a thread that they are not the author of. */
 
 DELETE FROM thread
