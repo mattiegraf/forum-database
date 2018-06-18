@@ -55,6 +55,41 @@ app.get('/subforumthreads/:name', function(req, res){
 });
 
 
+//!!! fix after login implemented
+// Allows user to view the last 20 messages sent to their account.
+app.get('/viewmessages/:email', function(req, res){
+  connection.query("SELECT * FROM message WHERE received_email = '"+req.params.email+"' ORDER BY date_sent DESC LIMIT 20;", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+//!!! fix after login implemented
+// Allow user to send a message to another user
+app.get('/sendMessage/:to/:from/:body', function(req, res){
+  connection.query("insert into message values((select max(id_num) + 1 from message m1), '"+req.params.body+"', curdate(), '"+req.params.from+"', '"+req.params.to+"');", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+/* View threads on subforums by latest post date. */
+app.get('/subforumthreads/:name', function(req, res){
+  connection.query("SELECT * FROM thread WHERE name = '"+req.params.name+"' order by date_posted desc;", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+/* View thread. */
+app.get('/thread/:name/:id', function(req, res){
+  connection.query("SELECT * FROM thread WHERE name = '"+req.params.name+"'and id = "+req.params.id+";", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
 
 
 
