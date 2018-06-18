@@ -220,6 +220,20 @@ WHERE age = (
 SELECT MAX(age)
 FROM account);
 
+/* ADMIN QUERY - Allows admin to see the age of the youngest user on the server. */
+SELECT DISTINCT age
+FROM account
+WHERE age = (
+SELECT MIN(age)
+FROM account);
+
+/* ADMIN QUERY - Allows admin to see the age of the oldest user on the server. */
+SELECT DISTINCT age
+FROM account
+WHERE age = (
+SELECT MAX(age)
+FROM account);
+
 /* ADMIN QUERY - Allows admin to see the user(s) with the lowest banana score. */
 
 SELECT *
