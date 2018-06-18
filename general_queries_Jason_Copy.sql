@@ -43,6 +43,11 @@ WHERE email = 'PLACEHOLDER_EMAIL' AND id = PLACEHOLDER_ID;
 INSERT INTO message
 values(PLACEHOLDER_MESSAGE_ID, 'PLACEHOLDER_MESSAGE', 'PLACEHOLDER_DATE', 'PLACEHOLDER_FROM', 'PLACEHOLDER_TO');
 
+/* Allows user to post a message, where message ID is automatically updated.*/
+
+INSERT INTO message
+values((SELECT MAX(id_num) + 1 from message m1), 'PLACEHOLDER_BODY', curdate(), 'PLACEHOLDER_FROM', 'PLACEHOLDER_TO');
+
 /* Allows user to subscribe to a forum. */
 
 INSERT INTO subscribed_to
