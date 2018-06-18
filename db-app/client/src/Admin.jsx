@@ -18,6 +18,7 @@ function AdminView({match}){
         <AddSubforum/>
         <RemoveSubforum/>
         <RemoveUser/>
+        <UpdateBScore/>
         </div>
     );
 }
@@ -53,10 +54,25 @@ function RemoveModerator(){
     return(
         <div>
             <h3>Remove Moderator</h3>
-            <OneFieldSelectForm fieldName1 = "Username" fieldName2 = "Subforum" submitName = "Remove" options = {
-            Data.subforumData.map( (subforum) => { return subforum.name})}/>
+            <TwoFieldForm fieldName1 = "Email" fieldName2 = "Subforum" submitName = "Remove" handler = {RemoveModeratorHandler}/>
       </div>
     );
+}
+
+function RemoveModeratorHandler(email, subforum){
+    let self = this;
+      fetch('/removemod/'+email+'/'+subforum, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+        console.log(data);
+    }).catch(err => {
+      console.log('caught it!',err);
+      });
 }
 
 function AddModerator(){
@@ -85,25 +101,54 @@ function AddModeratorHandler(email, subforum){
       });
 }
 
-
-
 function AddSubforum(){
     return(
         <div>
             <h3>Add Subforum</h3>
-            <OneFieldForm fieldName = "Subforum" submitName = "Create"/>
+            <OneFieldForm fieldName = "Subforum" submitName = "Create" handler = {AddSubforurmHandler}/>
       </div>
     );
+}
+
+function AddSubforurmHandler(subforum){
+    let self = this;
+      fetch('/addsubforum/'+subforum, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+        console.log(data);
+    }).catch(err => {
+      console.log('caught it!',err);
+      });
 }
 
 function RemoveSubforum(){
     return(
         <div>
             <h3>Remove Subforum</h3>
-            <OneSelectForm fieldName = "Subforum" submitName = "Remove" options = {
-            Data.subforumData.map( (subforum) => { return subforum.name})}/>
+            <OneFieldForm fieldName = "Subforum" submitName = "Remove" handler = {RemoveSubforurmHandler}/>
       </div>
     );
+}
+
+function RemoveSubforurmHandler(subforum){
+    let self = this;
+      fetch('/removesubforum/'+subforum, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+        console.log(data);
+    }).catch(err => {
+      console.log('caught it!',err);
+      });
 }
 
 function RemoveUser(){
@@ -117,26 +162,6 @@ function RemoveUser(){
 
 function RemoveUserHandler(email){
     let self = this;
-    /*
-    if(email && email !== "undefined" && myEmail && email !== myEmail){
-      fetch('/isadminuser/'+email, {
-          method: 'GET'
-      }).then(function(response) {
-          if (response.status >= 400) {
-              throw new Error("Bad response from server");
-          }
-          return response.json();
-      }).then(function(data) {
-        if(!data[0].isadmin.data[0]){
-            //delete user
-            console.log("kill user");
-        }
-    }).catch(err => {
-      console.log('caught it!',err);
-      });
-    }*/
-    //console.log(email);
-
     fetch('/deleteuser/'+email, {
         method: 'GET'
     }).then(function(response) {
@@ -150,6 +175,31 @@ function RemoveUserHandler(email){
     console.log('caught it!',err);
     });
 
+}
+
+function UpdateBScore(){
+    return(
+        <div>
+            <h3>Update Banana Score</h3>
+            <TwoFieldForm fieldName1 = "Email" fieldName2 = "New Score" submitName = "Update" handler = {UpdateBScoreHandler}/>
+      </div>
+    );
+}
+
+function UpdateBScoreHandler(email, score){
+    let self = this;
+    fetch('/updatebscore/'+email+'/'+score, {
+        method: 'GET'
+    }).then(function(response) {
+        if (response.status >= 400) {
+            throw new Error("Bad response from server");
+        }
+        return response;
+    }).then(function(response) {
+      //report success here
+  }).catch(err => {
+    console.log('caught it!',err);
+    });
 }
 
 

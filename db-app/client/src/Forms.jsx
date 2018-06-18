@@ -51,6 +51,7 @@ class TwoFieldForm extends React.Component {
     this.fieldName1 = props.fieldName1;
     this.fieldName2 = props.fieldName2;
     props.submitName ? this.submitName = props.submitName : this.submitName = "Submit";
+    this.rest = props.rest;
   }
 
   handleChange1(event) {
@@ -63,7 +64,7 @@ class TwoFieldForm extends React.Component {
 
   handleSubmit(event) {
     //input processing must be done in handler
-    this.submissionHandler(this.state.value1, this.state.value2);
+    this.submissionHandler(this.state.value1, this.state.value2, this.rest);
     event.preventDefault();
   }
 

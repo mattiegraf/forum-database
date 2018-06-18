@@ -38,13 +38,6 @@ const Subscribed = () => (
   </div>
 );
 
-const Search = () => (
-  <div>
-    <h1>Search</h1>
-    <OneFieldSelectForm fieldName1 = "Search Phrase" fieldName2 = "From" submitName = "Search" options = {["Subforum", "Thread"]}/>
-  </div>
-);
-
 const cookies = new Cookies();
 
 class App extends Component {
@@ -139,7 +132,7 @@ function RouteDirectory(){
               <Route exact path='/messages' component = {MessagePage}/>
               <Route exact path='/messages/new' component = {NewMessagePage}/>
               <Route exact path="/subscribed" component={Subscribed}/>
-              <Route exact path="/search" component={Search}/>
+              <Route exact path="/leaderboard" component={Leaderboard}/>
               <Route exact path="/s" component={Subforums}/>
               <Route exact path="/s/:name" component={Subforum}/>
               <Route exact path="/s/:name/new" component={NewThread}/>
@@ -170,7 +163,7 @@ function NavigationButtons(props){
       <button><Link to="/">Homepage</Link></button>
       <button><Link to="/s">Subforum List</Link></button>
       <button><Link to="/subscribed">Subscribed List</Link></button>
-      <button><Link to="/search">Search</Link></button>
+      <button><Link to="/leaderboard">Leaderboard</Link></button>
       <button><Link to="/messages">Messages</Link></button>
       <DisplayUsername/>
       <DisplayAdmin/>
@@ -305,5 +298,50 @@ function DeleteEntity(){
   return null;
 }
 
+
+class Leaderboard extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+        accounts: []
+    }
+    this.match = props.match;
+}
+
+componentDidMount() {
+    let self = this;
+    fetch('/top20bscore', {
+        method: 'GET'
+    }).then(function(response) {
+        if (response.status >= 400) {
+            throw new Error("Bad response from server");
+        }
+        return response.json();
+    }).then(function(data) {
+        self.setState({accounts: data});
+        console.log(data);
+    }).catch(err => {
+    console.log('caught it!',err);
+    })
+}
+
+  render(){
+    return(
+      <div>
+          <h2>Top 20 Bobos</h2>
+          <ol> 
+          {this.state.accounts.map( (account) => {
+              return (<li> {account.email}, Score: {account.banana_score}</li>);
+              })} 
+          </ol>
+      </div>
+    );
+
+    
+
+    
+  }
+
+}
 
 export default App;
