@@ -10,18 +10,29 @@
   <h1>Admin page</h1>
 
   <hr>
-  <h3>Get user info:</h3>
-  <form action="/getAccountInfo" method="get">
-    <p>Pick a field from: username, password, age, banana_score, isadmin</p>
-    <input type="text" name="chosenField" placeholder="Enter field here">
-    <input type="submit" value="Submit">
+  <h3>General Query</h3>
+  <p>Make a general query with any specifications</p>
+  <form action="/makeGeneralQuery" method='get'>
+    SELECT
+    <input type="text" name='selectField'>
+    FROM
+    <input type="text" name='fromField'>
+    WHERE
+    <input type="text" name='whereField'>
+    <input type="submit" value='Submit'>
   </form>
+
 
   <hr>
   <h3>Create new account:</h3>
   <form action="/createAccount" method="get">
     <p>Enter account info below to create a new account:</p>
-
+    <input type="text" name="email" placeholder="email"><br>
+    <input type="text" name="username" placeholder="username"><br>
+    <input type="text" name="password" placeholder="password"><br>
+    <input type="text" name="age" placeholder="age"><br>
+    <input type="text" name="banana_score" placeholder="banana score"><br>
+    <!-- <input type="checkbox" placeholder="isadmin" value="1"> Admin account? <br> -->
     <input type="submit" value="Submit">
   </form>
 
@@ -29,4 +40,5 @@
 
 
 </body>
+<link rel="stylesheet" href="style.css">
 </html>

@@ -1,6 +1,57 @@
 
 console.log('Server-side code running');
+function handleErr(err) {
+  let errStr = "code: " + err.code + "<br>errno: " + err.errno + "<br>sqlMessage: " + err.sqlMessage + "<br>sql: " + err.sql;
+  return "<h2> There was an error parsing your request. </h2><br>" + errStr;
+}
 
+fieldsDict = {
+  account : 'email, username, password, age, banana_score, isadmin',
+  message : 'id_num, body, date_sent, sent_email, received_email',
+  moderates : 'email, name',
+  reply : 'id_num, thread_id_num, name, body, date_posted, email',
+  subforum : 'name',
+  subscribed_to : 'email, name',
+  thread : 'name, id, title, textbody, date_posted, email'
+}
+
+/**
+ * @param {string} fields - fields of the form "field1, field2, field3"
+ * @param {array}  rows   - resulting rows from the query
+ * @param {string} query  - the SQL query as a string
+ */
+function genTableFromQuery(fields, rows, query) {
+  fields = fields.split(',').map(x => x.trim());
+
+  let out = `<p> SQL query: ${query} </p><table>`;
+
+  for (let i = 0; i < fields.length; i++) {
+    out += '<th>'+fields[i]+'</th>';
+  }
+
+  for (let i = 0; i < rows.length; i++) {
+    out += '<tr>';
+
+    for (let j = 0; j < fields.length; j++) {
+      out += '<td>' + rows[i][fields[j]] + '</td>';
+    }
+
+    out += '</tr>';
+  }
+
+  out += '</table>';
+
+  return out;
+}
+
+function makeQuery(query, callback) {
+  connection.query(query, (err, rows) => {
+    if (!err) callback(rows);
+    else handleErr(err);
+  })
+}
+
+// setup
 var mysql = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
@@ -28,58 +79,64 @@ var connection = mysql.createConnection({
 
      }
 });
+var queries = require('./js/queries.js')
 
 const express = require('express');
 const app = express();
 // serve files from the public directory
 app.use(express.static('public'));
 
-
-
-// connection.connect();
-//
-// connection.query("select 1 + 1 as solution;", (err, rows) => {
-//   console.log(rows[0].solution);
-// });
-//
-// app.get('/', function(req, res){
-//   res.send('<h1> hello world! </h1>');
-// });
-//
-// app.listen(3000);
-//
-// connection.end();
-
 connection.connect();
 
 // serve index page
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+app.get('/', (req, res) => { res.sendFile(__dirname + '/index.html'); });
+
+
+// Initialize database
+app.get('/initDb', (req, res) => {
+  for (let i = 0; i < queries.dropTables.length; i++) {
+    connection.query(queries.dropTables[i], (err, res) => {if (err) console.log(err);});
+  }
+  connection.query(queries.initTables, (err, res) => {if (err) console.log(err);})
+
+  res.send('<h2> Database initialized! </h2>');
 });
 
 
-// Admin get account info for users
-app.get('/getAccountInfo', (req, res) => {
-  let field = req.query.chosenField;
+// Admin general query
+app.get('/makeGeneralQuery', (req, res) => {
+  let q = req.query;
 
-  let query = "select email, "+field+" from account;";
+  // special case when selecting *
+  let selectField = (q.selectField.trim() == '*') ? fieldsDict[q.fromField.toLowerCase()] : q.selectField;
+
+  let query = 'select '+selectField+' from '+q.fromField;
+
+  if (q.whereField) query += ' where '+q.whereField;
+
   connection.query(query, (err, rows) => {
     if (!err) {
-      let out = `<h1> Retrieved user info: </h1>
-                 <strong> email : ${field} </strong><br>`;
-
-      for (let i = 0; i < rows.length; i++) {
-        out += rows[i].email + " : " + rows[i][field] + "<br>";
-      }
-      res.send(out);
+      res.send(genTableFromQuery(selectField, rows, query));
     }
     else {
-      res.send("<h2> There was an error parsing your request. Please try again </h2>");
+      res.send(handleErr(err));
     }
+  })
+})
+
+
+// Admin create account
+app.get('/createAccount', (req, res) => {
+  let q = req.query;
+
+  let query = "insert into account values('"+q.email+"','"+q.username+"','"+q.password+"',"+q.age+","+q.banana_score+", 0)"
+  connection.query(query, (err, rows) => {
+    if (!err) {
+      res.send("<h2> Account created successfully! </h2>");
+    }
+    else res.send(handleErr(err));
   });
 });
-
-
 
 
 app.listen(3000, () => { console.log("listening on localhost:3000"); });
