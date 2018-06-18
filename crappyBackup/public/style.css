@@ -7,3 +7,12 @@ html {
 input {
   margin: 3px;
 }
+
+table, th, td {
+   border: 1px solid black;
+   padding: 5px;
+}
+
+table {
+   border-collapse: collapse;
+}

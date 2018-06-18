@@ -5,41 +5,40 @@ function handleErr(err) {
   return "<h2> There was an error parsing your request. </h2><br>" + errStr;
 }
 
-fieldsDict = {
-  account : 'email, username, password, age, banana_score, isadmin',
-  message : 'id_num, body, date_sent, sent_email, received_email',
-  moderates : 'email, name',
-  reply : 'id_num, thread_id_num, name, body, date_posted, email',
-  subforum : 'name',
-  subscribed_to : 'email, name',
-  thread : 'name, id, title, textbody, date_posted, email'
-}
-
 /**
  * @param {string} fields - fields of the form "field1, field2, field3"
  * @param {array}  rows   - resulting rows from the query
  * @param {string} query  - the SQL query as a string
  */
 function genTableFromQuery(fields, rows, query) {
-  fields = fields.split(',').map(x => x.trim());
 
   let out = `<p> SQL query: ${query} </p><table>`;
 
-  for (let i = 0; i < fields.length; i++) {
-    out += '<th>'+fields[i]+'</th>';
-  }
+  // if results were returned
+  if (rows.length > 0) {
+      fields = Object.keys(rows[0]);
 
-  for (let i = 0; i < rows.length; i++) {
-    out += '<tr>';
-
-    for (let j = 0; j < fields.length; j++) {
-      out += '<td>' + rows[i][fields[j]] + '</td>';
+    // generate header row
+    for (let i = 0; i < fields.length; i++) {
+      out += '<th>'+fields[i]+'</th>';
     }
 
-    out += '</tr>';
+    // add html for the row
+    for (let i = 0; i < rows.length; i++) {
+      out += '<tr>';
+
+      // add html for the entry
+      for (let j = 0; j < fields.length; j++)
+        out += '<td>' + rows[i][fields[j]] + '</td>';
+
+      out += '</tr>';
+    }
+    out += '</table>';
   }
 
-  out += '</table>';
+  else out += `<strong>Query returned no rows</strong>`;
+
+  out += '<link rel="stylesheet" href="style.css">';
 
   return out;
 }
@@ -107,16 +106,13 @@ app.get('/initDb', (req, res) => {
 app.get('/makeGeneralQuery', (req, res) => {
   let q = req.query;
 
-  // special case when selecting *
-  let selectField = (q.selectField.trim() == '*') ? fieldsDict[q.fromField.toLowerCase()] : q.selectField;
-
-  let query = 'select '+selectField+' from '+q.fromField;
-
-  if (q.whereField) query += ' where '+q.whereField;
+  let query = 'select '+q.selectField+' FROM '+q.fromField;
+  if (q.whereField) query += ' WHERE '+q.whereField;
+  if (q.orderByField) query += ' ORDER BY '+q.orderByField;
 
   connection.query(query, (err, rows) => {
     if (!err) {
-      res.send(genTableFromQuery(selectField, rows, query));
+      res.send(genTableFromQuery(q.selectField, rows, query));
     }
     else {
       res.send(handleErr(err));

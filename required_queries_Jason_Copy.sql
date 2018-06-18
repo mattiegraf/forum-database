@@ -1,6 +1,7 @@
 /* ADMIN QUERY - Super general selection and projection query. I think it meets this?:
 Pick one query of this category and provide an interface for the user to specify the 
-selection condition and the attributes to be returned. Rerun the query with another constant. SELECTION/PROJECTION QUERY. */
+selection condition and the attributes to be returned. Rerun the query with another constant. We need 2 of these. 
+/PROJECTION QUERY. */
 
 SELECT PLACEHOLDER
 FROM PLACEHOLDER
