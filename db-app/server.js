@@ -1,5 +1,6 @@
 const express = require('express');
 var mysql = require('mysql');
+var query = require('./queries.js');
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -24,4 +25,45 @@ app.get('/clicked', (req, res) => {
   });
 });
 
+/////////////////////////////////////////////////////////////////////
+//converted from queries.js
+/////////////////////////////////////////////////////////////////
+
+
+//get all subforums
+app.get('/subforums', (req, res) => {
+  connection.query("SELECT * FROM subforum", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+app.get('/xxx', (req, res) => {
+  connection.query("SELECT * FROM subforum", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+app.get('/s/:name', (req, res) => {
+  connection.query("SELECT name FROM subforum WHERE subforum.name = '" + req.params.name + "';", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+/* View threads on subforums by latest post date. */
+app.get('/yyy', function(req, res){
+  connection.query("SELECT * FROM thread WHERE name = 'Food' order by date_posted desc;", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+
+
+
+
+///dont touch this!!
 app.listen(port, () => console.log(`Listening on port ${port}`));
