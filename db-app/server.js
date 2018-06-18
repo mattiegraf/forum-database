@@ -230,9 +230,15 @@ app.get('/modcheck/:email/:name', function(req, res){
   });
 });
 
+  /* ADMIN QUERY - Appoint moderation of a user for a subforum. */
+app.get('/addmod/:email/:name', function(req, res){
+  connection.query("insert into moderates values('"+req.params.email+"', '"+req.params.name+"');", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
 
-  
-  function checkIfUserIsMod(email, subforumName) {
+  function adminModUser(email, subforumName) {
     return 
   }
   

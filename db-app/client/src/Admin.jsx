@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Data from './Data.js';
-import {OneFieldForm, OneFieldSelectForm, OneSelectForm} from './Forms.jsx';
+import {OneFieldForm, OneFieldSelectForm, OneSelectForm, TwoFieldForm} from './Forms.jsx';
 import { Link } from 'react-router-dom';
 import Cookies from 'universal-cookie';
 import {Error, PermissionError} from './Error.jsx'
@@ -63,11 +63,29 @@ function AddModerator(){
     return(
         <div>
             <h3>Add Moderator</h3>
-            <OneFieldSelectForm fieldName1 = "Username" fieldName2 = "Subforum" submitName = "Appoint" options = {
-            Data.subforumData.map( (subforum) => { return subforum.name})}/>
+            <TwoFieldForm fieldName1 = "Email" fieldName2 = "Subforum" submitName = "Appoint" handler = {AddModeratorHandler} 
+            />
       </div>
     );
 }
+
+function AddModeratorHandler(email, subforum){
+    let self = this;
+      fetch('/addmod/'+email+'/'+subforum, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+        console.log(data);
+    }).catch(err => {
+      console.log('caught it!',err);
+      });
+}
+
+
 
 function AddSubforum(){
     return(

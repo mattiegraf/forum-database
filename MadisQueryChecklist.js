@@ -62,13 +62,6 @@
   }
   
   
-  /* Checks to see if a user moderates a subforum.*/
-  function checkIfUserIsMod(email, subforumName) {
-    return "select * from moderates where email = '"+email+"' and name = '"+subforumName+"';"
-  }
-  
-  
-  
   /* MOD/ADMIN QUERY - Delete a thread that they are not the author of. */
   function adminDeleteThread(threadId) {
     return "delete from thread where id = "+threadId+";"

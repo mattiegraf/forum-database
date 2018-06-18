@@ -59,7 +59,8 @@ class Thread extends Component {
       }
       this.match = props.match;
       this.email = cookies.get('email');
-      this.adminBit = cookies.get('adminBit');
+      this.adminBit = Number(cookies.get('adminBit'));
+      console.log("Admin bit is: " + this.adminBit);
   }
   
   componentDidMount() {
@@ -109,7 +110,7 @@ class Thread extends Component {
                         <h1>{thread.title}</h1>
                         <h4>{temail}</h4>
                         <p>{thread.textbody}</p>
-                        <DeleteThread username = {this.email} adminBit = {this.adminBit} moderatorFlag = {this.state.mod} 
+                        <DeleteThread username = {this.email} isAdmin = {this.adminBit} moderatorFlag = {this.state.mod} 
                         author = {thread.email} id = {thread.id}/>
                     </div>
                     <div>
@@ -166,7 +167,7 @@ class Comments extends Component {
       }
       this.match = props.match;
       this.email = cookies.get('email');
-      this.adminBit = cookies.get('adminBit');
+      this.adminBit = Number(cookies.get('adminBit'));
       //this.mod = props.mod;
       //console.log("mod status" + this.mod)
   }
@@ -198,7 +199,7 @@ class Comments extends Component {
                 <div>
                     <h5>{cemail}</h5>
                     <p>{comment.body}</p>
-                    <DeleteComment author = {comment.email} username = {this.email} moderatorFlag = {this.props.mod} id = {comment.id_num}/>
+                    <DeleteComment author = {comment.email} username = {this.email} isAdmin = {this.adminBit} moderatorFlag = {this.props.mod} id = {comment.id_num}/>
                 </div>
             
                 );})}
