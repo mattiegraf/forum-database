@@ -1,6 +1,7 @@
 
 html {
-  padding: 2vh 15vw 0;
+  background-color: #eee;
+  padding: 2vh 10vw 30vh;
   font-family: "Fira Sans";
 }
 
@@ -15,4 +16,8 @@ table, th, td {
 
 table {
    border-collapse: collapse;
+}
+
+input[type="submit"] {
+    font-size: 16px;
 }
