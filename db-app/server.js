@@ -14,6 +14,11 @@ var connection = mysql.createConnection({
   multipleStatements : true
 });
 
+function handleErr(err) {
+  let errStr = "code: " + err.code + "\nerrno: " + err.errno + "\nsqlMessage: " + err.sqlMessage + "\nsql: " + err.sql;
+  return errStr;
+}
+
 app.get('/api/hello', (req, res) => {
   res.send({ express: 'Hello From Express' });
 });
@@ -64,10 +69,13 @@ app.get('/viewmessages/:email', function(req, res){
 });
 
 // Allow user to send a message to another user
-app.get('/sendMessage/:to/:from/:body', function(req, res){
+app.get('/sendMessage/:to/:from/:body', function(req, res, next){
   connection.query("insert into message values((select max(id_num) + 1 from message m1), '"+req.params.body+"', curdate(), '"+req.params.from+"', '"+req.params.to+"');", (err, rows) => {
-    if (err) throw err;
-    res.send(rows)
+    if (err){
+     next(err);
+    }else{
+      res.send(rows)
+    }
   });
 });
 
@@ -266,6 +274,7 @@ app.get('/removemod/:email/:name', function(req, res){
   // Allow user to create a thread
 app.get('/createthread/:name/:title/:body/:author', function(req, res){
   connection.query('INSERT INTO thread values("'+req.params.name+'", (select max(id) + 1 from thread t1) ,"'+req.params.title+'", "'+req.params.body+'", curdate(), "'+req.params.author+'");', (err, rows) => {
+
     if (err) throw err;
     res.send(rows)
   });
@@ -350,6 +359,12 @@ app.get('/queryw/:select/:from', (req, res) => {
   });
 });
 
+
+app.use(function(error, req, res, next) {
+  console.error(error);
+  res.json(error);
+
+});
 
 ///dont touch this!!
 app.listen(port, () => console.log(`Listening on port ${port}`));
