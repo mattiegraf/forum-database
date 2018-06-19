@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Boboverse</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>BoboVerse Forum Database</h1>
@@ -40,12 +41,62 @@
     <input type="text" name="age" placeholder="age"><br>
     <input type="text" name="banana_score" placeholder="banana score"><br>
     <!-- <input type="checkbox" placeholder="isadmin" value="1"> Admin account? <br> -->
+    <input type="submit" value="Create account">
+  </form>
+
+  <hr>
+  <h3>UPDATE QUERY - Allows admin to update a user's banana score</h3>
+  <form action="/updateBananaScore" method="get">
+    Email: <input type="text" name='email'>
+    New score: <input type="text" name='score'>
+    <input type="submit" value='Update score'>
+  </form>
+
+
+  <hr>
+  <h3>DELETE Query - Delete a thread:</h3>
+  <form action="/deleteThread" method="get">
+    Thread ID number: <input type="text" name="thread_id_num">
+    Email of thread author: <input type="text" name="email">
+    <input type="submit" value="Delete thread">
+  </form>
+
+  <hr>
+  <h3>JOIN Query - See comments on all threads in a readable form</h3>
+  <form action="/joinQuery" method="get">
     <input type="submit" value="Submit">
   </form>
 
   <hr>
+  <h3>DIVISION QUERY - Allows admin to see if a user has posted a thread in every subforum. A true and loyal user of the Boboverse.</h3>
+  <form action="/divisionQuery" method="get">
+    <input type="submit" value="Submit">
+  </form>
+
+  <hr>
+  <h3>AGGREGATION QUERY MIN - Allows admin to see the user(s) with the lowest banana score.</h3>
+  <form action="/aggregationQueryMin" method="get">
+    <input type="submit" value="Submit">
+  </form>
+
+  <hr>
+  <h3>AGGREGATION QUERY MAX - Allows admin to see the user(s) with the highest banana score.</h3>
+  <form action="/aggregationQueryMax" method="get">
+    <input type="submit" value="Submit">
+  </form>
+
+  <hr>
+  <h3>NESTED AGGREGATION WITH GROUP-BY MIN - Allows admin to see the age with the lowest average banana score.</h3>
+  <form action="/nestedAggrGroupByMin" method="get">
+    <input type="submit" value="Submit">
+  </form>
+
+  <hr>
+  <h3>NESTED AGGREGATION WITH GROUP-BY MAX - Allows admin to see the age with the highest average banana score.</h3>
+  <form action="/nestedAggrGroupByMax" method="get">
+    <input type="submit" value="Submit">
+  </form>
 
 
 </body>
-<link rel="stylesheet" href="style.css">
 </html>
