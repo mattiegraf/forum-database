@@ -126,6 +126,7 @@ function DeleteCommentHandler(name, cid, tid){
           }
           return response.json();
       }).then(function(data) {
+        window.location.reload(true);
         console.log(data);
     }).catch(err => {
       console.log('caught it!',err);

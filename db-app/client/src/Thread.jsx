@@ -211,7 +211,10 @@ function NewThreadHandler(title, body, name){
         return response.json();
     }).then(function(data) {
         console.log(data);
+        window.location.reload(true);
+        alert("Your thread has been submitted.");
     }).catch(err => {
+        alert(err);
     console.log('caught it!',err);
     });
 }
@@ -230,6 +233,7 @@ function AddReplyHandler(body, rest){
           return response.json();
       }).then(function(data) {
         console.log(data);
+        window.location.reload(true);
     }).catch(err => {
       console.log('caught it!',err);
       });
@@ -323,6 +327,7 @@ function DeleteThreadHandler(id, email){
           return response.json();
       }).then(function(data) {
         console.log(data);
+        window.location.reload(true);
     }).catch(err => {
       console.log('caught it!',err);
       });
@@ -351,6 +356,7 @@ function DeleteCommentHandler(name, cid, tid){
           return response.json();
       }).then(function(data) {
         console.log(data);
+        window.location.reload(true);
     }).catch(err => {
       console.log('caught it!',err);
       });

@@ -40,12 +40,6 @@ class App extends Component {
    (cookies && cookies.get('username') && cookies.get('username') !== "undefined") ? this.state = {loggedIn : true} : this.state = {loggedIn : false};
     beginSession = beginSession.bind(this);
     endSession = endSession.bind(this);
-    //connection.connect();
-    //initializeDb();
-    //connection.end();
-    if(!cookies.get('dbinit')){
-
-    }
   }
     
   render() {

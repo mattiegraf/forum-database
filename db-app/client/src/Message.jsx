@@ -81,6 +81,7 @@ function sendMessageHandler(to, body){
         return response.json();
     }).catch(err => {
     console.log('caught it!',err);
+    alert(err);
     });
 
 }
