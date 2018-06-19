@@ -112,7 +112,11 @@ class CommentStream extends Component {
   
 }
 
+
 function DeleteCommentHandler(name, cid, tid){
+    console.log("name: "+name);
+    console.log("cid: "+cid);
+    console.log("tid: "+tid);
     let self = this;
       fetch('/deletecomment/'+name+'/'+cid+'/'+tid, {
           method: 'GET'
@@ -268,6 +272,9 @@ function UpdateBScore(){
 
 function UpdateBScoreHandler(email, score){
     let self = this;
+    if(score < 0){
+        return;
+    }
     fetch('/updatebscore/'+email+'/'+score, {
         method: 'GET'
     }).then(function(response) {

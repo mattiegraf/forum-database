@@ -300,7 +300,7 @@ app.get('/top20bscore', function(req, res){
 
  /* ADMIN QUERY - Allows admin to see comments on all threads in a easy-to-read manner. */
 app.get('/allcomments', function(req, res){
-  connection.query("SELECT t.title, t.textbody, r.body, r.id_num, r.thread_id_num, r.email FROM thread t JOIN reply r ON t.id = r.thread_id_num;", (err, rows) => {
+  connection.query("SELECT t.title, t.textbody, t.name, r.body, r.id_num, r.thread_id_num, r.email FROM thread t JOIN reply r ON t.id = r.thread_id_num;", (err, rows) => {
     if (err) throw err;
     res.send(rows)
   });

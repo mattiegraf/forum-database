@@ -16,8 +16,3 @@
   function adminCreateUser(email, username, password, age, bananaScore, isAdmin) {
     return "INSERT INTO account values('"+email+"', '"+username+"', '"+password+"', "+age+", "+bananaScore+", "+isAdmin+");";
   }
-  
-  /* ADMIN QUERY - Super general selection and projection query. */
-  function adminGeneralQuery(selectConstraint, fromConstraint, whereConstraint) {
-    return "select "+selectConstraint+" from "+fromConstraint+" where "+whereConstraint+";"
-  }
