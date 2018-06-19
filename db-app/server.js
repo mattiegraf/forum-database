@@ -332,7 +332,23 @@ app.get('/newreply/:name/:tid/:email/:body', function(req, res){
     });
   });
 
-  
+//general query with where
+app.get('/query/:select/:from/:where', (req, res) => {
+  connection.query(
+    "select "+req.params.select+" from "+req.params.from+" where "+req.params.where+";", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+//general query without where
+app.get('/queryw/:select/:from', (req, res) => {
+  connection.query(
+    "select "+req.params.select+" from "+req.params.from+";", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
 
 
 ///dont touch this!!

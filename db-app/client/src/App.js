@@ -10,6 +10,7 @@ import {Error, PermissionError} from './Error.jsx';
 import {TwoFieldForm, OneFieldSelectForm} from './Forms.jsx';
 import {AdminView, AdminStats, AdminCommentStream} from './Admin.jsx'; 
 import {MessagePage, NewMessagePage} from './Message.jsx';
+import { QueryPage } from './QueryPage';
 
 const Hot = () => (
   <div>
@@ -116,12 +117,10 @@ function RouteDirectory(){
     return(
       <div>
             <Switch>
-              <Route exact path="/" component={Hot}/>
+              <Route exact path="/" component={QueryPage}/>
               <Route exact path="/admin" component={AdminPage}/>
               <Route exact path="/admin/stats" component={AdminStats}/>
               <Route exact path="/admin/commentstream" component={AdminCommentStream}/>
-              <Route exact path="/top" component={Top}/>
-              <Route exact path="/new" component={New}/>
               <Route exact path="/login" component={LoginPage}/>
               <Route exact path='/messages' component = {MessagePage}/>
               <Route exact path='/messages/new' component = {NewMessagePage}/>
