@@ -28,6 +28,19 @@ FROM thread t1
 WHERE id = PLACEHOLDER_THREAD_ID)
 , 'PLACEHOLDER_COMMENT', 'PLACEHOLDER_DATE', 'PLACEHOLDER_EMAIL');
 
+/* Allows user to add a comment to a thread even if they are the first one to comment. */
+
+insert into reply
+values(
+IFNULL((SELECT MAX(id_num) + 1
+FROM reply r1
+WHERE thread_id_num = PLACEHOLDER_THREAD_ID), 1),
+PLACEHOLDER_THREAD_ID, 
+(SELECT name
+FROM thread t1
+WHERE id = PLACEHOLDER_THREAD_ID)
+, 'PLACEHOLDER_COMMENT', 'PLACEHOLDER_DATE', 'PLACEHOLDER_EMAIL');
+
 /* Allows user to add a thread.*/
 
 INSERT INTO thread
@@ -40,6 +53,14 @@ values(PLACEHOLDER_NAME,
 (SELECT MAX(id) + 1
 FROM thread t1)
 , 'PLACEHOLDER_TITLE', 'PLACEHOLER_TEXT_BODY', 'PLACEHOLDER_DATE', 'PLACEHOLDER_EMAIL');
+
+/* Allows user to add a thread without manually inserting an id even if they are the first to post a thread. */
+
+INSERT INTO thread
+values(PLACEHOLDER_NAME, 
+IFNULL((SELECT MAX(id) + 1
+FROM thread t1), 1),
+ 'PLACEHOLDER_TITLE', 'PLACEHOLER_TEXT_BODY', 'PLACEHOLDER_DATE', 'PLACEHOLDER_EMAIL');
 
 /* Allows user to delete a thread. */
 
@@ -55,6 +76,11 @@ values(PLACEHOLDER_MESSAGE_ID, 'PLACEHOLDER_MESSAGE', 'PLACEHOLDER_DATE', 'PLACE
 
 INSERT INTO message
 values((SELECT MAX(id_num) + 1 from message m1), 'PLACEHOLDER_BODY', curdate(), 'PLACEHOLDER_FROM', 'PLACEHOLDER_TO');
+
+/* Allows uset to post a message, where message ID is automatically updated even if they are the first to post a message. */
+
+INSERT INTO message
+values(IFNULL((SELECT MAX(id_num) + 1 from message m1), 1), 'PLACEHOLDER_BODY', curdate(), 'PLACEHOLDER_FROM', 'PLACEHOLDER_TO');
 
 /* Allows user to subscribe to a forum. */
 
