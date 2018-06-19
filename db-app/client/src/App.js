@@ -8,7 +8,7 @@ import Subforums from './Subforums.jsx';
 import {Thread, NewThread } from './Thread.jsx';
 import {Error, PermissionError} from './Error.jsx';
 import {TwoFieldForm, OneFieldSelectForm} from './Forms.jsx';
-import {AdminView, AdminStats} from './Admin.jsx'; 
+import {AdminView, AdminStats, AdminCommentStream} from './Admin.jsx'; 
 import {MessagePage, NewMessagePage} from './Message.jsx';
 
 const Hot = () => (
@@ -28,13 +28,6 @@ const New = () => (
   <div>
     <h1>New</h1>
     <Homepage/>
-  </div>
-);
-
-
-const Subscribed = () => (
-  <div>
-    <h1>Your Subforums</h1>
   </div>
 );
 
@@ -126,12 +119,12 @@ function RouteDirectory(){
               <Route exact path="/" component={Hot}/>
               <Route exact path="/admin" component={AdminPage}/>
               <Route exact path="/admin/stats" component={AdminStats}/>
+              <Route exact path="/admin/commentstream" component={AdminCommentStream}/>
               <Route exact path="/top" component={Top}/>
               <Route exact path="/new" component={New}/>
               <Route exact path="/login" component={LoginPage}/>
               <Route exact path='/messages' component = {MessagePage}/>
               <Route exact path='/messages/new' component = {NewMessagePage}/>
-              <Route exact path="/subscribed" component={Subscribed}/>
               <Route exact path="/leaderboard" component={Leaderboard}/>
               <Route exact path="/s" component={Subforums}/>
               <Route exact path="/s/:name" component={Subforum}/>
@@ -162,7 +155,6 @@ function NavigationButtons(props){
   <div className = "Navigation-buttons">
       <button><Link to="/">Homepage</Link></button>
       <button><Link to="/s">Subforum List</Link></button>
-      <button><Link to="/subscribed">Subscribed List</Link></button>
       <button><Link to="/leaderboard">Leaderboard</Link></button>
       <button><Link to="/messages">Messages</Link></button>
       <DisplayUsername/>

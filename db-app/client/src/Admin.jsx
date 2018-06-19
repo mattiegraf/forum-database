@@ -13,6 +13,7 @@ function AdminView({match}){
         <div>
         <h1>Admin Area</h1>
         <h5><Link to={`${match.url}/stats`}>Go to Admin Stats</Link></h5>
+        <h5><Link to={`${match.url}/commentstream`}>Go to Comment Stream</Link></h5>
         <AddModerator/>
         <RemoveModerator/>
         <AddSubforum/>
@@ -47,8 +48,87 @@ function AdminStats(){
 
 //will allow an admin to view all comments
 function AdminCommentStream(){
-
+    const adminBit = Number(cookies.get('adminBit'));
+    if(!adminBit){
+        return <PermissionError/>;
+    }
+    else{
+        return (
+            <div>
+            <h1>Admin Comment Stream</h1>
+            <p>A way for admins to easily view all comments</p>
+            <CommentStream/>
+            </div>
+        );
+    }
 }
+
+class CommentStream extends Component {
+    constructor(props) {
+      super(props)
+      this.state = {
+          comments: []
+      }
+  }
+  
+  componentDidMount() {
+      let self = this;
+      fetch('/allcomments', {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+          self.setState({comments: data});
+          console.log(data);
+      }).catch(err => {
+      console.log('caught it!',err);
+      })
+  }
+  
+    render(){
+      return (
+          <div>
+            <h3>Responses</h3>
+            {this.state.comments.map( (comment)=> {
+                const cemail = comment.email ? comment.email : "[deleted]";
+                return(
+                <div>
+                    <h3>{comment.title}</h3>
+                    <p>{comment.textbody}</p>
+                    <h5>{cemail}</h5>
+                    <p>{comment.body}</p>
+                    <button onClick = {() => {DeleteCommentHandler(comment.name, comment.id_num, comment.thread_id_num)}}>Delete</button>
+                </div>
+            
+                );})}
+            </div>
+            );
+  
+      
+    }
+  
+}
+
+function DeleteCommentHandler(name, cid, tid){
+    let self = this;
+      fetch('/deletecomment/'+name+'/'+cid+'/'+tid, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+        console.log(data);
+    }).catch(err => {
+      console.log('caught it!',err);
+      });
+}
+
+
 
 function RemoveModerator(){
     return(
@@ -464,4 +544,4 @@ class AgeBestBobo extends Component {
   
 }
 
-  export {AdminView, AdminStats};
+  export {AdminView, AdminStats, AdminCommentStream};

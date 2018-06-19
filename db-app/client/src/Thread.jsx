@@ -27,7 +27,7 @@ const Thread2 = ({match}) => {
                                 <p>{thread.body}</p>
                                 <DeleteThread username = {username} adminBit = {adminBit} moderatorFlag = {moderatorFlag} author = {thread.author}/>
                             </div>
-                            <OneFieldForm fieldName = "Write a Reply"/>
+                            <OneFieldForm fieldName = "Write a Reply" handler = {AddReplyHandler}/>
                             <Comments comments = {thread.comments} username = {username} adminBit = {adminBit}
                                 moderatorFlag = {moderatorFlag}/>
                         </div>
@@ -115,6 +115,9 @@ class Thread extends Component {
                         <p>{thread.textbody}</p>
                         <DeleteThread email = {this.email} isAdmin = {this.adminBit} moderatorFlag = {this.state.mod} 
                         author = {thread.email} id = {thread.id}/>
+                        <div>
+                            <OneFieldForm fieldName = "Write a Reply" handler={AddReplyHandler} subforum={thread.name} tid = {thread.id} email = {cookies.get('email')}/>
+                        </div>
                     </div>
                     <div>
                         <Comments match = {this.match} mod = {this.state.mod}/>
@@ -213,7 +216,24 @@ function NewThreadHandler(title, body, name){
     });
 }
 
-  
+function AddReplyHandler(body, rest){
+    console.log("tid: " + rest.tid);
+    console.log("email: " + rest.email);
+    console.log("subforum: " + rest.subforum);
+    let self = this;
+      fetch('/newreply/'+rest.subforum+'/'+rest.tid+'/'+rest.email+'/'+body, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+        console.log(data);
+    }).catch(err => {
+      console.log('caught it!',err);
+      });
+}  
 
 
 
@@ -224,7 +244,8 @@ function Comments1(props){
             <div>
                 <h4>{comment.author}</h4>
                 <p>{comment.body}</p>
-                <DeleteComment username = {props.username} adminBit = {props.adminBit} moderatorFlag = {props.moderatorFlag} author = {comment.author}/>
+                <DeleteComment username = {props.username} adminBit = {props.adminBit} moderatorFlag = {props.moderatorFlag} author = {comment.author}
+                                name = {comment.name} cid = {comment.id_num} tid = {comment.thread_id_num}/>
             </div>
     )});
     return (<div>{comments}</div>);
@@ -270,7 +291,8 @@ class Comments extends Component {
                 <div>
                     <h5>{cemail}</h5>
                     <p>{comment.body}</p>
-                    <DeleteComment author = {comment.email} username = {this.email} isAdmin = {this.adminBit} moderatorFlag = {this.props.mod} id = {comment.id_num}/>
+                    <DeleteComment author = {comment.email} username = {this.email} isAdmin = {this.adminBit} moderatorFlag = {this.props.mod} 
+                    name = {comment.name} cid = {comment.id_num} tid = {comment.thread_id_num}/>
                 </div>
             
                 );})}
@@ -309,9 +331,29 @@ function DeleteThreadHandler(id, email){
 function DeleteComment(props){
     var deleteView = null;
     if(props.author === props.username || props.isAdmin || props.moderatorFlag){
-        deleteView = <button>Delete</button>
+        deleteView = <button onClick = {() => {DeleteCommentHandler(props.name, props.cid, props.tid)}}>Delete</button>
     }
     return deleteView;
+}
+
+
+function DeleteCommentHandler(name, cid, tid){
+    let self = this;
+    console.log("name: "+name);
+    console.log("cid: "+cid);
+    console.log("tid: "+tid);
+      fetch('/deletecomment/'+name+'/'+cid+'/'+tid, {
+          method: 'GET'
+      }).then(function(response) {
+          if (response.status >= 400) {
+              throw new Error("Bad response from server");
+          }
+          return response.json();
+      }).then(function(data) {
+        console.log(data);
+    }).catch(err => {
+      console.log('caught it!',err);
+      });
 }
 
 

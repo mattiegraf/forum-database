@@ -12,11 +12,6 @@
 
 // NOTE: date should always be a string of format "YYYY-MM-DD"
   
-  // Allows user to add a reply to a thread
-  function insertReply(commentId, threadId, subforumName, textBody, date, accountEmail) {
-    return 'INSERT INTO reply values('+commentId+','+threadId+',"'+subforumName+'","'+textBody+'","'+date+'","'+accountEmail+'")';
-  }
-  
   
   // Allow user to delete their own reply in a thread
   function deleteReply(accountEmail, commentId, threadId) {
@@ -34,49 +29,11 @@
   
   
   // MADI ALL THE ONES BELOW HERE ARE UNTESTED
-  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  
-  
-  /* View 10 threads with similar titles to a search phrase. */
-  function getThreadsByName(searchPhrase) {
-    return "select * from thread where name like '%"+searchPhrase+"%' limit 10;";
-  }
-  
-  
-  /* View 10 subforums with similar names as a search phrase. */
-  function getSubforumsByName(searchPhrase) {
-    return "select * from subforum where name like '%"+searchPhrase+"%' limit 10;";
-  }
-  
-  
-  /* MOD/ADMIN QUERY - Delete a thread that they are not the author of. */
-  function adminDeleteThread(threadId) {
-    return "delete from thread where id = "+threadId+";"
-  }
-  
-  
-  /* MOD/ADMIN QUERY - Delete a comment that they are not the author of. */
-  function adminDeleteReply(replyId, threadId, subforumName) {
-    return "delete from reply where id_num = "+threadId+" and thread_id_num = "+threadId+" and name = '"+subforumName+"';"
-  }
-  
-  
-  /* ADMIN QUERY - Allows admin to see comments on all threads in a easy-to-read manner. */
-  function adminViewAllComments() {
-    return "SELECT t.title, t.textbody, r.body, r.date_posted, r.email FROM thread t JOIN reply r ON t.id = r.thread_id_num;"
-  }
+  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
   
   /* ADMIN QUERY - Allows admin to add a user to the super exclusive Boboverse forum. */
   function adminCreateUser(email, username, password, age, bananaScore, isAdmin) {
     return "INSERT INTO account values('"+email+"', '"+username+"', '"+password+"', "+age+", "+bananaScore+", "+isAdmin+");";
-  }
-  
-  /* ADMIN QUERY - Allows admin to adjust a user's banana score. */
-  function adminChangeUsersBananaScore(email, newScore) {
-    return `
-    UPDATE account
-    SET banana_score = PLACEHOLDER_INTEGER
-    WHERE email = 'PLACEHOLDER_EMAIL';`;
   }
   
   /* ADMIN QUERY - Super general selection and projection query. */

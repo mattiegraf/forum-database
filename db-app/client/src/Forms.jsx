@@ -11,6 +11,7 @@ class OneFieldForm extends React.Component {
     this.submissionHandler = props.handler;
     this.fieldName = props.fieldName;
     props.submitName ? this.submitName = props.submitName : this.submitName = "Submit";
+    this.props = props;
   }
 
   handleChange(event) {
@@ -19,7 +20,7 @@ class OneFieldForm extends React.Component {
 
   handleSubmit(event) {
     //input processing must be done in handler
-    this.submissionHandler(this.state.value);
+    this.submissionHandler(this.state.value, this.props);
     event.preventDefault();
   }
 

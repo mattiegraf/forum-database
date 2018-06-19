@@ -291,12 +291,48 @@ app.get('/updatebscore/:email/:score', function(req, res){
 });
 
 // Get top 20 best users
-app.get('/top20bscore/', function(req, res){
+app.get('/top20bscore', function(req, res){
   connection.query("SELECT * FROM account ORDER BY banana_score DESC LIMIT 20;", (err, rows) => {
     if (err) throw err;
     res.send(rows)
   });
 });
+
+ /* ADMIN QUERY - Allows admin to see comments on all threads in a easy-to-read manner. */
+app.get('/allcomments', function(req, res){
+  connection.query("SELECT t.title, t.textbody, r.body, r.id_num, r.thread_id_num, r.email FROM thread t JOIN reply r ON t.id = r.thread_id_num;", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+///!!! may need to fix
+  /*  Delete a comment  */
+app.get('/deletecomment/:name/:cid/:tid', function(req, res){
+  connection.query("delete from reply where id_num = "+req.params.cid+" and thread_id_num = "+req.params.tid+" and name = '"+req.params.name+"';", (err, rows) => {
+    if (err) throw err;
+    res.send(rows)
+  });
+});
+
+  /* adds a new response. */
+app.get('/newreply/:name/:tid/:email/:body', function(req, res){
+    connection.query(`insert into reply
+    values(
+    IFNULL((SELECT MAX(id_num) + 1
+    FROM reply r1
+    WHERE thread_id_num = `+req.params.tid+`), 1),
+    `+req.params.tid+`, 
+    (SELECT name
+    FROM thread t1
+    WHERE id = `+req.params.tid+`)
+    , '`+req.params.body+`', curdate(), '`+req.params.email+`');`, (err, rows) => {
+      if (err) throw err;
+      res.send(rows)
+    });
+  });
+
+  
 
 
 ///dont touch this!!
