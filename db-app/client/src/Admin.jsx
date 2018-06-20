@@ -3,7 +3,7 @@ import Data from './Data.js';
 import {OneFieldForm, OneFieldSelectForm, OneSelectForm, TwoFieldForm} from './Forms.jsx';
 import { Link } from 'react-router-dom';
 import Cookies from 'universal-cookie';
-import {Error, PermissionError} from './Error.jsx'
+import {Error, PermissionError, AlertUnaffected, AlertErrors} from './Error.jsx'
 
 const cookies = new Cookies();
 
@@ -206,6 +206,8 @@ function AddSubforurmHandler(subforum){
           return response.json();
       }).then(function(data) {
         console.log(data);
+        AlertErrors(data);
+        window.location.reload(true);
     }).catch(err => {
       console.log('caught it!',err);
       });
@@ -231,6 +233,8 @@ function RemoveSubforurmHandler(subforum){
           return response.json();
       }).then(function(data) {
         console.log(data);
+        AlertUnaffected(data, "Subforum could not be deleted.");
+        window.location.reload(true);
     }).catch(err => {
       console.log('caught it!',err);
       });
@@ -253,13 +257,15 @@ function RemoveUserHandler(email){
         if (response.status >= 400) {
             throw new Error("Bad response from server");
         }
-        return response;
-    }).then(function(response) {
+        return response.json();
+    }).then(function(data) {
+        console.log(data);
+        AlertUnaffected(data, "User could not be deleted sent.");
+        window.location.reload(true);
       //report success here
   }).catch(err => {
     console.log('caught it!',err);
     });
-
 }
 
 function UpdateBScore(){
@@ -273,7 +279,15 @@ function UpdateBScore(){
 
 function UpdateBScoreHandler(email, score){
     let self = this;
-    if(score < 0){
+    var bscore = Number(score);
+    if(!bscore && bscore !== 0){
+        alert("Error!\nMessage: Banana Score must be a number!\nProcess Aborted.");
+        window.location.reload(true);
+        return;
+    }
+    if(bscore < 0){
+        alert("Error!\nMessage: Banana Score cannot be below 0!\nProcess Aborted.");
+        window.location.reload(true);
         return;
     }
     fetch('/updatebscore/'+email+'/'+score, {
@@ -282,9 +296,12 @@ function UpdateBScoreHandler(email, score){
         if (response.status >= 400) {
             throw new Error("Bad response from server");
         }
-        return response;
-    }).then(function(response) {
-      //report success here
+        return response.json();
+    }).then(function(data) {
+        console.log(data);
+        AlertUnaffected(data, "User could not be deleted sent.");
+        window.location.reload(true);
+        //AlertErrors(data, "Banana Score could not be updated.");
   }).catch(err => {
     console.log('caught it!',err);
     });

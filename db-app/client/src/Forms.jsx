@@ -26,14 +26,16 @@ class OneFieldForm extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          {this.fieldName}:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
-        </label>
-        <br></br>
-        <input type="submit" value={this.submitName} />
-      </form>
+      <div className = "OneFieldForm">
+        <form onSubmit={this.handleSubmit}>
+          <label>
+            {this.fieldName}:
+            <input type="text" value={this.state.value} onChange={this.handleChange} />
+          </label>
+          <br></br>
+          <input type="submit" value={this.submitName} />
+        </form>
+      </div>
     );
   }
 }
@@ -71,19 +73,21 @@ class TwoFieldForm extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          {this.fieldName1}:
-          <input type="text" value={this.state.value1} onChange={this.handleChange1} />
-        </label>
-        <br></br>
-        <label>
-          {this.fieldName2}:
-          <input type="text" value={this.state.value2} onChange={this.handleChange2} />
-        </label>
-        <br></br>
-        <input type="submit" value={this.submitName} />
-      </form>
+      <div className = "TwoFieldForm">
+        <form onSubmit={this.handleSubmit}>
+          <label>
+            {this.fieldName1}:
+            <input type="text" value={this.state.value1} onChange={this.handleChange1} />
+          </label>
+          <br></br>
+          <label>
+            {this.fieldName2}:
+            <input type="text" value={this.state.value2} onChange={this.handleChange2} />
+          </label>
+          <br></br>
+          <input type="submit" value={this.submitName} />
+        </form>
+      </div>
     );
   }
 }
@@ -123,21 +127,23 @@ class OneFieldSelectForm extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          {this.fieldName1}:
-          <input type="text" value={this.state.value1} onChange={this.handleChange1} />
-        </label>
-        <br></br>
-        <label>
-          {this.fieldName2}:
-          <select onChange={this.handleChange2}>
-            {this.optionList}
-          </select>
-        </label>
-        <br></br>
-        <input type="submit" value={this.submitName} />
-      </form>
+      <div className = "OneFieldSelectForm">
+        <form onSubmit={this.handleSubmit}>
+          <label>
+            {this.fieldName1}:
+            <input type="text" value={this.state.value1} onChange={this.handleChange1} />
+          </label>
+          <br></br>
+          <label>
+            {this.fieldName2}:
+            <select onChange={this.handleChange2}>
+              {this.optionList}
+            </select>
+          </label>
+          <br></br>
+          <input type="submit" value={this.submitName} />
+        </form>
+      </div>
     );
   }
 }

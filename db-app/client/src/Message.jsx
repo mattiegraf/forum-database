@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {TwoFieldForm} from './Forms.jsx';
 import Cookies from 'universal-cookie';
+import {AlertErrors} from './Error.jsx';
 
 const cookies = new Cookies();
 
@@ -44,11 +45,12 @@ class MessageView extends Component {
     render(){
       return(
         <div>
-            <ul> 
+            <ul className="Messages"> 
             {this.state.messages.map( (message) => {
-                return (<li>From: {message.sent_email}<br/>
-                        Date: {message.date_sent}<br/>
-                        Body: {message.body}</li>);
+                 return (<li><p className="MessageEmail"> From: {message.sent_email}
+                 <p1 className="MessageDate"> Date: {message.date_sent}</p1></p>
+                 <div className="MessageBody">{message.body}</div></li>
+                  );
                 })} 
             </ul>
         </div>
@@ -79,11 +81,15 @@ function sendMessageHandler(to, body){
             throw new Error("Bad response from server");
         }
         return response.json();
+    }).then(function(data) {
+        console.log(data);
+        AlertErrors(data, "Message could not be sent.");
     }).catch(err => {
     console.log('caught it!',err);
-    alert(err);
-    });
+    })
 
 }
+
+
 
 export {MessagePage, NewMessagePage};

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 function QueryPage(props){
     return(
-        <div>
+        <div className = "App-QueryPage">
             <h1> General Query Page </h1>
             <p> Make a General Query with your Own Specifications </p>
             <br/>
@@ -13,6 +13,7 @@ function QueryPage(props){
 
 function GeneralQueryHandler(select, from, where){
     let self = this;
+    //console.log(this.state.mah);
     if(where){
         fetch('/query/'+select+'/'+from+'/'+where, {
             method: 'GET'
@@ -23,6 +24,7 @@ function GeneralQueryHandler(select, from, where){
             return response.json();
         }).then(function(data) {
         console.log(data);
+        self.setState({values : data});
     }).catch(err => {
         console.log('caught it!',err);
         });
@@ -36,6 +38,7 @@ function GeneralQueryHandler(select, from, where){
             return response.json();
         }).then(function(data) {
         console.log(data);
+        self.setState({values : data});
     }).catch(err => {
         console.log('caught it!',err);
         });
@@ -46,7 +49,7 @@ function GeneralQueryHandler(select, from, where){
 class ThreeFieldForm extends React.Component {
     constructor(props) {
       super(props);
-      this.state = {value1: '', value2: '', value3: ''};
+      this.state = {value1: '', value2: '', value3: '', values : []};
   
       this.handleChange1 = this.handleChange1.bind(this);
       this.handleChange2 = this.handleChange2.bind(this);
@@ -80,6 +83,7 @@ class ThreeFieldForm extends React.Component {
   
     render() {
       return (
+        <div>
         <form onSubmit={this.handleSubmit}>
           <label>
             {this.fieldName1}
@@ -98,9 +102,38 @@ class ThreeFieldForm extends React.Component {
           <br></br>
           <input type="submit" value={this.submitName} />
         </form>
+        <DisplayQueryResult values = {this.state.values}/>
+        </div>
       );
     }
   }
+
+
+
+  class DisplayQueryResult extends Component {
+    constructor(props) {
+      super(props)
+      
+  }
+  
+    render(){
+      return (
+          <div>
+           <h3>Results</h3>
+            {this.props.values.map( (value)=> {
+                return(
+                <div>
+                    <p>{JSON.stringify(value)}</p>
+                </div>
+            
+                );})}
+            </div>
+            );
+  
+      
+    }
+  
+}
 
 
   export {QueryPage};
