@@ -155,6 +155,8 @@ function RemoveModeratorHandler(email, subforum){
           return response.json();
       }).then(function(data) {
         console.log(data);
+        AlertUnaffected(data, "Moderator status could not be removed.");
+        window.location.reload(true);
     }).catch(err => {
       console.log('caught it!',err);
       });
@@ -181,6 +183,8 @@ function AddModeratorHandler(email, subforum){
           return response.json();
       }).then(function(data) {
         console.log(data);
+        AlertErrors(data);
+        window.location.reload(true);
     }).catch(err => {
       console.log('caught it!',err);
       });
@@ -299,7 +303,7 @@ function UpdateBScoreHandler(email, score){
         return response.json();
     }).then(function(data) {
         console.log(data);
-        AlertUnaffected(data, "User could not be deleted sent.");
+        AlertUnaffected(data, "User could not be deleted.");
         window.location.reload(true);
         //AlertErrors(data, "Banana Score could not be updated.");
   }).catch(err => {

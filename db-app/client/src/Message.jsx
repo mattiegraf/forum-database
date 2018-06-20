@@ -84,6 +84,7 @@ function sendMessageHandler(to, body){
     }).then(function(data) {
         console.log(data);
         AlertErrors(data, "Message could not be sent.");
+        window.location.reload(true);
     }).catch(err => {
     console.log('caught it!',err);
     })

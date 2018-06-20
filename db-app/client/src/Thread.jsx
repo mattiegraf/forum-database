@@ -212,9 +212,9 @@ function NewThreadHandler(title, body, name){
     }).then(function(data) {
         console.log(data);
         window.location.reload(true);
-        alert("Your thread has been submitted.");
+        //alertalert("Your thread has been submitted.");
     }).catch(err => {
-        alert(err);
+        //alert(err);
     console.log('caught it!',err);
     });
 }

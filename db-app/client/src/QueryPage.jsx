@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {AlertErrors} from './Error.jsx';
 
 function QueryPage(props){
     return(
@@ -24,6 +25,7 @@ function GeneralQueryHandler(select, from, where){
             return response.json();
         }).then(function(data) {
         console.log(data);
+        AlertErrors(data, "Invalid Query");
         self.setState({values : data});
     }).catch(err => {
         console.log('caught it!',err);
@@ -38,6 +40,7 @@ function GeneralQueryHandler(select, from, where){
             return response.json();
         }).then(function(data) {
         console.log(data);
+        AlertErrors(data, "Invalid Query");
         self.setState({values : data});
     }).catch(err => {
         console.log('caught it!',err);

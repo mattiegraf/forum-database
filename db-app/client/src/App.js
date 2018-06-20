@@ -93,6 +93,7 @@ function beginSession(email, password){
         self.setState({loggedIn : true});
     }).catch(err => {
       console.log('caught it!',err);
+      alert("Error!\nInvalid Login Info.");
       });
     }
 
